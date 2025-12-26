@@ -92,3 +92,34 @@ Traceback (most recent call last):
     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-12-26 18:03:50 [ERROR] Process-1 pika.adapters.utils.io_services_utils: _AsyncBaseTransport._produce() failed, aborting connection: error=ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None); sock=<socket.socket fd=2756, family=23, type=1, proto=6, laddr=('::1', 54835, 0, 0), raddr=('::1', 5672, 0, 0)>; Caller's stack:
+Traceback (most recent call last):
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 1103, in _on_socket_writable
+    self._produce()
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 819, in _produce
+    num_bytes_sent = self._sigint_safe_send(self._sock,
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 79, in retry_sigint_wrap
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 861, in _sigint_safe_send
+    return sock.send(data)
+           ^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+Traceback (most recent call last):
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 1103, in _on_socket_writable
+    self._produce()
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 819, in _produce
+    num_bytes_sent = self._sigint_safe_send(self._sock,
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 79, in retry_sigint_wrap
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NGHIANL\miniforge3\envs\genet_env\Lib\site-packages\pika\adapters\utils\io_services_utils.py", line 861, in _sigint_safe_send
+    return sock.send(data)
+           ^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-12-26 18:03:50 [ERROR] Process-2 pika.adapters.base_connection: connection_lost: StreamLostError: ("Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",)
+2025-12-26 18:03:50 [ERROR] Process-1 pika.adapters.base_connection: connection_lost: StreamLostError: ("Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",)
+2025-12-26 18:03:50 [ERROR] Process-2 pika.adapters.blocking_connection: Unexpected connection close detected: StreamLostError: ("Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",)
+2025-12-26 18:03:50 [ERROR] Process-1 pika.adapters.blocking_connection: Unexpected connection close detected: StreamLostError: ("Stream connection lost: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)",)
