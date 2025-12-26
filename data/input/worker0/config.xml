@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
+<config>
+
+
+	<module name="controler">
+		<param name="outputDirectory" value="../../output/worker0/" />
+		<param name="firstIteration" value="0" />
+		<param name="lastIteration" value="10" />
+		<param name="eventsFileFormat" value="xml" />
+		<param name="mobsim" value="qsim" />
+	</module>
+
+	<module name="plans" >
+		<param name="inputPlansFile" value="../plans_scale0.375true.xml" />
+	</module>
+	<module name="network" >
+		<param name="inputNetworkFile" value="network.xml" />
+	</module>
+
+	<module name="qsim">
+		<param name="startTime" value="00:00:00"/>
+		<param name="endTime" value="24:00:00"/>
+		<param name="flowCapacityFactor" value="0.25"/>
+		<param name="storageCapacityFactor" value="0.25"/>
+	</module>
+
+
+
+	<module name="planCalcScore">
+
+
+		<parameterset type="scoringParameters" >
+			<param name="earlyDeparture" value="-12.0" />
+			<param name="lateArrival" value="-24.0" />
+			<param name="marginalUtilityOfMoney" value="1.0" />
+			<param name="performing" value="6.0" />
+			<param name="subpopulation" value="null" />
+			<param name="utilityOfLineSwitch" value="-1.0" />
+			<param name="waiting" value="-0.0" />
+			<param name="waitingPt" value="-0.5" />
+
+			<parameterset type="activityParams" >
+				<param name="activityType" value="home" />
+				<param name="typicalDuration" value="08:00:00" />
+			</parameterset>
+
+			<parameterset type="activityParams" >
+				<param name="activityType" value="work" />
+				<param name="typicalDuration" value="08:00:00" />
+				<param name="openingTime" value="07:00:00" />
+				<param name="latestStartTime" value="11:00:00" />
+				<param name="closingTime" value="20:00:00" />
+			</parameterset>
+
+			<parameterset type="activityParams" >
+				<param name="activityType" value="kindergarten1" />
+				<param name="typicalDuration" value="00:05:00" />
+				<param name="openingTime" value="07:00:00" />
+				<param name="closingTime" value="09:00:00" />
+			</parameterset>
+
+			<parameterset type="activityParams" >
+				<param name="activityType" value="kindergarten2" />
+				<param name="typicalDuration" value="00:05:00" />
+				<param name="openingTime" value="13:00:00" />
+				<param name="closingTime" value="18:00:00" />
+			</parameterset>
+
+			<parameterset type="activityParams" >
+				<param name="activityType" value="shopping" />
+				<param name="typicalDuration" value="01:00:00" />
+				<param name="openingTime" value="10:00:00" />
+				<param name="closingTime" value="21:00:00" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="constant" value="-3.5" />
+				<param name="marginalUtilityOfDistance_util_m" value="0.0" />
+				<param name="marginalUtilityOfTraveling_util_hr" value="-7.0" />
+				<param name="mode" value="car" />
+				<param name="monetaryDistanceRate" value="0.0" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="constant" value="0.0" />
+				<param name="marginalUtilityOfDistance_util_m" value="0.0" />
+				<param name="marginalUtilityOfTraveling_util_hr" value="-1.5" />
+				<param name="mode" value="pt" />
+				<param name="monetaryDistanceRate" value="0.0" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="constant" value="0.0" />
+				<param name="marginalUtilityOfDistance_util_m" value="0.0" />
+				<param name="marginalUtilityOfTraveling_util_hr" value="-1.0" />
+				<param name="mode" value="walk" />
+				<param name="monetaryDistanceRate" value="0.0" />
+			</parameterset>
+			<parameterset type="modeParams" >
+				<param name="constant" value="-2.0" />
+				<param name="marginalUtilityOfDistance_util_m" value="0.0" />
+				<param name="marginalUtilityOfTraveling_util_hr" value="-6.0" />
+				<param name="mode" value="bike" />
+				<param name="monetaryDistanceRate" value="0.0" />
+			</parameterset>
+		</parameterset>
+
+	</module>
+
+	<module name="strategy">
+			<param name="fractionOfIterationsToDisableInnovation" value="0.8" />
+		<param name="maxAgentPlanMemorySize" value="5" />
+		<parameterset type="strategysettings" >
+			<param name="strategyName" value="ChangeExpBeta" />
+			<param name="weight" value="0.7" />
+		</parameterset>
+		<parameterset type="strategysettings" >
+			<param name="strategyName" value="TimeAllocationMutator" />
+			<param name="weight" value="0.1" />
+		</parameterset>
+		<parameterset type="strategysettings" >
+			<param name="strategyName" value="ReRoute" />
+			<param name="weight" value="0.1" />
+		</parameterset>
+		<parameterset type="strategysettings" >
+			<param name="strategyName" value="ChangeTripMode" />
+			<param name="weight" value="0.1" />
+		</parameterset>
+
+	</module>
+
+	<module name="transit">
+		<param name="transitScheduleFile" value="schedule.xml" />
+		<param name="vehiclesFile" value="vehicles.xml" />
+		<param name="transitModes" value="pt" />
+		<param name="useTransit" value="true" />
+	</module>
+</config>

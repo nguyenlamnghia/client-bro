@@ -4,7 +4,7 @@
 
 
 	<module name="controler">
-		<param name="outputDirectory" value="../output/simulation_output" />
+		<param name="outputDirectory" value="../../output/{{WORKER}}/" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="10" />
 		<param name="eventsFileFormat" value="xml" />
@@ -12,7 +12,7 @@
 	</module>
 
 	<module name="plans" >
-		<param name="inputPlansFile" value="plans_scale0.375true.xml.gz" />
+		<param name="inputPlansFile" value="../plans_scale0.375true.xml" />
 	</module>
 	<module name="network" >
 		<param name="inputNetworkFile" value="network.xml" />
@@ -129,7 +129,7 @@
 
 	<module name="transit">
 		<param name="transitScheduleFile" value="schedule.xml" />
-		<param name="vehiclesFile" value="transitVehicles.xml" />
+		<param name="vehiclesFile" value="vehicles.xml" />
 		<param name="transitModes" value="pt" />
 		<param name="useTransit" value="true" />
 	</module>

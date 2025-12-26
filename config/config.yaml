@@ -1,0 +1,12 @@
+config_path: data/input/config.xml
+network_path: data/input/network.xml
+schedule_path: data/input/schedule.xml
+vehicle_path: data/input/transitVehicles.xml
+
+matsim_path: matsim/my-fat-app-simple-run.jar
+
+route_set_path: data/input/R_KSP_routes.pkl
+type_of_bus: 'bus_90pax'
+coordinate_system: "epsg:32633"
+workers_input_path: data/input
+workers_output_path: data/output

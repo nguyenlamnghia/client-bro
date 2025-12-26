@@ -1,24 +1,32 @@
 import logging
+import os
+from pathlib import Path
 
 import typer
 from multiprocessing import Process
 from client_bus_route_optimization.modules.worker_node import WorkerNode
 from client_bus_route_optimization.utils.logger import setup_logging
+from client_bus_route_optimization.utils.file_handler import YamlRepository
 
 setup_logging()
 
-try:
-    import genet
-    logging.info("Genet module imported successfully.")
-except ImportError:
-    logging.error("Genet module not found. Please ensure it is installed.")
-    genet = None
-
 app = typer.Typer(help="Run Worker Node for Bus Route Optimization")
 
-def run_worker(host):
+def run_worker(host,i):
     setup_logging()
-    worker = WorkerNode(host)
+
+    # load config
+    config_path = Path("config/config.yaml")
+    config = YamlRepository.load(config_path.as_posix())
+
+    input_path = Path(config["workers_input_path"]) / f"worker{i}"
+    output_path = Path(config["workers_output_path"]) / f"worker{i}"
+
+    # Mkdir foler for worker if not exists
+    os.makedirs(input_path, exist_ok=True)
+    os.makedirs(output_path, exist_ok=True)
+
+    worker = WorkerNode(host,i)
     worker.start()
 
 @app.command("start", help="")
@@ -30,8 +38,8 @@ def start(
     # proceed to start worker nodes
     processes = []
 
-    for _ in range(process):
-        p = Process(target=run_worker, args=(host,))
+    for i in range(process):
+        p = Process(target=run_worker, args=(host,i,))
         p.start()
         processes.append(p)
 
