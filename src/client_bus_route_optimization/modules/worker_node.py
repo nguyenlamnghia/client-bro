@@ -70,8 +70,8 @@ class WorkerNode:
             "java",
             "-jar",
             config["matsim_path"],
-            f"--config-path={config["workers_input_path"]}/worker{self.id}/config.xml",
-            f"--result-txt-path={config["workers_output_path"]}/worker{self.id}/result.txt"
+            f"--config-path={config['workers_input_path']}/worker{self.id}/config.xml",
+            f"--result-txt-path={config['workers_output_path']}/worker{self.id}/result.txt"
         ])
 
         # read result
