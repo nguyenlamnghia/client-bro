@@ -63,7 +63,7 @@ class WorkerNode:
         config = YamlRepository.load("config/config.yaml")
 
         # create a empty result file
-        with open(f"{config["workers_output_path"]}/worker{self.id}/result.txt", 'w') as f:
+        with open(f"{config['workers_output_path']}/worker{self.id}/result.txt", 'w') as f:
             f.write("")
 
         subprocess.run([
