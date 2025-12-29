@@ -4,7 +4,7 @@
 
 
 	<module name="controler">
-		<param name="outputDirectory" value="../../output/{{WORKER}}/" />
+		<param name="outputDirectory" value="data/output/{{WORKER}}/" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="10" />
 		<param name="eventsFileFormat" value="xml" />
