@@ -35,7 +35,7 @@ class WorkerNode:
 
     def __init__(self, host, id):
         self.id = id
-        self.connection = pika.BlockingConnection(pika.ConnectionParameters(host))
+        self.connection = pika.BlockingConnection(pika.ConnectionParameters(host=host, heartbeat=600))
         self.setup_dict: dict = {}
         self.channel = self.connection.channel()
         self.private_setup_queue = self.channel.queue_declare(queue="", exclusive=True)
