@@ -1,0 +1,10 @@
+.idea/
+data/input/worker*/
+data/output/worker*/
+
+# Logs
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
