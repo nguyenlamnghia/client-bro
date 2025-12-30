@@ -1,4 +1,4 @@
-import pika, json, random, time, logging
+import pika, json, random, time, logging, os
 from logging.handlers import RotatingFileHandler
 import socket
 import uuid
@@ -9,45 +9,113 @@ from client_bus_route_optimization.modules.matsim import build_vehicle_schedule
 from client_bus_route_optimization.utils.file_handler import YamlRepository
 
 
-class WorkerNode:
-    def setup_logger(self):
-        # --- BƯỚC TẠO ĐỊNH DANH NODE ---
+def build_log_path(base_log_path: str):
+    """
+    base_log_path/
+        DD-MM-YYYY/
+            HHMMSS/
+    """
+    now = datetime.now()
+
+    date_dir = now.strftime("%d-%m-%Y")
+    time_dir = now.strftime("%H%M%S")
+    full_log_path = os.path.join(
+        base_log_path,
+        date_dir,
+        time_dir
+    )
+
+    os.makedirs(full_log_path, exist_ok=True)
+    return full_log_path
+
+
+# tạo ra thư mục log_pth/DDMMYY/HHMMSS/log_file_name
+class DistributeSystemWorkerLogger:
+    def __init__(self, process_id: int, log_file_name: str, log_path: str ):
+
+        log_path = build_log_path(log_path)
+
+        # Tạo log cho từng máy
         hostname = socket.gethostname()  # Lấy tên máy (Terminal)
         ip_addr = socket.gethostbyname(hostname)  # Lấy IP
-        session_id = datetime.now().strftime("%H%M%S")  # Mã phiên chạy theo giờ phút giây
-        self.node_id = f"Worker-{hostname}-SESSION-{session_id}-SOCKET-{ip_addr}"
-        self.logger = logging.getLogger(f"{self.node_id}")
+        self.node_id = f"Worker:{hostname}-IP:{ip_addr}-Process:{process_id}"
+        log_format = logging.Formatter(f"%(asctime)s  [{self.node_id}]  [%(levelname)s] : %(message)s")
 
-        # self.logger.setLevel(logging.DEBUG)
-        # file_format = logging.Formatter(f'%(asctime)s - [{self.node_id}] - %(levelname)s - %(message)s')
-        #
-        # log_filename = f"log_worker_{self.node_id}.log"
-        # all_log_handler = RotatingFileHandler(log_filename, maxBytes=10 * 1024 * 1024, backupCount=5, encoding='utf-8')
-        # all_log_handler.setLevel(logging.DEBUG)
-        # all_log_handler.setFormatter(file_format)
-        #
-        # console_log = logging.StreamHandler()
-        # console_log.setLevel(logging.DEBUG)
-        # console_log.setFormatter(file_format)
-        #
-        # self.logger.addHandler(all_log_handler)
-        # self.logger.addHandler(console_log)
 
-    def __init__(self, host, id):
+        self.DSLogger = logging.getLogger(f"{self.node_id}")
+        self.DSLogger.setLevel(logging.DEBUG)
+
+        file_log_handler = RotatingFileHandler(os.path.join(log_path,log_file_name), 
+                                               maxBytes=10 * 1024 * 1024, 
+                                               backupCount=5,
+                                               encoding='utf-8')
+        file_log_handler.setLevel(logging.DEBUG)
+        file_log_handler.setFormatter(log_format)
+        
+        console_log_handler = logging.StreamHandler()
+        console_log_handler.setLevel(logging.DEBUG)
+        console_log_handler.setFormatter(log_format)
+        
+        self.DSLogger.addHandler(file_log_handler)
+        self.DSLogger.addHandler(console_log_handler)
+
+         # Tạo log tổng hơp
+        all_logs = RotatingFileHandler(
+            os.path.join(log_path, "worker_full_logs.log"),
+            maxBytes=10 * 1024 * 1024,
+            backupCount=5,
+            encoding="utf-8"
+        )
+
+        all_logs.setLevel(logging.INFO)
+        formatter = logging.Formatter("%(asctime)s | %(name)s | %(levelname)s | %(message)s")
+        all_logs.setFormatter(formatter)
+
+        root_logger = logging.getLogger()
+        root_logger.setLevel(logging.INFO)
+        root_logger.addHandler(all_logs)
+
+
+class WorkerNode:
+    def connect_rabbitmq(self, host):
+        RETRY_DELAYS = [5, 10, 20, 40, 80]
+        last_exception = None
+        for attempt, delay in enumerate(RETRY_DELAYS, start=1):
+            try:
+                self.connection = pika.BlockingConnection(pika.ConnectionParameters(host=host,heartbeat=600))
+                self.channel = self.connection.channel()
+
+                self.logger.DSLogger.info(f"Kết nối RabbitMQ thành công tới host {host}")
+                return  
+
+            except (pika.exceptions.AMQPConnectionError, pika.exceptions.StreamLostError, pika.exceptions.ConnectionClosedByBroker) as e:  
+                last_exception = e
+                self.logger.DSLogger.warning(
+                    f"[Retry {attempt}/5] Không kết nối được RabbitMQ ({e}). "
+                    f"Thử lại sau {delay}s..."
+                )
+                time.sleep(delay)
+
+
+        self.logger.DSLogger.error(
+            f"Không thể kết nối RabbitMQ tới host {host} sau 5 lần retry"
+        )
+        raise last_exception
+    
+    def __init__(self, host, id,  log_path : str = "logs"):
+        os.makedirs(log_path, exist_ok=True) # Neu folder ton tai thi bo qua, chua ton tai thi tao
+        log_file_name : str = f"worker_log_process{id}.log"
+        self.logger = DistributeSystemWorkerLogger(process_id = id,log_file_name=log_file_name, log_path=log_path)
+        self.logger.DSLogger.info("DANG KHOI TAO WORKER.......")
+
         self.id = id
-        self.connection = pika.BlockingConnection(pika.ConnectionParameters(host=host, heartbeat=600))
-        self.setup_dict: dict = {}
-        self.channel = self.connection.channel()
-        self.private_setup_queue = self.channel.queue_declare(queue="", exclusive=True)
-        self.name_private_setup_queue = self.private_setup_queue.method.queue
+        self.connect_rabbitmq(host)
 
         self.channel.queue_declare(queue="task_queue", durable=True)
-        self.channel.queue_declare(queue="request_queue", durable=True)
         self.channel.queue_declare(queue="result_queue", durable=True)
-        self.setup_logger()
-        self.logger.info("==================================PHIEN CHAY MOI===================================")
-        self.logger.info("Da khoi tao xong")
-
+        self.logger.DSLogger.info(f"Khoi tao than cong cac queue")
+        
+        self.logger.DSLogger.info("DA KHOI TAO XONG WORKER")
 
     def run_task(self, msg: str) -> str:
         """
@@ -88,31 +156,24 @@ class WorkerNode:
         # return output
 
     def cb_on_task(self, channel, method, properties, body):
-        self.logger.info(f" Da nhan data : {body.decode()}")
         data = body.decode()
+        task_id = json.loads(data)["id"]
+        self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker consume task tu Server")
+
         result: str = self.run_task(data)
-        self.logger.info(" Da chay xong matsim, day ket qua len result_queue")
+        self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker da tao ra result cho task")
+
         self.channel.basic_publish(exchange="", routing_key="result_queue", body=result)
         self.channel.basic_ack(delivery_tag=method.delivery_tag)
-
-    def setup(self):
-        """
-        Set up, luu cac file config o day
-        """
-        self.channel.basic_publish(exchange="", routing_key="request_queue",
-                                   properties=pika.BasicProperties(reply_to=self.name_private_setup_queue),
-                                   body="i need setup urls")
-        for meth, props, body in self.channel.consume(queue=self.name_private_setup_queue, auto_ack=True):
-            self.setup_dict = json.loads(body.decode())
-            print(f"[x] Da nhan duoc setup: {self.setup_dict}")
-            break
-        self.logger.info("Da cau hinh xong cac file set up")
+        self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker publish result cua task len Server")
 
     def start(self):
-        # self.setup()
-        self.channel.basic_qos(prefetch_count=1)
-        self.channel.basic_consume(queue="task_queue", on_message_callback=self.cb_on_task)
-        self.channel.start_consuming()
+        try: 
+            self.channel.basic_qos(prefetch_count=1)
+            self.channel.basic_consume(queue="task_queue", on_message_callback=self.cb_on_task)
+            self.channel.start_consuming()
+        except KeyboardInterrupt:
+            self.logger.DSLogger.info("DUNG WORKER CUONG CHE TU NGUOI DUNG")
 
 
 if __name__ == "__main__":
