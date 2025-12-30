@@ -4,8 +4,10 @@ schedule_path: data/input/schedule.xml
 vehicle_path: data/input/transitVehicles.xml
 
 matsim_path: matsim/my-fat-app-simple-run.jar
+config_eval_path: config/config_eval.yaml
 
-route_set_path: data/input/R_KSP_routes.pkl
+# route_set_path: data/input/R_KSP_routes.pkl
+terminal_pairs_path: data/input/terminal_pairs_set.json
 type_of_bus: 'bus_90pax'
 coordinate_system: "epsg:32633"
 workers_input_path: data/input

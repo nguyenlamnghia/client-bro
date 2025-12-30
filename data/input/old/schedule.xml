@@ -1,0 +1,3238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<transitSchedule>
+	<transitStops>
+		<stopFacility id="9445451_a" x="455551.5822241595" y="5728935.910032587" linkRefId="6050" isBlocking="false" name="9445451_a" />
+		<stopFacility id="9445451_b" x="455551.5822241595" y="5728935.910032587" linkRefId="6051" isBlocking="false" name="9445451_b" />
+		<stopFacility id="9445452_a" x="455344.27894843515" y="5728335.906164524" linkRefId="10112" isBlocking="false" name="9445452_a" />
+		<stopFacility id="9445452_b" x="455344.27894843515" y="5728335.906164524" linkRefId="10113" isBlocking="false" name="9445452_b" />
+		<stopFacility id="9445453_a" x="456138.141874901" y="5728333.529178958" linkRefId="3761" isBlocking="false" name="9445453_a" />
+		<stopFacility id="9445453_b" x="456138.141874901" y="5728333.529178958" linkRefId="3762" isBlocking="false" name="9445453_b" />
+		<stopFacility id="9445454_a" x="455277.26995572867" y="5729416.739276236" linkRefId="6038" isBlocking="false" name="9445454_a" />
+		<stopFacility id="9445454_b" x="455277.26995572867" y="5729416.739276236" linkRefId="6039" isBlocking="false" name="9445454_b" />
+		<stopFacility id="9445455_a" x="455575.0997953637" y="5728081.058691686" linkRefId="9965" isBlocking="false" name="9445455_a" />
+		<stopFacility id="9445455_b" x="455575.0997953637" y="5728081.058691686" linkRefId="9966" isBlocking="false" name="9445455_b" />
+		<stopFacility id="9445457_a" x="455324.5209031641" y="5728641.08167708" linkRefId="8430" isBlocking="false" name="9445457_a" />
+		<stopFacility id="9445457_b" x="455324.5209031641" y="5728641.08167708" linkRefId="8429" isBlocking="false" name="9445457_b" />
+		<stopFacility id="9445458_a" x="456048.08208885347" y="5728185.5007801615" linkRefId="7489" isBlocking="false" name="9445458_a" />
+		<stopFacility id="9445540_a" x="452874.05862960796" y="5729513.568654206" linkRefId="5270" isBlocking="false" name="9445540_a" />
+		<stopFacility id="9445542_a" x="454059.1543358987" y="5729375.385785605" linkRefId="3744" isBlocking="false" name="9445542_a" />
+		<stopFacility id="9445543_a" x="452898.44835668604" y="5729762.162964511" linkRefId="3644" isBlocking="false" name="9445543_a" />
+		<stopFacility id="9445543_b" x="452898.44835668604" y="5729762.162964511" linkRefId="3645" isBlocking="false" name="9445543_b" />
+		<stopFacility id="9445543_c" x="452882.5049580507" y="5729605.250612282" linkRefId="3647" isBlocking="false" name="9445543_c" />
+		<stopFacility id="9445543_d" x="452882.5049580507" y="5729605.250612282" linkRefId="3646" isBlocking="false" name="9445543_d" />
+		<stopFacility id="9445545_a" x="453698.9872616654" y="5729355.017110695" linkRefId="9914" isBlocking="false" name="9445545_a" />
+		<stopFacility id="9445686_a" x="449890.81182894664" y="5730721.781861549" linkRefId="4654" isBlocking="false" name="9445686_a" />
+		<stopFacility id="9445686_b" x="449890.81182894664" y="5730721.781861549" linkRefId="4653" isBlocking="false" name="9445686_b" />
+		<stopFacility id="9445687_a" x="449124.6148714861" y="5731449.422436934" linkRefId="2139" isBlocking="false" name="9445687_a" />
+		<stopFacility id="9445687_b" x="449124.6148714861" y="5731449.422436934" linkRefId="2140" isBlocking="false" name="9445687_b" />
+		<stopFacility id="9445688_a" x="449510.01519961597" y="5729494.5768811125" linkRefId="1844" isBlocking="false" name="9445688_a" />
+		<stopFacility id="9445689_a" x="450131.4391953471" y="5730246.761473389" linkRefId="4660" isBlocking="false" name="9445689_a" />
+		<stopFacility id="9445689_b" x="450131.4391953471" y="5730246.761473389" linkRefId="4659" isBlocking="false" name="9445689_b" />
+		<stopFacility id="9445806_a" x="457151.4185815119" y="5730139.576646288" linkRefId="7178" isBlocking="false" name="9445806_a" />
+		<stopFacility id="9445806_b" x="457151.4185815119" y="5730139.576646288" linkRefId="7177" isBlocking="false" name="9445806_b" />
+		<stopFacility id="9445807_a" x="456054.93581421196" y="5730323.7993630525" linkRefId="581" isBlocking="false" name="9445807_a" />
+		<stopFacility id="9445807_b" x="456054.93581421196" y="5730323.7993630525" linkRefId="580" isBlocking="false" name="9445807_b" />
+		<stopFacility id="9445830_a" x="451061.63213754224" y="5730120.603374002" linkRefId="8562" isBlocking="false" name="9445830_a" />
+		<stopFacility id="9445832_a" x="451148.94524291984" y="5729912.631180396" linkRefId="2186" isBlocking="false" name="9445832_a" />
+		<stopFacility id="9445832_b" x="451148.94524291984" y="5729912.631180396" linkRefId="2185" isBlocking="false" name="9445832_b" />
+		<stopFacility id="9445881_a" x="448415.63231741753" y="5733931.94424852" linkRefId="5141" isBlocking="false" name="9445881_a" />
+		<stopFacility id="9445882_a" x="448927.488971054" y="5732656.896344513" linkRefId="4670" isBlocking="false" name="9445882_a" />
+		<stopFacility id="9445882_b" x="448927.488971054" y="5732656.896344513" linkRefId="4669" isBlocking="false" name="9445882_b" />
+		<stopFacility id="9445884_a" x="448165.6723591361" y="5734334.047569072" linkRefId="ptl56" isBlocking="false" name="9445884_a" />
+		<stopFacility id="9445884_b" x="448165.6723591361" y="5734334.047569072" linkRefId="ptb56" isBlocking="false" name="9445884_b" />
+		<stopFacility id="9445885_a" x="447704.9179346068" y="5733170.918244308" linkRefId="ptb46" isBlocking="false" name="9445885_a" />
+		<stopFacility id="9445885_b" x="447704.9179346068" y="5733170.918244308" linkRefId="ptl46" isBlocking="false" name="9445885_b" />
+		<stopFacility id="9445890_a" x="448714.6166585848" y="5733500.361833874" linkRefId="8358" isBlocking="false" name="9445890_a" />
+		<stopFacility id="9445891_a" x="448789.89189988957" y="5733441.039083067" linkRefId="4622" isBlocking="false" name="9445891_a" />
+		<stopFacility id="9445891_b" x="448899.33773183206" y="5733451.122903186" linkRefId="4619" isBlocking="false" name="9445891_b" />
+		<stopFacility id="9445894_a" x="448412.84197969094" y="5733492.175426826" linkRefId="255" isBlocking="false" name="9445894_a" />
+		<stopFacility id="9445894_b" x="448579.87955021724" y="5733447.480858208" linkRefId="4623" isBlocking="false" name="9445894_b" />
+		<stopFacility id="9445894_c" x="448579.87955021724" y="5733447.480858208" linkRefId="4624" isBlocking="false" name="9445894_c" />
+		<stopFacility id="9445897_a" x="448127.5486079076" y="5733470.710033407" linkRefId="4626" isBlocking="false" name="9445897_a" />
+		<stopFacility id="9445897_b" x="448127.5486079076" y="5733470.710033407" linkRefId="4625" isBlocking="false" name="9445897_b" />
+		<stopFacility id="9470000_a" x="453333.08007979806" y="5733397.120271295" linkRefId="3499" isBlocking="false" name="9470000_a" />
+		<stopFacility id="9470000_b" x="453333.08007979806" y="5733397.120271295" linkRefId="3500" isBlocking="false" name="9470000_b" />
+		<stopFacility id="9470000_c" x="452920.73652768874" y="5733508.820629544" linkRefId="ptb48" isBlocking="false" name="9470000_c" />
+		<stopFacility id="9470000_d" x="452920.73652768874" y="5733508.820629544" linkRefId="ptl48" isBlocking="false" name="9470000_d" />
+		<stopFacility id="9470001_a" x="455480.7657646665" y="5734152.827009708" linkRefId="ptl50" isBlocking="false" name="9470001_a" />
+		<stopFacility id="9470001_b" x="455480.7657646665" y="5734152.827009708" linkRefId="ptb50" isBlocking="false" name="9470001_b" />
+		<stopFacility id="9470094_a" x="454659.5679900157" y="5740968.207435064" linkRefId="7021" isBlocking="false" name="9470094_a" />
+		<stopFacility id="9470094_b" x="454659.5679900157" y="5740968.207435064" linkRefId="7020" isBlocking="false" name="9470094_b" />
+		<stopFacility id="9470095_a" x="453471.2566433268" y="5737178.188181538" linkRefId="9387" isBlocking="false" name="9470095_a" />
+		<stopFacility id="9470095_b" x="453471.2566433268" y="5737178.188181538" linkRefId="9388" isBlocking="false" name="9470095_b" />
+		<stopFacility id="9470098_a" x="456539.4011483613" y="5736991.717794735" linkRefId="4515" isBlocking="false" name="9470098_a" />
+		<stopFacility id="9470098_b" x="456551.96602924867" y="5736983.990308766" linkRefId="4508" isBlocking="false" name="9470098_b" />
+		<stopFacility id="9470101_a" x="453653.8526619524" y="5737103.535926804" linkRefId="6498" isBlocking="false" name="9470101_a" />
+		<stopFacility id="9470101_b" x="453653.8526619524" y="5737103.535926804" linkRefId="6497" isBlocking="false" name="9470101_b" />
+		<stopFacility id="9470102_a" x="454162.9344137984" y="5734648.751846579" linkRefId="1768" isBlocking="false" name="9470102_a" />
+		<stopFacility id="9470102_b" x="454162.9344137984" y="5734648.751846579" linkRefId="1767" isBlocking="false" name="9470102_b" />
+		<stopFacility id="9470103_a" x="454831.55586113874" y="5734881.570931489" linkRefId="ptl15" isBlocking="false" name="9470103_a" />
+		<stopFacility id="9470103_b" x="454831.55586113874" y="5734881.570931489" linkRefId="ptb15" isBlocking="false" name="9470103_b" />
+		<stopFacility id="9470104_a" x="454440.8354707585" y="5737442.128182122" linkRefId="3480" isBlocking="false" name="9470104_a" />
+		<stopFacility id="9470104_b" x="454440.8354707585" y="5737442.128182122" linkRefId="3481" isBlocking="false" name="9470104_b" />
+		<stopFacility id="9470105_a" x="454146.2760445097" y="5736565.320960341" linkRefId="8879" isBlocking="false" name="9470105_a" />
+		<stopFacility id="9470105_b" x="454146.2760445097" y="5736565.320960341" linkRefId="8878" isBlocking="false" name="9470105_b" />
+		<stopFacility id="9470107_a" x="455840.0439519317" y="5734800.19358821" linkRefId="3418" isBlocking="false" name="9470107_a" />
+		<stopFacility id="9470108_a" x="453597.8601730623" y="5734469.398947692" linkRefId="5866" isBlocking="false" name="9470108_a" />
+		<stopFacility id="9470108_b" x="453597.8601730623" y="5734469.398947692" linkRefId="5867" isBlocking="false" name="9470108_b" />
+		<stopFacility id="9470113_a" x="456670.8031510988" y="5735718.989817174" linkRefId="7537" isBlocking="false" name="9470113_a" />
+		<stopFacility id="9470113_b" x="456670.8031510988" y="5735718.989817174" linkRefId="7538" isBlocking="false" name="9470113_b" />
+		<stopFacility id="9470114_a" x="453595.2504195594" y="5734782.690925512" linkRefId="5858" isBlocking="false" name="9470114_a" />
+		<stopFacility id="9470114_b" x="453591.03724084893" y="5734935.832357522" linkRefId="5859" isBlocking="false" name="9470114_b" />
+		<stopFacility id="9470115_a" x="452688.0221681852" y="5734456.355794427" linkRefId="ptl9" isBlocking="false" name="9470115_a" />
+		<stopFacility id="9470115_b" x="452688.0221681852" y="5734456.355794427" linkRefId="ptb9" isBlocking="false" name="9470115_b" />
+		<stopFacility id="9470117_a" x="454114.6504610521" y="5735793.683742493" linkRefId="3027" isBlocking="false" name="9470117_a" />
+		<stopFacility id="9470117_b" x="454114.6504610521" y="5735793.683742493" linkRefId="3026" isBlocking="false" name="9470117_b" />
+		<stopFacility id="9470118_a" x="455805.31874317606" y="5733544.821176317" linkRefId="2099" isBlocking="false" name="9470118_a" />
+		<stopFacility id="9470119_a" x="454070.0475824097" y="5735373.500820418" linkRefId="567" isBlocking="false" name="9470119_a" />
+		<stopFacility id="9470119_b" x="454070.0475824097" y="5735373.500820418" linkRefId="566" isBlocking="false" name="9470119_b" />
+		<stopFacility id="9470120_a" x="456099.9637596471" y="5732190.53980034" linkRefId="4005" isBlocking="false" name="9470120_a" />
+		<stopFacility id="9470121_a" x="456852.0340075999" y="5732655.6847743075" linkRefId="9754" isBlocking="false" name="9470121_a" />
+		<stopFacility id="9470123_a" x="456441.6162601197" y="5732069.153336799" linkRefId="2448" isBlocking="false" name="9470123_a" />
+		<stopFacility id="9470125_a" x="456629.7353463507" y="5733325.643643517" linkRefId="2437" isBlocking="false" name="9470125_a" />
+		<stopFacility id="9470126_a" x="456301.6549054334" y="5731918.198865896" linkRefId="2444" isBlocking="false" name="9470126_a" />
+		<stopFacility id="9470127_a" x="456465.89360168413" y="5734148.118433831" linkRefId="4825" isBlocking="false" name="9470127_a" />
+		<stopFacility id="9470128_a" x="453819.0033690937" y="5733901.626655004" linkRefId="6290" isBlocking="false" name="9470128_a" />
+		<stopFacility id="9470128_b" x="453819.0033690937" y="5733901.626655004" linkRefId="6289" isBlocking="false" name="9470128_b" />
+		<stopFacility id="9470129_a" x="453387.57640034787" y="5733982.342089042" linkRefId="8503" isBlocking="false" name="9470129_a" />
+		<stopFacility id="9470129_b" x="453387.57640034787" y="5733982.342089042" linkRefId="8502" isBlocking="false" name="9470129_b" />
+		<stopFacility id="9470130_a" x="453765.33085308736" y="5730250.520920454" linkRefId="6391" isBlocking="false" name="9470130_a" />
+		<stopFacility id="9470130_b" x="453765.33085308736" y="5730250.520920454" linkRefId="6390" isBlocking="false" name="9470130_b" />
+		<stopFacility id="9470132_a" x="452840.57515724906" y="5734012.312320495" linkRefId="5536" isBlocking="false" name="9470132_a" />
+		<stopFacility id="9470132_b" x="452840.57515724906" y="5734012.312320495" linkRefId="5535" isBlocking="false" name="9470132_b" />
+		<stopFacility id="9470133_a" x="457363.402094282" y="5734951.245141599" linkRefId="8587" isBlocking="false" name="9470133_a" />
+		<stopFacility id="9470133_b" x="457363.402094282" y="5734951.245141599" linkRefId="8586" isBlocking="false" name="9470133_b" />
+		<stopFacility id="9470135_a" x="457978.9594864004" y="5735292.191375955" linkRefId="5275" isBlocking="false" name="9470135_a" />
+		<stopFacility id="9470135_b" x="457978.9594864004" y="5735292.191375955" linkRefId="5276" isBlocking="false" name="9470135_b" />
+		<stopFacility id="9470136_a" x="458158.9879507388" y="5734926.778597409" linkRefId="7108" isBlocking="false" name="9470136_a" />
+		<stopFacility id="9470136_b" x="458158.9879507388" y="5734926.778597409" linkRefId="7107" isBlocking="false" name="9470136_b" />
+		<stopFacility id="9470138_a" x="458044.5780497411" y="5734929.711489463" linkRefId="8583" isBlocking="false" name="9470138_a" />
+		<stopFacility id="9470138_b" x="458044.5780497411" y="5734929.711489463" linkRefId="8582" isBlocking="false" name="9470138_b" />
+		<stopFacility id="9470139_a" x="454888.07935679867" y="5741566.996889775" linkRefId="7031" isBlocking="false" name="9470139_a" />
+		<stopFacility id="9470139_b" x="454888.07935679867" y="5741566.996889775" linkRefId="7030" isBlocking="false" name="9470139_b" />
+		<stopFacility id="9470140_a" x="454844.2970340544" y="5741127.877886061" linkRefId="7027" isBlocking="false" name="9470140_a" />
+		<stopFacility id="9470140_b" x="454844.2970340544" y="5741127.877886061" linkRefId="7026" isBlocking="false" name="9470140_b" />
+		<stopFacility id="9470142_a" x="454870.6194842084" y="5741282.919310734" linkRefId="7029" isBlocking="false" name="9470142_a" />
+		<stopFacility id="9470142_b" x="454870.6194842084" y="5741282.919310734" linkRefId="7028" isBlocking="false" name="9470142_b" />
+		<stopFacility id="9470143_a" x="454836.6068521769" y="5740379.993525731" linkRefId="10390" isBlocking="false" name="9470143_a" />
+		<stopFacility id="9470143_b" x="454836.6068521769" y="5740379.993525731" linkRefId="10391" isBlocking="false" name="9470143_b" />
+		<stopFacility id="9470144_a" x="454937.899220594" y="5739988.989463276" linkRefId="2936" isBlocking="false" name="9470144_a" />
+		<stopFacility id="9470144_b" x="454937.899220594" y="5739988.989463276" linkRefId="2937" isBlocking="false" name="9470144_b" />
+		<stopFacility id="9470146_a" x="453705.5737152045" y="5736462.401727291" linkRefId="37" isBlocking="false" name="9470146_a" />
+		<stopFacility id="9470146_b" x="453705.5737152045" y="5736462.401727291" linkRefId="36" isBlocking="false" name="9470146_b" />
+		<stopFacility id="9470149_a" x="452340.8295389905" y="5734237.177787937" linkRefId="ptl11" isBlocking="false" name="9470149_a" />
+		<stopFacility id="9470149_b" x="452340.8295389905" y="5734237.177787937" linkRefId="ptb11" isBlocking="false" name="9470149_b" />
+		<stopFacility id="9470150_a" x="456111.1386780715" y="5733669.8330386" linkRefId="874" isBlocking="false" name="9470150_a" />
+		<stopFacility id="9470150_b" x="456111.1386780715" y="5733669.8330386" linkRefId="875" isBlocking="false" name="9470150_b" />
+		<stopFacility id="9470152_a" x="452935.7253641871" y="5736088.83848451" linkRefId="7898" isBlocking="false" name="9470152_a" />
+		<stopFacility id="9470152_b" x="452935.7253641871" y="5736088.83848451" linkRefId="7899" isBlocking="false" name="9470152_b" />
+		<stopFacility id="9470153_a" x="453172.75329637504" y="5733114.921244184" linkRefId="8629" isBlocking="false" name="9470153_a" />
+		<stopFacility id="9470153_b" x="453172.75329637504" y="5733114.921244184" linkRefId="8628" isBlocking="false" name="9470153_b" />
+		<stopFacility id="9470155_a" x="454202.14519041113" y="5734290.287219761" linkRefId="6666" isBlocking="false" name="9470155_a" />
+		<stopFacility id="9470155_b" x="454202.14519041113" y="5734290.287219761" linkRefId="6667" isBlocking="false" name="9470155_b" />
+		<stopFacility id="9470156_a" x="452538.333797534" y="5734133.548129415" linkRefId="2180" isBlocking="false" name="9470156_a" />
+		<stopFacility id="9470156_b" x="452538.333797534" y="5734133.548129415" linkRefId="2179" isBlocking="false" name="9470156_b" />
+		<stopFacility id="9470157_a" x="452871.2317364867" y="5733245.6713835895" linkRefId="6994" isBlocking="false" name="9470157_a" />
+		<stopFacility id="9470157_b" x="452871.2317364867" y="5733245.6713835895" linkRefId="6995" isBlocking="false" name="9470157_b" />
+		<stopFacility id="9470158_a" x="453339.47765820567" y="5730972.383169248" linkRefId="7153" isBlocking="false" name="9470158_a" />
+		<stopFacility id="9470158_b" x="453336.06807355845" y="5730960.713884234" linkRefId="7165" isBlocking="false" name="9470158_b" />
+		<stopFacility id="9470159_a" x="454883.2182515095" y="5734191.003274704" linkRefId="9756" isBlocking="false" name="9470159_a" />
+		<stopFacility id="9470159_b" x="454883.2182515095" y="5734191.003274704" linkRefId="9755" isBlocking="false" name="9470159_b" />
+		<stopFacility id="9470161_a" x="453943.2409624548" y="5733428.675018091" linkRefId="8251" isBlocking="false" name="9470161_a" />
+		<stopFacility id="9470161_b" x="453946.627454467" y="5733418.133231958" linkRefId="2786" isBlocking="false" name="9470161_b" />
+		<stopFacility id="9470162_a" x="453505.9538099576" y="5736038.458391863" linkRefId="7918" isBlocking="false" name="9470162_a" />
+		<stopFacility id="9470162_b" x="453505.9538099576" y="5736038.458391863" linkRefId="7919" isBlocking="false" name="9470162_b" />
+		<stopFacility id="9470163_a" x="456287.5569377103" y="5735647.293602033" linkRefId="ptl52" isBlocking="false" name="9470163_a" />
+		<stopFacility id="9470163_b" x="456287.5569377103" y="5735647.293602033" linkRefId="ptb52" isBlocking="false" name="9470163_b" />
+		<stopFacility id="9470164_a" x="452986.21139808046" y="5737179.681907629" linkRefId="7656" isBlocking="false" name="9470164_a" />
+		<stopFacility id="9470164_b" x="452986.21139808046" y="5737179.681907629" linkRefId="7655" isBlocking="false" name="9470164_b" />
+		<stopFacility id="9470165_a" x="456703.0490043792" y="5736024.737112835" linkRefId="4541" isBlocking="false" name="9470165_a" />
+		<stopFacility id="9470166_a" x="456641.7768929053" y="5736701.631418805" linkRefId="4551" isBlocking="false" name="9470166_a" />
+		<stopFacility id="9470168_a" x="453495.1993624639" y="5733382.242049832" linkRefId="3503" isBlocking="false" name="9470168_a" />
+		<stopFacility id="9470168_b" x="453495.1993624639" y="5733382.242049832" linkRefId="3490" isBlocking="false" name="9470168_b" />
+		<stopFacility id="9470169_a" x="456892.94352825294" y="5734946.649968219" linkRefId="7662" isBlocking="false" name="9470169_a" />
+		<stopFacility id="9470169_b" x="456892.94352825294" y="5734946.649968219" linkRefId="7661" isBlocking="false" name="9470169_b" />
+		<stopFacility id="9470171_a" x="456438.0912520425" y="5734840.497241505" linkRefId="7666" isBlocking="false" name="9470171_a" />
+		<stopFacility id="9470171_b" x="456438.0912520425" y="5734840.497241505" linkRefId="7665" isBlocking="false" name="9470171_b" />
+		<stopFacility id="9470172_a" x="455207.65551778564" y="5734488.921119062" linkRefId="ptl17" isBlocking="false" name="9470172_a" />
+		<stopFacility id="9470172_b" x="455207.65551778564" y="5734488.921119062" linkRefId="ptb17" isBlocking="false" name="9470172_b" />
+		<stopFacility id="9470173_a" x="454164.2376478445" y="5730228.861687172" linkRefId="6395" isBlocking="false" name="9470173_a" />
+		<stopFacility id="9470173_b" x="454164.2376478445" y="5730228.861687172" linkRefId="6394" isBlocking="false" name="9470173_b" />
+		<stopFacility id="9470174_a" x="453866.14713354607" y="5735148.486940548" linkRefId="586" isBlocking="false" name="9470174_a" />
+		<stopFacility id="9470175_a" x="453357.48210385616" y="5732449.87372637" linkRefId="7653" isBlocking="false" name="9470175_a" />
+		<stopFacility id="9470175_b" x="453357.48210385616" y="5732449.87372637" linkRefId="7654" isBlocking="false" name="9470175_b" />
+		<stopFacility id="9470176_a" x="456065.70676717797" y="5735436.478657426" linkRefId="7533" isBlocking="false" name="9470176_a" />
+		<stopFacility id="9470176_b" x="456065.70676717797" y="5735436.478657426" linkRefId="7534" isBlocking="false" name="9470176_b" />
+		<stopFacility id="9470177_a" x="452196.2697280369" y="5733105.892165411" linkRefId="9200" isBlocking="false" name="9470177_a" />
+		<stopFacility id="9470177_b" x="452196.2697280369" y="5733105.892165411" linkRefId="9201" isBlocking="false" name="9470177_b" />
+		<stopFacility id="9470178_a" x="459635.56117294217" y="5730218.01559132" linkRefId="10162" isBlocking="false" name="9470178_a" />
+		<stopFacility id="9470179_a" x="458376.8708085753" y="5730149.710229084" linkRefId="2049" isBlocking="false" name="9470179_a" />
+		<stopFacility id="9470179_b" x="458376.8708085753" y="5730149.710229084" linkRefId="2048" isBlocking="false" name="9470179_b" />
+		<stopFacility id="9470180_a" x="457841.9455263802" y="5730087.176660239" linkRefId="4217" isBlocking="false" name="9470180_a" />
+		<stopFacility id="9470180_b" x="457841.9455263802" y="5730087.176660239" linkRefId="4216" isBlocking="false" name="9470180_b" />
+		<stopFacility id="9470183_a" x="459413.9723013835" y="5730133.066487642" linkRefId="9245" isBlocking="false" name="9470183_a" />
+		<stopFacility id="9470184_a" x="459251.061264068" y="5730335.358896043" linkRefId="9156" isBlocking="false" name="9470184_a" />
+		<stopFacility id="9470185_a" x="453462.7604170968" y="5733899.106414428" linkRefId="10103" isBlocking="false" name="9470185_a" />
+		<stopFacility id="9470186_a" x="455065.41164784733" y="5737578.321195867" linkRefId="369" isBlocking="false" name="9470186_a" />
+		<stopFacility id="9470189_a" x="453922.7520826777" y="5730862.883567233" linkRefId="7167" isBlocking="false" name="9470189_a" />
+		<stopFacility id="9470189_b" x="453927.2205070603" y="5730874.532572476" linkRefId="7150" isBlocking="false" name="9470189_b" />
+		<stopFacility id="9470191_a" x="457337.9605141593" y="5738881.563674676" linkRefId="5334" isBlocking="false" name="9470191_a" />
+		<stopFacility id="9470191_b" x="457037.17073580285" y="5737998.691138259" linkRefId="789" isBlocking="false" name="9470191_b" />
+		<stopFacility id="9470195_a" x="453584.6721256789" y="5734934.901132766" linkRefId="5771" isBlocking="false" name="9470195_a" />
+		<stopFacility id="9470196_a" x="453003.0034629932" y="5731043.788991379" linkRefId="3017" isBlocking="false" name="9470196_a" />
+		<stopFacility id="9470196_b" x="453003.0034629932" y="5731043.788991379" linkRefId="3016" isBlocking="false" name="9470196_b" />
+		<stopFacility id="9470198_a" x="455047.8991030691" y="5730158.016702043" linkRefId="1271" isBlocking="false" name="9470198_a" />
+		<stopFacility id="9470198_b" x="455047.8991030691" y="5730158.016702043" linkRefId="1270" isBlocking="false" name="9470198_b" />
+		<stopFacility id="9470199_a" x="454808.9738913746" y="5730278.201210603" linkRefId="5586" isBlocking="false" name="9470199_a" />
+		<stopFacility id="9470199_b" x="454808.9738913746" y="5730278.201210603" linkRefId="5585" isBlocking="false" name="9470199_b" />
+		<stopFacility id="9470200_a" x="454513.16919228475" y="5730199.823008552" linkRefId="1831" isBlocking="false" name="9470200_a" />
+		<stopFacility id="9470200_b" x="454513.16919228475" y="5730199.823008552" linkRefId="1830" isBlocking="false" name="9470200_b" />
+		<stopFacility id="9470201_a" x="454858.730683192" y="5730209.86921313" linkRefId="ptb33" isBlocking="false" name="9470201_a" />
+		<stopFacility id="9470201_b" x="454858.730683192" y="5730209.86921313" linkRefId="ptl33" isBlocking="false" name="9470201_b" />
+		<stopFacility id="9470205_a" x="453981.1987500737" y="5733803.87590383" linkRefId="2162" isBlocking="false" name="9470205_a" />
+		<stopFacility id="9470205_b" x="453981.1987500737" y="5733803.87590383" linkRefId="2161" isBlocking="false" name="9470205_b" />
+		<stopFacility id="9470205_c" x="453981.08764912054" y="5733855.924985226" linkRefId="2106" isBlocking="false" name="9470205_c" />
+		<stopFacility id="9470206_a" x="453029.5557064498" y="5736285.377794055" linkRefId="647" isBlocking="false" name="9470206_a" />
+		<stopFacility id="9470206_b" x="453029.5557064498" y="5736285.377794055" linkRefId="646" isBlocking="false" name="9470206_b" />
+		<stopFacility id="9470208_a" x="457423.83532402583" y="5736648.506995866" linkRefId="6549" isBlocking="false" name="9470208_a" />
+		<stopFacility id="9470209_a" x="457223.68398966244" y="5736657.215006105" linkRefId="6547" isBlocking="false" name="9470209_a" />
+		<stopFacility id="9470210_a" x="457265.6225415554" y="5736180.320523899" linkRefId="7543" isBlocking="false" name="9470210_a" />
+		<stopFacility id="9470213_a" x="455214.06917122536" y="5737565.77909218" linkRefId="368" isBlocking="false" name="9470213_a" />
+		<stopFacility id="9470214_a" x="454718.0614610069" y="5737607.624595903" linkRefId="ptb6" isBlocking="false" name="9470214_a" />
+		<stopFacility id="9470214_b" x="454718.0614610069" y="5737607.624595903" linkRefId="ptl6" isBlocking="false" name="9470214_b" />
+		<stopFacility id="9470215_a" x="454751.0473029582" y="5737440.488475328" linkRefId="ptb5" isBlocking="false" name="9470215_a" />
+		<stopFacility id="9470215_b" x="454751.0473029582" y="5737440.488475328" linkRefId="ptl5" isBlocking="false" name="9470215_b" />
+		<stopFacility id="9470215_c" x="454726.8193676536" y="5737433.020787204" linkRefId="3055" isBlocking="false" name="9470215_c" />
+		<stopFacility id="9470215_d" x="454726.8193676536" y="5737433.020787204" linkRefId="3054" isBlocking="false" name="9470215_d" />
+		<stopFacility id="9470215_e" x="454739.42072955536" y="5737335.1173926275" linkRefId="3062" isBlocking="false" name="9470215_e" />
+		<stopFacility id="9470216_a" x="454849.02207871753" y="5736827.865190534" linkRefId="ptb3" isBlocking="false" name="9470216_a" />
+		<stopFacility id="9470216_b" x="454849.02207871753" y="5736827.865190534" linkRefId="ptl3" isBlocking="false" name="9470216_b" />
+		<stopFacility id="9470219_a" x="454122.4603768261" y="5736003.573889732" linkRefId="4909" isBlocking="false" name="9470219_a" />
+		<stopFacility id="9470219_b" x="454122.4603768261" y="5736003.573889732" linkRefId="4908" isBlocking="false" name="9470219_b" />
+		<stopFacility id="9470220_a" x="453469.090097336" y="5737463.28561987" linkRefId="4769" isBlocking="false" name="9470220_a" />
+		<stopFacility id="9470220_b" x="453469.090097336" y="5737463.28561987" linkRefId="4768" isBlocking="false" name="9470220_b" />
+		<stopFacility id="9470222_a" x="454472.1084309898" y="5735800.855057536" linkRefId="ptb0" isBlocking="false" name="9470222_a" />
+		<stopFacility id="9470222_b" x="454472.1084309898" y="5735800.855057536" linkRefId="ptl0" isBlocking="false" name="9470222_b" />
+		<stopFacility id="9470223_a" x="453847.56130997697" y="5732944.04560178" linkRefId="ptb21" isBlocking="false" name="9470223_a" />
+		<stopFacility id="9470223_b" x="453847.56130997697" y="5732944.04560178" linkRefId="ptl21" isBlocking="false" name="9470223_b" />
+		<stopFacility id="9470224_a" x="452644.70856091875" y="5735154.330169283" linkRefId="7912" isBlocking="false" name="9470224_a" />
+		<stopFacility id="9470224_b" x="452644.70856091875" y="5735154.330169283" linkRefId="7913" isBlocking="false" name="9470224_b" />
+		<stopFacility id="9470226_a" x="452669.52777661255" y="5734473.285747779" linkRefId="677" isBlocking="false" name="9470226_a" />
+		<stopFacility id="9470226_b" x="452669.52777661255" y="5734473.285747779" linkRefId="676" isBlocking="false" name="9470226_b" />
+		<stopFacility id="9470227_a" x="452746.48906520056" y="5731594.8869140055" linkRefId="497" isBlocking="false" name="9470227_a" />
+		<stopFacility id="9470227_b" x="452746.48906520056" y="5731594.8869140055" linkRefId="496" isBlocking="false" name="9470227_b" />
+		<stopFacility id="9470228_a" x="454655.0061375369" y="5730600.984556848" linkRefId="ptb31" isBlocking="false" name="9470228_a" />
+		<stopFacility id="9470228_b" x="454655.0061375369" y="5730600.984556848" linkRefId="ptl31" isBlocking="false" name="9470228_b" />
+		<stopFacility id="9470229_a" x="453178.5447160824" y="5736552.694884466" linkRefId="7926" isBlocking="false" name="9470229_a" />
+		<stopFacility id="9470229_b" x="453178.5447160824" y="5736552.694884466" linkRefId="7927" isBlocking="false" name="9470229_b" />
+		<stopFacility id="9470230_a" x="453355.028188178" y="5731947.551596943" linkRefId="ptb35" isBlocking="false" name="9470230_a" />
+		<stopFacility id="9470230_b" x="453355.028188178" y="5731947.551596943" linkRefId="ptl35" isBlocking="false" name="9470230_b" />
+		<stopFacility id="9470232_a" x="454683.654622206" y="5734472.43368548" linkRefId="2515" isBlocking="false" name="9470232_a" />
+		<stopFacility id="9470232_b" x="454683.654622206" y="5734472.43368548" linkRefId="2514" isBlocking="false" name="9470232_b" />
+		<stopFacility id="9470233_a" x="455371.92417722347" y="5735116.731318047" linkRefId="10363" isBlocking="false" name="9470233_a" />
+		<stopFacility id="9470233_b" x="455371.92417722347" y="5735116.731318047" linkRefId="10364" isBlocking="false" name="9470233_b" />
+		<stopFacility id="9470234_a" x="454997.8122834419" y="5734666.451490141" linkRefId="1502" isBlocking="false" name="9470234_a" />
+		<stopFacility id="9470234_b" x="454997.8122834419" y="5734666.451490141" linkRefId="1501" isBlocking="false" name="9470234_b" />
+		<stopFacility id="9470235_a" x="455729.2776474999" y="5735168.270658137" linkRefId="1754" isBlocking="false" name="9470235_a" />
+		<stopFacility id="9470235_b" x="455729.2776474999" y="5735168.270658137" linkRefId="5934" isBlocking="false" name="9470235_b" />
+		<stopFacility id="9470236_a" x="455377.73335177416" y="5734209.347584406" linkRefId="ptl19" isBlocking="false" name="9470236_a" />
+		<stopFacility id="9470236_b" x="455377.73335177416" y="5734209.347584406" linkRefId="ptb19" isBlocking="false" name="9470236_b" />
+		<stopFacility id="9470237_a" x="454341.26620072464" y="5734768.311805891" linkRefId="1774" isBlocking="false" name="9470237_a" />
+		<stopFacility id="9470237_b" x="454341.26620072464" y="5734768.311805891" linkRefId="1773" isBlocking="false" name="9470237_b" />
+		<stopFacility id="9470238_a" x="455420.98723579827" y="5737750.877091784" linkRefId="3286" isBlocking="false" name="9470238_a" />
+		<stopFacility id="9470238_b" x="455420.98723579827" y="5737750.877091784" linkRefId="3285" isBlocking="false" name="9470238_b" />
+		<stopFacility id="9470239_a" x="455494.11413219327" y="5737998.647293699" linkRefId="478" isBlocking="false" name="9470239_a" />
+		<stopFacility id="9470239_b" x="455494.11413219327" y="5737998.647293699" linkRefId="479" isBlocking="false" name="9470239_b" />
+		<stopFacility id="9470240_a" x="455617.2918160114" y="5738366.989873892" linkRefId="5952" isBlocking="false" name="9470240_a" />
+		<stopFacility id="9470240_b" x="455617.2918160114" y="5738366.989873892" linkRefId="5953" isBlocking="false" name="9470240_b" />
+		<stopFacility id="9470243_a" x="459719.9753735862" y="5734774.427921778" linkRefId="7045" isBlocking="false" name="9470243_a" />
+		<stopFacility id="9470243_b" x="459719.9753735862" y="5734774.427921778" linkRefId="7046" isBlocking="false" name="9470243_b" />
+		<stopFacility id="9470244_a" x="459940.9632974114" y="5734900.208950976" linkRefId="10875" isBlocking="false" name="9470244_a" />
+		<stopFacility id="9470246_a" x="454171.5025830661" y="5737122.57887255" linkRefId="5101" isBlocking="false" name="9470246_a" />
+		<stopFacility id="9470246_b" x="454171.5025830661" y="5737122.57887255" linkRefId="5100" isBlocking="false" name="9470246_b" />
+		<stopFacility id="9470247_a" x="453707.36423130176" y="5737527.101793397" linkRefId="4771" isBlocking="false" name="9470247_a" />
+		<stopFacility id="9470247_b" x="453707.36423130176" y="5737527.101793397" linkRefId="4770" isBlocking="false" name="9470247_b" />
+		<stopFacility id="9470249_a" x="453446.27912879095" y="5730612.00243134" linkRefId="ptb41" isBlocking="false" name="9470249_a" />
+		<stopFacility id="9470249_b" x="453446.27912879095" y="5730612.00243134" linkRefId="ptl41" isBlocking="false" name="9470249_b" />
+		<stopFacility id="9470250_a" x="453174.70564074465" y="5734631.283101637" linkRefId="ptl7" isBlocking="false" name="9470250_a" />
+		<stopFacility id="9470250_b" x="453174.70564074465" y="5734631.283101637" linkRefId="ptb7" isBlocking="false" name="9470250_b" />
+		<stopFacility id="9470251_a" x="453199.83246130205" y="5732403.798086649" linkRefId="2930" isBlocking="false" name="9470251_a" />
+		<stopFacility id="9470251_b" x="453199.83246130205" y="5732403.798086649" linkRefId="2931" isBlocking="false" name="9470251_b" />
+		<stopFacility id="9470252_a" x="453669.1587444019" y="5735755.672139108" linkRefId="5153" isBlocking="false" name="9470252_a" />
+		<stopFacility id="9470252_b" x="453669.1587444019" y="5735755.672139108" linkRefId="5152" isBlocking="false" name="9470252_b" />
+		<stopFacility id="9470257_a" x="452015.8985364395" y="5739032.7558727" linkRefId="2353" isBlocking="false" name="9470257_a" />
+		<stopFacility id="9470257_b" x="452015.8985364395" y="5739032.7558727" linkRefId="2352" isBlocking="false" name="9470257_b" />
+		<stopFacility id="9470259_a" x="451811.51991093607" y="5739197.94808389" linkRefId="8127" isBlocking="false" name="9470259_a" />
+		<stopFacility id="9470263_a" x="455413.04492251296" y="5739485.940775233" linkRefId="303" isBlocking="false" name="9470263_a" />
+		<stopFacility id="9470263_b" x="455413.04492251296" y="5739485.940775233" linkRefId="304" isBlocking="false" name="9470263_b" />
+		<stopFacility id="9470264_a" x="456273.0338107613" y="5733932.383744901" linkRefId="83" isBlocking="false" name="9470264_a" />
+		<stopFacility id="9470264_b" x="456273.0338107613" y="5733932.383744901" linkRefId="84" isBlocking="false" name="9470264_b" />
+		<stopFacility id="9470265_a" x="454049.6034646338" y="5732386.071076695" linkRefId="ptb23" isBlocking="false" name="9470265_a" />
+		<stopFacility id="9470265_b" x="454049.6034646338" y="5732386.071076695" linkRefId="ptl23" isBlocking="false" name="9470265_b" />
+		<stopFacility id="9470266_a" x="453197.07042619155" y="5733890.529347086" linkRefId="5532" isBlocking="false" name="9470266_a" />
+		<stopFacility id="9470266_b" x="453197.07042619155" y="5733890.529347086" linkRefId="5531" isBlocking="false" name="9470266_b" />
+		<stopFacility id="9470267_a" x="455774.31724495033" y="5735732.883464207" linkRefId="506" isBlocking="false" name="9470267_a" />
+		<stopFacility id="9470267_b" x="455780.77752464457" y="5735713.445752431" linkRefId="4511" isBlocking="false" name="9470267_b" />
+		<stopFacility id="9470268_a" x="453829.3603061529" y="5734723.824226956" linkRefId="ptb58" isBlocking="false" name="9470268_a" />
+		<stopFacility id="9470268_b" x="453829.3603061529" y="5734723.824226956" linkRefId="ptl58" isBlocking="false" name="9470268_b" />
+		<stopFacility id="9470268_c" x="453728.7511776936" y="5734684.791761469" linkRefId="9803" isBlocking="false" name="9470268_c" />
+		<stopFacility id="9470268_d" x="453728.7511776936" y="5734684.791761469" linkRefId="5884" isBlocking="false" name="9470268_d" />
+		<stopFacility id="9470268_e" x="453728.7511776936" y="5734684.791761469" linkRefId="ptlr" isBlocking="false" name="9470268_e" />
+		<stopFacility id="9470268_f" x="453728.7511776936" y="5734684.791761469" linkRefId="ptll" isBlocking="false" name="9470268_f" />
+		
+		
+		<stopFacility id="9470269_a" x="453820.07737" y="5734382.80831" linkRefId="ptb60" isBlocking="false" name="9470269_a" />
+		<stopFacility id="9470269_b" x="453820.07737" y="5734382.80831" linkRefId="ptl60" isBlocking="false" name="9470269_b" />
+		
+		
+		<stopFacility id="stadthalle_a" x="453887.08309" y="5734658.8379" linkRefId="10289" isBlocking="false" name="stadthalle_a" />
+		<stopFacility id="stadthalle_b" x="453887.08309" y="5734658.8379" linkRefId="10290" isBlocking="false" name="stadthalle_b" />
+		
+		
+		<stopFacility id="9470269_c" x="453858.13192102924" y="5734240.441531738" linkRefId="5892" isBlocking="false" name="9470269_c" />
+		<stopFacility id="9470269_d" x="453858.13192102924" y="5734240.441531738" linkRefId="5634" isBlocking="false" name="9470269_d" />
+		
+		<stopFacility id="9470270_a" x="455661.2904413587" y="5734799.679723145" linkRefId="3416" isBlocking="false" name="9470270_a" />
+		<stopFacility id="9470270_b" x="455661.2904413587" y="5734799.679723145" linkRefId="3413" isBlocking="false" name="9470270_b" />
+		<stopFacility id="9470272_a" x="453402.2959956337" y="5736391.292211061" linkRefId="33" isBlocking="false" name="9470272_a" />
+		<stopFacility id="9470272_b" x="453402.2959956337" y="5736391.292211061" linkRefId="32" isBlocking="false" name="9470272_b" />
+		<stopFacility id="9470273_a" x="450797.02482712653" y="5733716.377293255" linkRefId="4630" isBlocking="false" name="9470273_a" />
+		<stopFacility id="9470273_b" x="450797.02482712653" y="5733716.377293255" linkRefId="4629" isBlocking="false" name="9470273_b" />
+		<stopFacility id="9470274_a" x="451993.6065591264" y="5734018.023620796" linkRefId="ptl13" isBlocking="false" name="9470274_a" />
+		<stopFacility id="9470274_b" x="451993.6065591264" y="5734018.023620796" linkRefId="ptb13" isBlocking="false" name="9470274_b" />
+		<stopFacility id="9470274_c" x="451955.5670123385" y="5733962.63445843" linkRefId="2184" isBlocking="false" name="9470274_c" />
+		<stopFacility id="9470274_d" x="451955.5670123385" y="5733962.63445843" linkRefId="2183" isBlocking="false" name="9470274_d" />
+		<stopFacility id="9470276_a" x="449624.4462477298" y="5733539.608694951" linkRefId="4618" isBlocking="false" name="9470276_a" />
+		<stopFacility id="9470276_b" x="449624.4462477298" y="5733539.608694951" linkRefId="4617" isBlocking="false" name="9470276_b" />
+		<stopFacility id="9470279_a" x="454149.12337983295" y="5731940.262831951" linkRefId="ptb25" isBlocking="false" name="9470279_a" />
+		<stopFacility id="9470279_b" x="454149.12337983295" y="5731940.262831951" linkRefId="ptl25" isBlocking="false" name="9470279_b" />
+		<stopFacility id="9470280_a" x="453528.8338947828" y="5735220.005876678" linkRefId="2758" isBlocking="false" name="9470280_a" />
+		<stopFacility id="9470280_b" x="453528.8338947828" y="5735220.005876678" linkRefId="2759" isBlocking="false" name="9470280_b" />
+		<stopFacility id="9470281_a" x="453672.4625478748" y="5735391.303688157" linkRefId="5157" isBlocking="false" name="9470281_a" />
+		<stopFacility id="9470281_b" x="453672.4625478748" y="5735391.303688157" linkRefId="5156" isBlocking="false" name="9470281_b" />
+		<stopFacility id="9470282_a" x="453501.9329318596" y="5732774.546356767" linkRefId="1644" isBlocking="false" name="9470282_a" />
+		<stopFacility id="9470282_b" x="453507.5182443744" y="5732774.494832349" linkRefId="1649" isBlocking="false" name="9470282_b" />
+		<stopFacility id="9470283_a" x="453629.86319693935" y="5733290.271677336" linkRefId="8632" isBlocking="false" name="9470283_a" />
+		<stopFacility id="9470283_b" x="453630.47353626246" y="5733259.829145018" linkRefId="40" isBlocking="false" name="9470283_b" />
+		<stopFacility id="9470284_a" x="453590.56388637354" y="5731278.023916386" linkRefId="ptb37" isBlocking="false" name="9470284_a" />
+		<stopFacility id="9470284_b" x="453590.56388637354" y="5731278.023916386" linkRefId="ptl37" isBlocking="false" name="9470284_b" />
+		<stopFacility id="9470285_a" x="455805.31874317606" y="5733544.821176317" linkRefId="2100" isBlocking="false" name="9470285_a" />
+		<stopFacility id="9470287_a" x="454490.5441984886" y="5730693.194749326" linkRefId="7170" isBlocking="false" name="9470287_a" />
+		<stopFacility id="9470287_b" x="454338.2270536818" y="5730757.601773165" linkRefId="7149" isBlocking="false" name="9470287_b" />
+		<stopFacility id="9470288_a" x="452593.0731258331" y="5733184.200961035" linkRefId="6998" isBlocking="false" name="9470288_a" />
+		<stopFacility id="9470288_b" x="452593.0731258331" y="5733184.200961035" linkRefId="6999" isBlocking="false" name="9470288_b" />
+		<stopFacility id="9470290_a" x="455473.7753072552" y="5733512.7494956" linkRefId="5376" isBlocking="false" name="9470290_a" />
+		<stopFacility id="9470290_b" x="455473.7753072552" y="5733512.7494956" linkRefId="5377" isBlocking="false" name="9470290_b" />
+		<stopFacility id="9470291_a" x="452518.68521599495" y="5731275.684922573" linkRefId="3021" isBlocking="false" name="9470291_a" />
+		<stopFacility id="9470291_b" x="452518.68521599495" y="5731275.684922573" linkRefId="3020" isBlocking="false" name="9470291_b" />
+		<stopFacility id="9470292_a" x="452960.5394147474" y="5732829.157613145" linkRefId="5169" isBlocking="false" name="9470292_a" />
+		<stopFacility id="9470292_b" x="452960.5394147474" y="5732829.157613145" linkRefId="5168" isBlocking="false" name="9470292_b" />
+		<stopFacility id="9470293_a" x="453421.04171402147" y="5734700.0743943695" linkRefId="10535" isBlocking="false" name="9470293_a" />
+		<stopFacility id="9470293_b" x="453421.04171402147" y="5734700.0743943695" linkRefId="10534" isBlocking="false" name="9470293_b" />
+		<stopFacility id="9470294_a" x="453631.54785475414" y="5733968.438650811" linkRefId="10616" isBlocking="false" name="9470294_a" />
+		<stopFacility id="9470294_b" x="453631.54785475414" y="5733968.438650811" linkRefId="10617" isBlocking="false" name="9470294_b" />
+		<stopFacility id="9470296_a" x="457630.8020934741" y="5740203.326744782" linkRefId="614" isBlocking="false" name="9470296_a" />
+		<stopFacility id="9470296_b" x="457630.8020934741" y="5740203.326744782" linkRefId="615" isBlocking="false" name="9470296_b" />
+		<stopFacility id="9470297_a" x="457911.0553030381" y="5740355.536359876" linkRefId="7263" isBlocking="false" name="9470297_a" />
+		<stopFacility id="9470297_b" x="457911.0553030381" y="5740355.536359876" linkRefId="7264" isBlocking="false" name="9470297_b" />
+		<stopFacility id="9470298_a" x="457515.1798394956" y="5739493.766651342" linkRefId="5333" isBlocking="false" name="9470298_a" />
+		<stopFacility id="9470298_b" x="457447.5684716798" y="5739147.828631986" linkRefId="5337" isBlocking="false" name="9470298_b" />
+		<stopFacility id="9470299_a" x="457550.91518691834" y="5739807.14223665" linkRefId="618" isBlocking="false" name="9470299_a" />
+		<stopFacility id="9470299_b" x="457550.91518691834" y="5739807.14223665" linkRefId="619" isBlocking="false" name="9470299_b" />
+		<stopFacility id="9470303_a" x="453987.7952922763" y="5735188.671553494" linkRefId="561" isBlocking="false" name="9470303_a" />
+		<stopFacility id="9470303_b" x="453987.7952922763" y="5735188.671553494" linkRefId="560" isBlocking="false" name="9470303_b" />
+		<stopFacility id="9470304_a" x="453475.68298751523" y="5730055.604820068" linkRefId="ptb44" isBlocking="false" name="9470304_a" />
+		<stopFacility id="9470304_b" x="453475.68298751523" y="5730055.604820068" linkRefId="ptl44" isBlocking="false" name="9470304_b" />
+		<stopFacility id="9470304_c" x="453420.41458088614" y="5730144.850512333" linkRefId="10311" isBlocking="false" name="9470304_c" />
+		<stopFacility id="9470304_d" x="453420.41458088614" y="5730144.850512333" linkRefId="10312" isBlocking="false" name="9470304_d" />
+		<stopFacility id="9470305_a" x="454196.770705119" y="5737645.518723756" linkRefId="4777" isBlocking="false" name="9470305_a" />
+		<stopFacility id="9470305_b" x="454196.770705119" y="5737645.518723756" linkRefId="4776" isBlocking="false" name="9470305_b" />
+		<stopFacility id="9470307_a" x="457745.5539812258" y="5740806.818385465" linkRefId="ptl54" isBlocking="false" name="9470307_a" />
+		<stopFacility id="9470307_b" x="457745.5539812258" y="5740806.818385465" linkRefId="ptb54" isBlocking="false" name="9470307_b" />
+		<stopFacility id="9470308_a" x="453095.64387112367" y="5730778.164917216" linkRefId="9895" isBlocking="false" name="9470308_a" />
+		<stopFacility id="9470308_b" x="453095.64387112367" y="5730778.164917216" linkRefId="9894" isBlocking="false" name="9470308_b" />
+		<stopFacility id="9470312_a" x="458295.48157902807" y="5734924.523834017" linkRefId="4763" isBlocking="false" name="9470312_a" />
+		<stopFacility id="9470312_b" x="458295.48157902807" y="5734924.523834017" linkRefId="4762" isBlocking="false" name="9470312_b" />
+		<stopFacility id="9470321_a" x="454487.351882987" y="5731158.620446999" linkRefId="ptb29" isBlocking="false" name="9470321_a" />
+		<stopFacility id="9470321_b" x="454487.351882987" y="5731158.620446999" linkRefId="ptl29" isBlocking="false" name="9470321_b" />
+		<stopFacility id="9470326_a" x="453483.89288573" y="5730945.3312976295" linkRefId="ptb39" isBlocking="false" name="9470326_a" />
+		<stopFacility id="9470326_b" x="453483.89288573" y="5730945.3312976295" linkRefId="ptl39" isBlocking="false" name="9470326_b" />
+		<stopFacility id="9470326_c" x="453542.84650053" y="5730941.662480909" linkRefId="7152" isBlocking="false" name="9470326_c" />
+		<stopFacility id="9470326_d" x="453615.184638618" y="5730920.576816805" linkRefId="7166" isBlocking="false" name="9470326_d" />
+		<stopFacility id="9470330_a" x="453684.7382383542" y="5730924.573862867" linkRefId="7151" isBlocking="false" name="9470330_a" />
+		<stopFacility id="9470331_a" x="455346.4462553245" y="5734956.653487795" linkRefId="8608" isBlocking="false" name="9470331_a" />
+		<stopFacility id="9470331_b" x="455346.4462553245" y="5734956.653487795" linkRefId="8609" isBlocking="false" name="9470331_b" />
+		<stopFacility id="9470340_a" x="453102.51096048823" y="5735261.976408405" linkRefId="3289" isBlocking="false" name="9470340_a" />
+		<stopFacility id="9470340_b" x="453102.51096048823" y="5735261.976408405" linkRefId="3290" isBlocking="false" name="9470340_b" />
+		<stopFacility id="9470371_a" x="455568.2515446946" y="5735220.689077924" linkRefId="7529" isBlocking="false" name="9470371_a" />
+		<stopFacility id="9470371_b" x="455568.2515446946" y="5735220.689077924" linkRefId="7530" isBlocking="false" name="9470371_b" />
+		<stopFacility id="9470402_a" x="454880.5219572096" y="5736493.9048196" linkRefId="ptb2" isBlocking="false" name="9470402_a" />
+		<stopFacility id="9470402_b" x="454880.5219572096" y="5736493.9048196" linkRefId="ptl2" isBlocking="false" name="9470402_b" />
+		<stopFacility id="9470405_a" x="456696.9561706177" y="5732071.815346967" linkRefId="6820" isBlocking="false" name="9470405_a" />
+		<stopFacility id="9470408_a" x="454386.274702365" y="5731437.597149006" linkRefId="ptb27" isBlocking="false" name="9470408_a" />
+		<stopFacility id="9470408_b" x="454386.274702365" y="5731437.597149006" linkRefId="ptl27" isBlocking="false" name="9470408_b" />
+		<stopFacility id="9740333_a" x="453006.10001816705" y="5737895.8957297485" linkRefId="8833" isBlocking="false" name="9740333_a" />
+		<stopFacility id="9740333_b" x="453006.10001816705" y="5737895.8957297485" linkRefId="8834" isBlocking="false" name="9740333_b" />
+		<stopFacility id="9740334_a" x="452366.26320344675" y="5739121.269896722" linkRefId="8764" isBlocking="false" name="9740334_a" />
+		<stopFacility id="9740334_b" x="452366.26320344675" y="5739121.269896722" linkRefId="8765" isBlocking="false" name="9740334_b" />
+		<stopFacility id="9740335_a" x="452791.3643648828" y="5738375.758549365" linkRefId="8758" isBlocking="false" name="9740335_a" />
+		<stopFacility id="9740335_b" x="452791.3643648828" y="5738375.758549365" linkRefId="8759" isBlocking="false" name="9740335_b" />
+		<stopFacility id="9740336_a" x="453025.8186430336" y="5737671.589699837" linkRefId="8831" isBlocking="false" name="9740336_a" />
+		<stopFacility id="9740336_b" x="453025.8186430336" y="5737671.589699837" linkRefId="8832" isBlocking="false" name="9740336_b" />
+	</transitStops>
+	<transitLine id="1" name="1">
+		<transitRoute id="1">
+			<transportMode>tram</transportMode>
+			<routeProfile>
+				<stop refId="9470246_a" arrivalOffset="00:02:00" departureOffset="00:02:00" awaitDeparture="true" />
+				<stop refId="9470105_a" arrivalOffset="00:04:00" departureOffset="00:04:20" awaitDeparture="true" />
+				<stop refId="9470219_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470117_a" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470119_a" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9470303_a" arrivalOffset="00:09:00" departureOffset="00:09:20" awaitDeparture="true" />
+				<stop refId="9470268_a" arrivalOffset="00:11:00" departureOffset="00:12:00" awaitDeparture="true" />
+				<stop refId="9470108_a" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470294_a" arrivalOffset="00:16:00" departureOffset="00:16:20" awaitDeparture="true" />
+				<stop refId="9470000_a" arrivalOffset="00:17:00" departureOffset="00:17:20" awaitDeparture="true" />
+				<stop refId="9470157_a" arrivalOffset="00:18:00" departureOffset="00:18:20" awaitDeparture="true" />
+				<stop refId="9470288_a" arrivalOffset="00:19:00" departureOffset="00:19:20" awaitDeparture="true" />
+				<stop refId="9470177_a" arrivalOffset="00:19:00" departureOffset="00:30:00" awaitDeparture="true" />
+				<stop refId="9470177_b" arrivalOffset="00:30:00" departureOffset="00:30:20" awaitDeparture="true" />
+				<stop refId="9470288_b" arrivalOffset="00:31:00" departureOffset="00:31:20" awaitDeparture="true" />
+				<stop refId="9470157_b" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9470000_b" arrivalOffset="00:33:00" departureOffset="00:33:20" awaitDeparture="true" />
+				<stop refId="9470294_b" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+				<stop refId="9470108_b" arrivalOffset="00:37:00" departureOffset="00:37:20" awaitDeparture="true" />
+				<stop refId="9470268_b" arrivalOffset="00:39:00" departureOffset="00:40:00" awaitDeparture="true" />
+				<stop refId="9470303_b" arrivalOffset="00:41:00" departureOffset="00:41:20" awaitDeparture="true" />
+				<stop refId="9470119_b" arrivalOffset="00:42:00" departureOffset="00:42:20" awaitDeparture="true" />
+				<stop refId="9470117_b" arrivalOffset="00:44:00" departureOffset="00:44:20" awaitDeparture="true" />
+				<stop refId="9470219_b" arrivalOffset="00:45:00" departureOffset="00:45:20" awaitDeparture="true" />
+				<stop refId="9470105_b" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+				<stop refId="9470246_b" arrivalOffset="00:49:00" departureOffset="00:49:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="5101" />
+				<link refId="5099" />
+				<link refId="8883" />
+				<link refId="8881" />
+				<link refId="8879" />
+				<link refId="8877" />
+				<link refId="8875" />
+				<link refId="8873" />
+				<link refId="8871" />
+				<link refId="4909" />
+				<link refId="3027" />
+				<link refId="3025" />
+				<link refId="3023" />
+				<link refId="567" />
+				<link refId="565" />
+				<link refId="563" />
+				<link refId="561" />
+				<link refId="1679" />
+				<link refId="1681" />
+				<link refId="ptb57" />
+				<link refId="ptb58" />
+							
+				<link refId="ptll" />
+			
+				<link refId="7872" />
+				<link refId="5866" />
+				<link refId="1355" />
+				<link refId="10019" />
+				<link refId="8951" />
+				<link refId="7934" />
+				<link refId="2582" />
+				<link refId="10616" />
+				<link refId="10516" />
+				<link refId="9994" />
+				<link refId="9991" />
+				<link refId="9969" />
+				<link refId="3490" />
+				<link refId="3499" />
+				<link refId="3501" />
+				<link refId="6990" />
+				<link refId="6992" />
+				<link refId="6994" />
+				<link refId="6996" />
+				<link refId="6998" />
+				<link refId="3695" />
+				<link refId="9200" />
+				<link refId="9201" />
+				<link refId="3696" />
+				<link refId="6999" />
+				<link refId="6997" />
+				<link refId="6995" />
+				<link refId="6993" />
+				<link refId="6991" />
+				<link refId="3502" />
+				<link refId="3500" />
+				<link refId="3503" />
+				<link refId="9962" />
+				<link refId="9982" />
+				<link refId="9983" />
+				<link refId="9984" />
+				<link refId="10517" />
+				<link refId="10617" />
+				<link refId="2583" />
+				<link refId="7935" />
+				<link refId="8952" />
+				<link refId="10020" />
+				<link refId="1356" />
+				<link refId="5867" />
+				<link refId="7871" />
+				
+				<link refId="ptlr" />
+				
+				<link refId="ptl58" />
+				
+				<link refId="ptl57" />
+				<link refId="1682" />
+				<link refId="1680" />
+				<link refId="560" />
+				<link refId="562" />
+				<link refId="564" />
+				<link refId="566" />
+				<link refId="3022" />
+				<link refId="3024" />
+				<link refId="3026" />
+				<link refId="4908" />
+				<link refId="8870" />
+				<link refId="8872" />
+				<link refId="8874" />
+				<link refId="8876" />
+				<link refId="8878" />
+				<link refId="8880" />
+				<link refId="8882" />
+				<link refId="5098" />
+				<link refId="5100" />
+			</route>
+			<departures>
+				<departure id="1_16620.0" departureTime="04:37:00" vehicleRefId="1_0" />
+				<departure id="1_17820.0" departureTime="04:57:00" vehicleRefId="1_1" />
+				<departure id="1_19020.0" departureTime="05:17:00" vehicleRefId="1_2" />
+				<departure id="1_20220.0" departureTime="05:37:00" vehicleRefId="1_3" />
+				<departure id="1_21420.0" departureTime="05:57:00" vehicleRefId="1_4" />
+				<departure id="1_22620.0" departureTime="06:17:00" vehicleRefId="1_0" />
+				<departure id="1_23820.0" departureTime="06:37:00" vehicleRefId="1_1" />
+				<departure id="1_25020.0" departureTime="06:57:00" vehicleRefId="1_2" />
+				<departure id="1_26220.0" departureTime="07:17:00" vehicleRefId="1_3" />
+				<departure id="1_27420.0" departureTime="07:37:00" vehicleRefId="1_4" />
+				<departure id="1_28620.0" departureTime="07:57:00" vehicleRefId="1_0" />
+				<departure id="1_29820.0" departureTime="08:17:00" vehicleRefId="1_1" />
+				<departure id="1_31020.0" departureTime="08:37:00" vehicleRefId="1_2" />
+				<departure id="1_32220.0" departureTime="08:57:00" vehicleRefId="1_3" />
+				<departure id="1_33420.0" departureTime="09:17:00" vehicleRefId="1_4" />
+				<departure id="1_34620.0" departureTime="09:37:00" vehicleRefId="1_0" />
+				<departure id="1_35820.0" departureTime="09:57:00" vehicleRefId="1_1" />
+				<departure id="1_37020.0" departureTime="10:17:00" vehicleRefId="1_2" />
+				<departure id="1_38220.0" departureTime="10:37:00" vehicleRefId="1_3" />
+				<departure id="1_39420.0" departureTime="10:57:00" vehicleRefId="1_4" />
+				<departure id="1_40620.0" departureTime="11:17:00" vehicleRefId="1_0" />
+				<departure id="1_41820.0" departureTime="11:37:00" vehicleRefId="1_1" />
+				<departure id="1_43020.0" departureTime="11:57:00" vehicleRefId="1_2" />
+				<departure id="1_44220.0" departureTime="12:17:00" vehicleRefId="1_3" />
+				<departure id="1_45420.0" departureTime="12:37:00" vehicleRefId="1_4" />
+				<departure id="1_46620.0" departureTime="12:57:00" vehicleRefId="1_0" />
+				<departure id="1_47820.0" departureTime="13:17:00" vehicleRefId="1_1" />
+				<departure id="1_49020.0" departureTime="13:37:00" vehicleRefId="1_2" />
+				<departure id="1_50220.0" departureTime="13:57:00" vehicleRefId="1_3" />
+				<departure id="1_51420.0" departureTime="14:17:00" vehicleRefId="1_4" />
+				<departure id="1_52620.0" departureTime="14:37:00" vehicleRefId="1_0" />
+				<departure id="1_53820.0" departureTime="14:57:00" vehicleRefId="1_1" />
+				<departure id="1_55020.0" departureTime="15:17:00" vehicleRefId="1_2" />
+				<departure id="1_56220.0" departureTime="15:37:00" vehicleRefId="1_3" />
+				<departure id="1_57420.0" departureTime="15:57:00" vehicleRefId="1_4" />
+				<departure id="1_58620.0" departureTime="16:17:00" vehicleRefId="1_0" />
+				<departure id="1_59820.0" departureTime="16:37:00" vehicleRefId="1_1" />
+				<departure id="1_61020.0" departureTime="16:57:00" vehicleRefId="1_2" />
+				<departure id="1_62220.0" departureTime="17:17:00" vehicleRefId="1_3" />
+				<departure id="1_63420.0" departureTime="17:37:00" vehicleRefId="1_4" />
+				<departure id="1_64620.0" departureTime="17:57:00" vehicleRefId="1_0" />
+				<departure id="1_65820.0" departureTime="18:17:00" vehicleRefId="1_1" />
+				<departure id="1_67020.0" departureTime="18:37:00" vehicleRefId="1_2" />
+				<departure id="1_68220.0" departureTime="18:57:00" vehicleRefId="1_3" />
+				<departure id="1_69420.0" departureTime="19:17:00" vehicleRefId="1_4" />
+				<departure id="1_70620.0" departureTime="19:37:00" vehicleRefId="1_0" />
+				<departure id="1_71820.0" departureTime="19:57:00" vehicleRefId="1_1" />
+				<departure id="1_73020.0" departureTime="20:17:00" vehicleRefId="1_2" />
+				<departure id="1_74220.0" departureTime="20:37:00" vehicleRefId="1_3" />
+				<departure id="1_75420.0" departureTime="20:57:00" vehicleRefId="1_4" />
+				<departure id="1_76620.0" departureTime="21:17:00" vehicleRefId="1_0" />
+				<departure id="1_77820.0" departureTime="21:37:00" vehicleRefId="1_1" />
+				<departure id="1_79020.0" departureTime="21:57:00" vehicleRefId="1_2" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="10" name="10">
+		<transitRoute id="10">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470168_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470294_b" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470269_c" arrivalOffset="00:04:00" departureOffset="00:06:00" awaitDeparture="true" />
+				<stop refId="9470155_a" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470232_a" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9470159_a" arrivalOffset="00:09:00" departureOffset="00:09:20" awaitDeparture="true" />
+				<stop refId="9470290_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9470118_a" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470150_a" arrivalOffset="00:13:00" departureOffset="00:13:20" awaitDeparture="true" />
+				<stop refId="9470264_a" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470127_a" arrivalOffset="00:15:00" departureOffset="00:18:00" awaitDeparture="true" />
+				<stop refId="9470264_b" arrivalOffset="00:19:00" departureOffset="00:19:20" awaitDeparture="true" />
+				<stop refId="9470150_b" arrivalOffset="00:20:00" departureOffset="00:20:20" awaitDeparture="true" />
+				<stop refId="9470125_a" arrivalOffset="00:22:00" departureOffset="00:22:20" awaitDeparture="true" />
+				<stop refId="9470121_a" arrivalOffset="00:23:00" departureOffset="00:23:20" awaitDeparture="true" />
+				<stop refId="9470405_a" arrivalOffset="00:25:00" departureOffset="00:25:20" awaitDeparture="true" />
+				<stop refId="9470123_a" arrivalOffset="00:26:00" departureOffset="00:26:20" awaitDeparture="true" />
+				<stop refId="9470126_a" arrivalOffset="00:27:00" departureOffset="00:27:20" awaitDeparture="true" />
+				<stop refId="9470120_a" arrivalOffset="00:28:00" departureOffset="00:28:20" awaitDeparture="true" />
+				<stop refId="9470285_a" arrivalOffset="00:30:00" departureOffset="00:30:20" awaitDeparture="true" />
+				<stop refId="9470290_b" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9470159_b" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470232_b" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+				<stop refId="9470155_b" arrivalOffset="00:36:00" departureOffset="00:36:20" awaitDeparture="true" />
+				<stop refId="9470269_d" arrivalOffset="00:37:00" departureOffset="00:40:00" awaitDeparture="true" />
+				<stop refId="9470129_a" arrivalOffset="00:42:00" departureOffset="00:42:20" awaitDeparture="true" />
+				<stop refId="9470185_a" arrivalOffset="00:44:00" departureOffset="00:44:20" awaitDeparture="true" />
+				<stop refId="9470168_b" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="3503" />
+				<link refId="9962" />
+				<link refId="9982" />
+				<link refId="9983" />
+				<link refId="9984" />
+				<link refId="10517" />
+				<link refId="10617" />
+				<link refId="2583" />
+				<link refId="7935" />
+				<link refId="8952" />
+				<link refId="6066" />
+				<link refId="5892" />
+				<link refId="2498" />
+				<link refId="6666" />
+				<link refId="2390" />
+				<link refId="6599" />
+				<link refId="6597" />
+				<link refId="6645" />
+				<link refId="6782" />
+				<link refId="6780" />
+				<link refId="6778" />
+				<link refId="6776" />
+				<link refId="2513" />
+				<link refId="2515" />
+				<link refId="9762" />
+				<link refId="9760" />
+				<link refId="9758" />
+				<link refId="9756" />
+				<link refId="314" />
+				<link refId="5376" />
+				<link refId="2097" />
+				<link refId="2099" />
+				<link refId="5971" />
+				<link refId="5969" />
+				<link refId="5967" />
+				<link refId="8395" />
+				<link refId="2093" />
+				<link refId="874" />
+				<link refId="876" />
+				<link refId="81" />
+				<link refId="83" />
+				<link refId="1868" />
+				<link refId="4825" />
+				<link refId="4824" />
+				<link refId="1869" />
+				<link refId="84" />
+				<link refId="82" />
+				<link refId="877" />
+				<link refId="875" />
+				<link refId="2095" />
+				<link refId="2435" />
+				<link refId="2437" />
+				<link refId="9750" />
+				<link refId="9754" />
+				<link refId="9752" />
+				<link refId="6822" />
+				<link refId="6820" />
+				<link refId="6818" />
+				<link refId="6816" />
+				<link refId="2448" />
+				<link refId="2446" />
+				<link refId="2444" />
+				<link refId="3302" />
+				<link refId="4003" />
+				<link refId="4005" />
+				<link refId="4007" />
+				<link refId="5182" />
+				<link refId="3009" />
+				<link refId="5184" />
+				<link refId="2097" />
+				<link refId="2099" />
+				<link refId="2100" />
+				<link refId="2098" />
+				<link refId="5377" />
+				<link refId="313" />
+				<link refId="9755" />
+				<link refId="9757" />
+				<link refId="9759" />
+				<link refId="9761" />
+				<link refId="2514" />
+				<link refId="2512" />
+				<link refId="6775" />
+				<link refId="6777" />
+				<link refId="6779" />
+				<link refId="6781" />
+				<link refId="6644" />
+				<link refId="6596" />
+				<link refId="6598" />
+				<link refId="2389" />
+				<link refId="6667" />
+				<link refId="2501" />
+				<link refId="5634" />
+				<link refId="6067" />
+				<link refId="6662" />
+				<link refId="2169" />
+				<link refId="8505" />
+				<link refId="8503" />
+				<link refId="10103" />
+				<link refId="4980" />
+				<link refId="5131" />
+				<link refId="2582" />
+				<link refId="10616" />
+				<link refId="10516" />
+				<link refId="9994" />
+				<link refId="9991" />
+				<link refId="9969" />
+				<link refId="3490" />
+			</route>
+			<departures>
+				<departure id="10_18240.0" departureTime="05:04:00" vehicleRefId="10_0" />
+				<departure id="10_20040.0" departureTime="05:34:00" vehicleRefId="10_1" />
+				<departure id="10_21840.0" departureTime="06:04:00" vehicleRefId="10_2" />
+				<departure id="10_23640.0" departureTime="06:34:00" vehicleRefId="10_3" />
+				<departure id="10_25440.0" departureTime="07:04:00" vehicleRefId="10_4" />
+				<departure id="10_27240.0" departureTime="07:34:00" vehicleRefId="10_0" />
+				<departure id="10_29040.0" departureTime="08:04:00" vehicleRefId="10_1" />
+				<departure id="10_30840.0" departureTime="08:34:00" vehicleRefId="10_2" />
+				<departure id="10_32640.0" departureTime="09:04:00" vehicleRefId="10_3" />
+				<departure id="10_34440.0" departureTime="09:34:00" vehicleRefId="10_4" />
+				<departure id="10_36240.0" departureTime="10:04:00" vehicleRefId="10_0" />
+				<departure id="10_38040.0" departureTime="10:34:00" vehicleRefId="10_1" />
+				<departure id="10_39840.0" departureTime="11:04:00" vehicleRefId="10_2" />
+				<departure id="10_41640.0" departureTime="11:34:00" vehicleRefId="10_3" />
+				<departure id="10_43440.0" departureTime="12:04:00" vehicleRefId="10_4" />
+				<departure id="10_45240.0" departureTime="12:34:00" vehicleRefId="10_0" />
+				<departure id="10_47040.0" departureTime="13:04:00" vehicleRefId="10_1" />
+				<departure id="10_48840.0" departureTime="13:34:00" vehicleRefId="10_2" />
+				<departure id="10_50640.0" departureTime="14:04:00" vehicleRefId="10_3" />
+				<departure id="10_52440.0" departureTime="14:34:00" vehicleRefId="10_4" />
+				<departure id="10_54240.0" departureTime="15:04:00" vehicleRefId="10_0" />
+				<departure id="10_56040.0" departureTime="15:34:00" vehicleRefId="10_1" />
+				<departure id="10_57840.0" departureTime="16:04:00" vehicleRefId="10_2" />
+				<departure id="10_59640.0" departureTime="16:34:00" vehicleRefId="10_3" />
+				<departure id="10_61440.0" departureTime="17:04:00" vehicleRefId="10_4" />
+				<departure id="10_63240.0" departureTime="17:34:00" vehicleRefId="10_0" />
+				<departure id="10_65040.0" departureTime="18:04:00" vehicleRefId="10_1" />
+				<departure id="10_66840.0" departureTime="18:34:00" vehicleRefId="10_2" />
+				<departure id="10_68640.0" departureTime="19:04:00" vehicleRefId="10_3" />
+				<departure id="10_70440.0" departureTime="19:34:00" vehicleRefId="10_4" />
+				<departure id="10_72240.0" departureTime="20:04:00" vehicleRefId="10_0" />
+				<departure id="10_74040.0" departureTime="20:34:00" vehicleRefId="10_1" />
+				<departure id="10_75840.0" departureTime="21:04:00" vehicleRefId="10_2" />
+				<departure id="10_77640.0" departureTime="21:34:00" vehicleRefId="10_3" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="12" name="12">
+		<transitRoute id="12">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9445897_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9445894_a" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9445891_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470276_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470273_a" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="9470274_c" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9470156_a" arrivalOffset="00:09:00" departureOffset="00:09:20" awaitDeparture="true" />
+				<stop refId="9470132_a" arrivalOffset="00:11:00" departureOffset="00:11:20" awaitDeparture="true" />
+				<stop refId="9470266_a" arrivalOffset="00:13:00" departureOffset="00:13:20" awaitDeparture="true" />
+				<stop refId="9470129_b" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470269_d" arrivalOffset="00:16:00" departureOffset="00:18:00" awaitDeparture="true" />
+				<stop refId="9470155_a" arrivalOffset="00:19:00" departureOffset="00:19:20" awaitDeparture="true" />
+				<stop refId="9470232_a" arrivalOffset="00:20:00" departureOffset="00:20:20" awaitDeparture="true" />
+				<stop refId="9470234_a" arrivalOffset="00:21:00" departureOffset="00:21:20" awaitDeparture="true" />
+				<stop refId="9470331_a" arrivalOffset="00:23:00" departureOffset="00:23:20" awaitDeparture="true" />
+				<stop refId="9470233_a" arrivalOffset="00:24:00" departureOffset="00:24:20" awaitDeparture="true" />
+				<stop refId="9470371_a" arrivalOffset="00:25:00" departureOffset="00:25:20" awaitDeparture="true" />
+				<stop refId="9470176_a" arrivalOffset="00:27:00" departureOffset="00:27:20" awaitDeparture="true" />
+				<stop refId="9470113_a" arrivalOffset="00:29:00" departureOffset="00:29:20" awaitDeparture="true" />
+				<stop refId="9470210_a" arrivalOffset="00:31:00" departureOffset="00:39:00" awaitDeparture="true" />
+				<stop refId="9470208_a" arrivalOffset="00:44:00" departureOffset="00:44:20" awaitDeparture="true" />
+				<stop refId="9470209_a" arrivalOffset="00:45:00" departureOffset="00:45:20" awaitDeparture="true" />
+				<stop refId="9470166_a" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+				<stop refId="9470165_a" arrivalOffset="00:48:00" departureOffset="00:48:20" awaitDeparture="true" />
+				<stop refId="9470113_b" arrivalOffset="00:50:00" departureOffset="00:50:20" awaitDeparture="true" />
+				<stop refId="9470176_b" arrivalOffset="00:52:00" departureOffset="00:52:20" awaitDeparture="true" />
+				<stop refId="9470371_b" arrivalOffset="00:53:00" departureOffset="00:53:20" awaitDeparture="true" />
+				<stop refId="9470233_b" arrivalOffset="00:55:00" departureOffset="00:55:20" awaitDeparture="true" />
+				<stop refId="9470331_b" arrivalOffset="00:56:00" departureOffset="00:56:20" awaitDeparture="true" />
+				<stop refId="9470234_b" arrivalOffset="00:58:00" departureOffset="00:58:20" awaitDeparture="true" />
+				<stop refId="9470232_b" arrivalOffset="00:59:00" departureOffset="00:59:20" awaitDeparture="true" />
+				<stop refId="9470155_b" arrivalOffset="01:00:00" departureOffset="01:00:20" awaitDeparture="true" />
+				<stop refId="9470269_c" arrivalOffset="01:01:00" departureOffset="01:02:00" awaitDeparture="true" />
+				<stop refId="9470129_a" arrivalOffset="01:05:00" departureOffset="01:05:20" awaitDeparture="true" />
+				<stop refId="9470266_b" arrivalOffset="01:06:00" departureOffset="01:06:20" awaitDeparture="true" />
+				<stop refId="9470132_b" arrivalOffset="01:07:00" departureOffset="01:07:20" awaitDeparture="true" />
+				<stop refId="9470156_b" arrivalOffset="01:09:00" departureOffset="01:09:20" awaitDeparture="true" />
+				<stop refId="9470274_d" arrivalOffset="01:10:00" departureOffset="01:10:20" awaitDeparture="true" />
+				<stop refId="9470273_b" arrivalOffset="01:12:00" departureOffset="01:12:20" awaitDeparture="true" />
+				<stop refId="9470276_b" arrivalOffset="01:13:00" departureOffset="01:13:20" awaitDeparture="true" />
+				<stop refId="9445891_b" arrivalOffset="01:15:00" departureOffset="01:15:20" awaitDeparture="true" />
+				<stop refId="9445894_b" arrivalOffset="01:17:00" departureOffset="01:17:20" awaitDeparture="true" />
+				<stop refId="9445897_b" arrivalOffset="01:18:00" departureOffset="01:18:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="4626" />
+				<link refId="255" />
+				<link refId="254" />
+				<link refId="4624" />
+				<link refId="4622" />
+				<link refId="4620" />
+				<link refId="4618" />
+				<link refId="4616" />
+				<link refId="4630" />
+				<link refId="3838" />
+				<link refId="3836" />
+				<link refId="3834" />
+				<link refId="3832" />
+				<link refId="2184" />
+				<link refId="2182" />
+				<link refId="2180" />
+				<link refId="5538" />
+				<link refId="5536" />
+				<link refId="5534" />
+				<link refId="5532" />
+				<link refId="5530" />
+				<link refId="8502" />
+				<link refId="8504" />
+				<link refId="2170" />
+				<link refId="6663" />
+				<link refId="6066" />
+				<link refId="5892" />
+				<link refId="5634" />
+				<link refId="5892" />
+				<link refId="2498" />
+				<link refId="6666" />
+				<link refId="2390" />
+				<link refId="6599" />
+				<link refId="6597" />
+				<link refId="6645" />
+				<link refId="6782" />
+				<link refId="6780" />
+				<link refId="6778" />
+				<link refId="6776" />
+				<link refId="2513" />
+				<link refId="2515" />
+				<link refId="1504" />
+				<link refId="1502" />
+				<link refId="3410" />
+				<link refId="8606" />
+				<link refId="8608" />
+				<link refId="8610" />
+				<link refId="10363" />
+				<link refId="7529" />
+				<link refId="7533" />
+				<link refId="7535" />
+				<link refId="7537" />
+				<link refId="7539" />
+				<link refId="7541" />
+				<link refId="7543" />
+				<link refId="7545" />
+				<link refId="6634" />
+				<link refId="6551" />
+				<link refId="6549" />
+				<link refId="6547" />
+				<link refId="5291" />
+				<link refId="6534" />
+				<link refId="4551" />
+				<link refId="4549" />
+				<link refId="4547" />
+				<link refId="4545" />
+				<link refId="4543" />
+				<link refId="4541" />
+				<link refId="7538" />
+				<link refId="7536" />
+				<link refId="7534" />
+				<link refId="7530" />
+				<link refId="10364" />
+				<link refId="8611" />
+				<link refId="8609" />
+				<link refId="8607" />
+				<link refId="3409" />
+				<link refId="1501" />
+				<link refId="1503" />
+				<link refId="2514" />
+				<link refId="2512" />
+				<link refId="6775" />
+				<link refId="6777" />
+				<link refId="6779" />
+				<link refId="6781" />
+				<link refId="6644" />
+				<link refId="6596" />
+				<link refId="6598" />
+				<link refId="2389" />
+				<link refId="6667" />
+				<link refId="2501" />
+				<link refId="5634" />
+				<link refId="5892" />
+				<link refId="5634" />
+				<link refId="6067" />
+				<link refId="6662" />
+				<link refId="2169" />
+				<link refId="8505" />
+				<link refId="8503" />
+				<link refId="5529" />
+				<link refId="5531" />
+				<link refId="5533" />
+				<link refId="5535" />
+				<link refId="5537" />
+				<link refId="2179" />
+				<link refId="2181" />
+				<link refId="2183" />
+				<link refId="3831" />
+				<link refId="3833" />
+				<link refId="3835" />
+				<link refId="3837" />
+				<link refId="4629" />
+				<link refId="4615" />
+				<link refId="4617" />
+				<link refId="4619" />
+				<link refId="4621" />
+				<link refId="4623" />
+				<link refId="4625" />
+			</route>
+			<departures>
+				<departure id="12_17880.0" departureTime="04:58:00" vehicleRefId="12_0" />
+				<departure id="12_19680.0" departureTime="05:28:00" vehicleRefId="12_1" />
+				<departure id="12_21480.0" departureTime="05:58:00" vehicleRefId="12_2" />
+				<departure id="12_23280.0" departureTime="06:28:00" vehicleRefId="12_3" />
+				<departure id="12_25080.0" departureTime="06:58:00" vehicleRefId="12_4" />
+				<departure id="12_26880.0" departureTime="07:28:00" vehicleRefId="12_0" />
+				<departure id="12_28680.0" departureTime="07:58:00" vehicleRefId="12_1" />
+				<departure id="12_30480.0" departureTime="08:28:00" vehicleRefId="12_2" />
+				<departure id="12_32280.0" departureTime="08:58:00" vehicleRefId="12_3" />
+				<departure id="12_34080.0" departureTime="09:28:00" vehicleRefId="12_4" />
+				<departure id="12_35880.0" departureTime="09:58:00" vehicleRefId="12_0" />
+				<departure id="12_37680.0" departureTime="10:28:00" vehicleRefId="12_1" />
+				<departure id="12_39480.0" departureTime="10:58:00" vehicleRefId="12_2" />
+				<departure id="12_41280.0" departureTime="11:28:00" vehicleRefId="12_3" />
+				<departure id="12_43080.0" departureTime="11:58:00" vehicleRefId="12_4" />
+				<departure id="12_44880.0" departureTime="12:28:00" vehicleRefId="12_0" />
+				<departure id="12_46680.0" departureTime="12:58:00" vehicleRefId="12_1" />
+				<departure id="12_48480.0" departureTime="13:28:00" vehicleRefId="12_2" />
+				<departure id="12_50280.0" departureTime="13:58:00" vehicleRefId="12_3" />
+				<departure id="12_52080.0" departureTime="14:28:00" vehicleRefId="12_4" />
+				<departure id="12_53880.0" departureTime="14:58:00" vehicleRefId="12_0" />
+				<departure id="12_55680.0" departureTime="15:28:00" vehicleRefId="12_1" />
+				<departure id="12_57480.0" departureTime="15:58:00" vehicleRefId="12_2" />
+				<departure id="12_59280.0" departureTime="16:28:00" vehicleRefId="12_3" />
+				<departure id="12_61080.0" departureTime="16:58:00" vehicleRefId="12_4" />
+				<departure id="12_62880.0" departureTime="17:28:00" vehicleRefId="12_0" />
+				<departure id="12_64680.0" departureTime="17:58:00" vehicleRefId="12_1" />
+				<departure id="12_66480.0" departureTime="18:28:00" vehicleRefId="12_2" />
+				<departure id="12_68280.0" departureTime="18:58:00" vehicleRefId="12_3" />
+				<departure id="12_70080.0" departureTime="19:28:00" vehicleRefId="12_4" />
+				<departure id="12_71880.0" departureTime="19:58:00" vehicleRefId="12_0" />
+				<departure id="12_73680.0" departureTime="20:28:00" vehicleRefId="12_1" />
+				<departure id="12_75480.0" departureTime="20:58:00" vehicleRefId="12_2" />
+				<departure id="12_77280.0" departureTime="21:28:00" vehicleRefId="12_3" />
+				<departure id="12_79080.0" departureTime="21:58:00" vehicleRefId="12_4" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="13" name="13">
+		<transitRoute id="13">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470326_c" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470158_a" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470308_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9445543_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9445540_a" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9445545_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9445542_a" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9445543_b" arrivalOffset="00:16:00" departureOffset="00:16:20" awaitDeparture="true" />
+				<stop refId="9470308_b" arrivalOffset="00:18:00" departureOffset="00:18:20" awaitDeparture="true" />
+				<stop refId="9470326_d" arrivalOffset="00:21:00" departureOffset="00:21:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="7152" />
+				<link refId="7153" />
+				<link refId="7154" />
+				<link refId="4302" />
+				<link refId="2735" />
+				<link refId="9895" />
+				<link refId="9893" />
+				<link refId="9891" />
+				<link refId="9889" />
+				<link refId="3546" />
+				<link refId="3642" />
+				<link refId="3644" />
+				<link refId="3646" />
+				<link refId="5270" />
+				<link refId="10775" />
+				<link refId="10777" />
+				<link refId="10779" />
+				<link refId="9912" />
+				<link refId="9914" />
+				<link refId="9916" />
+				<link refId="9918" />
+				<link refId="3744" />
+				<link refId="3743" />
+				<link refId="9919" />
+				<link refId="9917" />
+				<link refId="9915" />
+				<link refId="9913" />
+				<link refId="10780" />
+				<link refId="10778" />
+				<link refId="10776" />
+				<link refId="5269" />
+				<link refId="3647" />
+				<link refId="3645" />
+				<link refId="3643" />
+				<link refId="3547" />
+				<link refId="9888" />
+				<link refId="9890" />
+				<link refId="9892" />
+				<link refId="9894" />
+				<link refId="2736" />
+				<link refId="7165" />
+				<link refId="7166" />
+			</route>
+			<departures>
+				<departure id="13_17400.0" departureTime="04:50:00" vehicleRefId="13_0" />
+				<departure id="13_18300.0" departureTime="05:05:00" vehicleRefId="13_1" />
+				<departure id="13_19200.0" departureTime="05:20:00" vehicleRefId="13_2" />
+				<departure id="13_20100.0" departureTime="05:35:00" vehicleRefId="13_3" />
+				<departure id="13_21000.0" departureTime="05:50:00" vehicleRefId="13_4" />
+				<departure id="13_21900.0" departureTime="06:05:00" vehicleRefId="13_0" />
+				<departure id="13_22800.0" departureTime="06:20:00" vehicleRefId="13_1" />
+				<departure id="13_23700.0" departureTime="06:35:00" vehicleRefId="13_2" />
+				<departure id="13_24600.0" departureTime="06:50:00" vehicleRefId="13_3" />
+				<departure id="13_25500.0" departureTime="07:05:00" vehicleRefId="13_4" />
+				<departure id="13_26400.0" departureTime="07:20:00" vehicleRefId="13_0" />
+				<departure id="13_27300.0" departureTime="07:35:00" vehicleRefId="13_1" />
+				<departure id="13_28200.0" departureTime="07:50:00" vehicleRefId="13_2" />
+				<departure id="13_29100.0" departureTime="08:05:00" vehicleRefId="13_3" />
+				<departure id="13_30000.0" departureTime="08:20:00" vehicleRefId="13_4" />
+				<departure id="13_30900.0" departureTime="08:35:00" vehicleRefId="13_0" />
+				<departure id="13_31800.0" departureTime="08:50:00" vehicleRefId="13_1" />
+				<departure id="13_32700.0" departureTime="09:05:00" vehicleRefId="13_2" />
+				<departure id="13_33600.0" departureTime="09:20:00" vehicleRefId="13_3" />
+				<departure id="13_34500.0" departureTime="09:35:00" vehicleRefId="13_4" />
+				<departure id="13_35400.0" departureTime="09:50:00" vehicleRefId="13_0" />
+				<departure id="13_36300.0" departureTime="10:05:00" vehicleRefId="13_1" />
+				<departure id="13_37200.0" departureTime="10:20:00" vehicleRefId="13_2" />
+				<departure id="13_38100.0" departureTime="10:35:00" vehicleRefId="13_3" />
+				<departure id="13_39000.0" departureTime="10:50:00" vehicleRefId="13_4" />
+				<departure id="13_39900.0" departureTime="11:05:00" vehicleRefId="13_0" />
+				<departure id="13_40800.0" departureTime="11:20:00" vehicleRefId="13_1" />
+				<departure id="13_41700.0" departureTime="11:35:00" vehicleRefId="13_2" />
+				<departure id="13_42600.0" departureTime="11:50:00" vehicleRefId="13_3" />
+				<departure id="13_43500.0" departureTime="12:05:00" vehicleRefId="13_4" />
+				<departure id="13_44400.0" departureTime="12:20:00" vehicleRefId="13_0" />
+				<departure id="13_45300.0" departureTime="12:35:00" vehicleRefId="13_1" />
+				<departure id="13_46200.0" departureTime="12:50:00" vehicleRefId="13_2" />
+				<departure id="13_47100.0" departureTime="13:05:00" vehicleRefId="13_3" />
+				<departure id="13_48000.0" departureTime="13:20:00" vehicleRefId="13_4" />
+				<departure id="13_48900.0" departureTime="13:35:00" vehicleRefId="13_0" />
+				<departure id="13_49800.0" departureTime="13:50:00" vehicleRefId="13_1" />
+				<departure id="13_50700.0" departureTime="14:05:00" vehicleRefId="13_2" />
+				<departure id="13_51600.0" departureTime="14:20:00" vehicleRefId="13_3" />
+				<departure id="13_52500.0" departureTime="14:35:00" vehicleRefId="13_4" />
+				<departure id="13_53400.0" departureTime="14:50:00" vehicleRefId="13_0" />
+				<departure id="13_54300.0" departureTime="15:05:00" vehicleRefId="13_1" />
+				<departure id="13_55200.0" departureTime="15:20:00" vehicleRefId="13_2" />
+				<departure id="13_56100.0" departureTime="15:35:00" vehicleRefId="13_3" />
+				<departure id="13_57000.0" departureTime="15:50:00" vehicleRefId="13_4" />
+				<departure id="13_57900.0" departureTime="16:05:00" vehicleRefId="13_0" />
+				<departure id="13_58800.0" departureTime="16:20:00" vehicleRefId="13_1" />
+				<departure id="13_59700.0" departureTime="16:35:00" vehicleRefId="13_2" />
+				<departure id="13_60600.0" departureTime="16:50:00" vehicleRefId="13_3" />
+				<departure id="13_61500.0" departureTime="17:05:00" vehicleRefId="13_4" />
+				<departure id="13_62400.0" departureTime="17:20:00" vehicleRefId="13_0" />
+				<departure id="13_63300.0" departureTime="17:35:00" vehicleRefId="13_1" />
+				<departure id="13_64200.0" departureTime="17:50:00" vehicleRefId="13_2" />
+				<departure id="13_65100.0" departureTime="18:05:00" vehicleRefId="13_3" />
+				<departure id="13_66000.0" departureTime="18:20:00" vehicleRefId="13_4" />
+				<departure id="13_66900.0" departureTime="18:35:00" vehicleRefId="13_0" />
+				<departure id="13_67800.0" departureTime="18:50:00" vehicleRefId="13_1" />
+				<departure id="13_68700.0" departureTime="19:05:00" vehicleRefId="13_2" />
+				<departure id="13_69600.0" departureTime="19:20:00" vehicleRefId="13_3" />
+				<departure id="13_70500.0" departureTime="19:35:00" vehicleRefId="13_4" />
+				<departure id="13_71400.0" departureTime="19:50:00" vehicleRefId="13_0" />
+				<departure id="13_72300.0" departureTime="20:05:00" vehicleRefId="13_1" />
+				<departure id="13_73200.0" departureTime="20:20:00" vehicleRefId="13_2" />
+				<departure id="13_74100.0" departureTime="20:35:00" vehicleRefId="13_3" />
+				<departure id="13_75000.0" departureTime="20:50:00" vehicleRefId="13_4" />
+				<departure id="13_75900.0" departureTime="21:05:00" vehicleRefId="13_0" />
+				<departure id="13_76800.0" departureTime="21:20:00" vehicleRefId="13_1" />
+				<departure id="13_77700.0" departureTime="21:35:00" vehicleRefId="13_2" />
+				<departure id="13_78600.0" departureTime="21:50:00" vehicleRefId="13_3" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="1417" name="1417">
+		<transitRoute id="1417">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470184_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470178_a" arrivalOffset="00:02:00" departureOffset="00:02:20" awaitDeparture="true" />
+				<stop refId="9470183_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470179_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470180_a" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9445806_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9445807_a" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470198_a" arrivalOffset="00:15:00" departureOffset="00:15:20" awaitDeparture="true" />
+				<stop refId="9470200_a" arrivalOffset="00:17:00" departureOffset="00:17:20" awaitDeparture="true" />
+				<stop refId="9470173_a" arrivalOffset="00:18:00" departureOffset="00:18:20" awaitDeparture="true" />
+				<stop refId="9470130_a" arrivalOffset="00:19:00" departureOffset="00:19:20" awaitDeparture="true" />
+				<stop refId="9470304_c" arrivalOffset="00:20:00" departureOffset="00:20:20" awaitDeparture="true" />
+				<stop refId="9445543_c" arrivalOffset="00:22:00" departureOffset="00:22:20" awaitDeparture="true" />
+				<stop refId="9445543_b" arrivalOffset="00:23:00" departureOffset="00:23:20" awaitDeparture="true" />
+				<stop refId="9445832_a" arrivalOffset="00:25:00" departureOffset="00:25:20" awaitDeparture="true" />
+				<stop refId="9445689_a" arrivalOffset="00:28:00" departureOffset="00:28:20" awaitDeparture="true" />
+				<stop refId="9445686_a" arrivalOffset="00:29:00" departureOffset="00:29:20" awaitDeparture="true" />
+				<stop refId="9445687_a" arrivalOffset="00:31:00" departureOffset="00:31:20" awaitDeparture="true" />
+				<stop refId="9445882_a" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9445890_a" arrivalOffset="00:35:00" departureOffset="00:54:00" awaitDeparture="true" />
+				<stop refId="9445881_a" arrivalOffset="00:56:00" departureOffset="00:56:20" awaitDeparture="true" />
+				<stop refId="9445897_a" arrivalOffset="00:59:00" departureOffset="01:04:00" awaitDeparture="true" />
+				<stop refId="9445894_c" arrivalOffset="01:05:00" departureOffset="01:05:20" awaitDeparture="true" />
+				<stop refId="9445882_b" arrivalOffset="01:07:00" departureOffset="01:07:20" awaitDeparture="true" />
+				<stop refId="9445687_b" arrivalOffset="01:08:00" departureOffset="01:08:20" awaitDeparture="true" />
+				<stop refId="9445686_b" arrivalOffset="01:10:00" departureOffset="01:10:20" awaitDeparture="true" />
+				<stop refId="9445688_a" arrivalOffset="01:13:00" departureOffset="01:13:20" awaitDeparture="true" />
+				<stop refId="9445689_b" arrivalOffset="01:15:00" departureOffset="01:15:20" awaitDeparture="true" />
+				<stop refId="9445830_a" arrivalOffset="01:17:00" departureOffset="01:17:20" awaitDeparture="true" />
+				<stop refId="9445832_b" arrivalOffset="01:19:00" departureOffset="01:19:20" awaitDeparture="true" />
+				<stop refId="9445543_a" arrivalOffset="01:22:00" departureOffset="01:22:20" awaitDeparture="true" />
+				<stop refId="9445543_d" arrivalOffset="01:23:00" departureOffset="01:23:20" awaitDeparture="true" />
+				<stop refId="9470304_d" arrivalOffset="01:26:00" departureOffset="01:29:00" awaitDeparture="true" />
+				<stop refId="9470130_b" arrivalOffset="01:30:00" departureOffset="01:30:20" awaitDeparture="true" />
+				<stop refId="9470173_b" arrivalOffset="01:31:00" departureOffset="01:31:20" awaitDeparture="true" />
+				<stop refId="9470200_b" arrivalOffset="01:33:00" departureOffset="01:33:20" awaitDeparture="true" />
+				<stop refId="9470198_b" arrivalOffset="01:35:00" departureOffset="01:35:20" awaitDeparture="true" />
+				<stop refId="9445807_b" arrivalOffset="01:38:00" departureOffset="01:38:20" awaitDeparture="true" />
+				<stop refId="9445806_b" arrivalOffset="01:40:00" departureOffset="01:40:20" awaitDeparture="true" />
+				<stop refId="9470180_b" arrivalOffset="01:42:00" departureOffset="01:42:20" awaitDeparture="true" />
+				<stop refId="9470179_b" arrivalOffset="01:44:00" departureOffset="01:44:20" awaitDeparture="true" />
+				<stop refId="9470184_a" arrivalOffset="01:46:00" departureOffset="01:46:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="9156" />
+				<link refId="9158" />
+				<link refId="9160" />
+				<link refId="10162" />
+				<link refId="4378" />
+				<link refId="4969" />
+				<link refId="9245" />
+				<link refId="9244" />
+				<link refId="4968" />
+				<link refId="4377" />
+				<link refId="2057" />
+				<link refId="2055" />
+				<link refId="2053" />
+				<link refId="2051" />
+				<link refId="2049" />
+				<link refId="2047" />
+				<link refId="2045" />
+				<link refId="4221" />
+				<link refId="4219" />
+				<link refId="4217" />
+				<link refId="4215" />
+				<link refId="4213" />
+				<link refId="4211" />
+				<link refId="7180" />
+				<link refId="7178" />
+				<link refId="6814" />
+				<link refId="6812" />
+				<link refId="6810" />
+				<link refId="6808" />
+				<link refId="6806" />
+				<link refId="6804" />
+				<link refId="581" />
+				<link refId="579" />
+				<link refId="577" />
+				<link refId="575" />
+				<link refId="1500" />
+				<link refId="1494" />
+				<link refId="1482" />
+				<link refId="1480" />
+				<link refId="1273" />
+				<link refId="1271" />
+				<link refId="1269" />
+				<link refId="7127" />
+				<link refId="1833" />
+				<link refId="1831" />
+				<link refId="1829" />
+				<link refId="1827" />
+				<link refId="6395" />
+				<link refId="6393" />
+				<link refId="6391" />
+				<link refId="6389" />
+				<link refId="6387" />
+				<link refId="10311" />
+				<link refId="3555" />
+				<link refId="3557" />
+				<link refId="8376" />
+				<link refId="8374" />
+				<link refId="9053" />
+				<link refId="9051" />
+				<link refId="3647" />
+				<link refId="3645" />
+				<link refId="4396" />
+				<link refId="4394" />
+				<link refId="4392" />
+				<link refId="623" />
+				<link refId="9043" />
+				<link refId="2190" />
+				<link refId="2188" />
+				<link refId="2186" />
+				<link refId="9067" />
+				<link refId="9065" />
+				<link refId="9063" />
+				<link refId="4662" />
+				<link refId="4660" />
+				<link refId="4658" />
+				<link refId="4656" />
+				<link refId="4654" />
+				<link refId="1921" />
+				<link refId="1919" />
+				<link refId="1917" />
+				<link refId="1915" />
+				<link refId="4648" />
+				<link refId="2139" />
+				<link refId="2141" />
+				<link refId="4674" />
+				<link refId="4672" />
+				<link refId="4670" />
+				<link refId="4668" />
+				<link refId="4666" />
+				<link refId="4678" />
+				<link refId="2196" />
+				<link refId="2194" />
+				<link refId="2192" />
+				<link refId="8358" />
+				<link refId="8356" />
+				<link refId="5141" />
+				<link refId="8272" />
+				<link refId="8274" />
+				<link refId="4626" />
+				<link refId="4624" />
+				<link refId="4622" />
+				<link refId="2191" />
+				<link refId="2193" />
+				<link refId="2195" />
+				<link refId="4677" />
+				<link refId="4665" />
+				<link refId="4667" />
+				<link refId="4669" />
+				<link refId="4671" />
+				<link refId="4673" />
+				<link refId="2142" />
+				<link refId="2140" />
+				<link refId="4647" />
+				<link refId="1914" />
+				<link refId="1916" />
+				<link refId="1918" />
+				<link refId="1920" />
+				<link refId="4653" />
+				<link refId="4655" />
+				<link refId="4599" />
+				<link refId="4597" />
+				<link refId="1844" />
+				<link refId="4594" />
+				<link refId="4596" />
+				<link refId="2384" />
+				<link refId="4659" />
+				<link refId="4661" />
+				<link refId="9062" />
+				<link refId="9064" />
+				<link refId="8560" />
+				<link refId="8562" />
+				<link refId="8564" />
+				<link refId="5845" />
+				<link refId="5843" />
+				<link refId="2185" />
+				<link refId="2187" />
+				<link refId="2189" />
+				<link refId="9042" />
+				<link refId="622" />
+				<link refId="4391" />
+				<link refId="4393" />
+				<link refId="4395" />
+				<link refId="3644" />
+				<link refId="3646" />
+				<link refId="9050" />
+				<link refId="9052" />
+				<link refId="8373" />
+				<link refId="8375" />
+				<link refId="3558" />
+				<link refId="3556" />
+				<link refId="10312" />
+				<link refId="6386" />
+				<link refId="6388" />
+				<link refId="6390" />
+				<link refId="6392" />
+				<link refId="6394" />
+				<link refId="1826" />
+				<link refId="1828" />
+				<link refId="1830" />
+				<link refId="1832" />
+				<link refId="7126" />
+				<link refId="1268" />
+				<link refId="1270" />
+				<link refId="1272" />
+				<link refId="1479" />
+				<link refId="1481" />
+				<link refId="1493" />
+				<link refId="1499" />
+				<link refId="574" />
+				<link refId="576" />
+				<link refId="578" />
+				<link refId="580" />
+				<link refId="6803" />
+				<link refId="6805" />
+				<link refId="6807" />
+				<link refId="6809" />
+				<link refId="6811" />
+				<link refId="6813" />
+				<link refId="7177" />
+				<link refId="7179" />
+				<link refId="4210" />
+				<link refId="4212" />
+				<link refId="4214" />
+				<link refId="4216" />
+				<link refId="4218" />
+				<link refId="4220" />
+				<link refId="2044" />
+				<link refId="2046" />
+				<link refId="2048" />
+				<link refId="2050" />
+				<link refId="2052" />
+				<link refId="9156" />
+			</route>
+			<departures>
+				<departure id="1417_17160.0" departureTime="04:46:00" vehicleRefId="1417_0" />
+				<departure id="1417_20760.0" departureTime="05:46:00" vehicleRefId="1417_1" />
+				<departure id="1417_24360.0" departureTime="06:46:00" vehicleRefId="1417_2" />
+				<departure id="1417_27960.0" departureTime="07:46:00" vehicleRefId="1417_3" />
+				<departure id="1417_31560.0" departureTime="08:46:00" vehicleRefId="1417_4" />
+				<departure id="1417_35160.0" departureTime="09:46:00" vehicleRefId="1417_0" />
+				<departure id="1417_38760.0" departureTime="10:46:00" vehicleRefId="1417_1" />
+				<departure id="1417_42360.0" departureTime="11:46:00" vehicleRefId="1417_2" />
+				<departure id="1417_45960.0" departureTime="12:46:00" vehicleRefId="1417_3" />
+				<departure id="1417_49560.0" departureTime="13:46:00" vehicleRefId="1417_4" />
+				<departure id="1417_53160.0" departureTime="14:46:00" vehicleRefId="1417_0" />
+				<departure id="1417_56760.0" departureTime="15:46:00" vehicleRefId="1417_1" />
+				<departure id="1417_60360.0" departureTime="16:46:00" vehicleRefId="1417_2" />
+				<departure id="1417_63960.0" departureTime="17:46:00" vehicleRefId="1417_3" />
+				<departure id="1417_67560.0" departureTime="18:46:00" vehicleRefId="1417_4" />
+				<departure id="1417_71160.0" departureTime="19:46:00" vehicleRefId="1417_0" />
+				<departure id="1417_74760.0" departureTime="20:46:00" vehicleRefId="1417_1" />
+				<departure id="1417_78360.0" departureTime="21:46:00" vehicleRefId="1417_2" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="15" name="15">
+		<transitRoute id="15">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470168_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470128_a" arrivalOffset="00:04:00" departureOffset="00:04:20" awaitDeparture="true" />
+				<stop refId="9470269_c" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="9470268_c" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470114_a" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9470281_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9470252_a" arrivalOffset="00:11:00" departureOffset="00:11:20" awaitDeparture="true" />
+				<stop refId="9470162_a" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470229_a" arrivalOffset="00:13:00" departureOffset="00:13:20" awaitDeparture="true" />
+				<stop refId="9470164_a" arrivalOffset="00:15:00" departureOffset="00:15:20" awaitDeparture="true" />
+				<stop refId="9740336_a" arrivalOffset="00:17:00" departureOffset="00:17:20" awaitDeparture="true" />
+				<stop refId="9740333_a" arrivalOffset="00:18:00" departureOffset="00:18:20" awaitDeparture="true" />
+				<stop refId="9740335_a" arrivalOffset="00:20:00" departureOffset="00:20:20" awaitDeparture="true" />
+				<stop refId="9740334_a" arrivalOffset="00:21:00" departureOffset="00:21:20" awaitDeparture="true" />
+				<stop refId="9470257_a" arrivalOffset="00:23:00" departureOffset="00:23:20" awaitDeparture="true" />
+				<stop refId="9470259_a" arrivalOffset="00:24:00" departureOffset="00:26:00" awaitDeparture="true" />
+				<stop refId="9470257_b" arrivalOffset="00:27:00" departureOffset="00:27:20" awaitDeparture="true" />
+				<stop refId="9740334_b" arrivalOffset="00:29:00" departureOffset="00:29:20" awaitDeparture="true" />
+				<stop refId="9740335_b" arrivalOffset="00:30:00" departureOffset="00:30:20" awaitDeparture="true" />
+				<stop refId="9740333_b" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9740336_b" arrivalOffset="00:33:00" departureOffset="00:33:20" awaitDeparture="true" />
+				<stop refId="9470164_b" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470229_b" arrivalOffset="00:37:00" departureOffset="00:37:20" awaitDeparture="true" />
+				<stop refId="9470162_b" arrivalOffset="00:38:00" departureOffset="00:38:20" awaitDeparture="true" />
+				<stop refId="9470252_b" arrivalOffset="00:39:00" departureOffset="00:39:20" awaitDeparture="true" />
+				<stop refId="9470281_b" arrivalOffset="00:41:00" departureOffset="00:41:20" awaitDeparture="true" />
+				<stop refId="9470195_a" arrivalOffset="00:43:00" departureOffset="00:43:20" awaitDeparture="true" />
+				<stop refId="9470293_a" arrivalOffset="00:45:00" departureOffset="00:45:20" awaitDeparture="true" />
+				<stop refId="9470268_c" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+				<stop refId="9470269_d" arrivalOffset="00:48:00" departureOffset="00:48:20" awaitDeparture="true" />
+				<stop refId="9470205_c" arrivalOffset="00:50:00" departureOffset="00:50:20" awaitDeparture="true" />
+				<stop refId="9470168_b" arrivalOffset="00:53:00" departureOffset="00:53:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="3503" />
+				<link refId="9962" />
+				<link refId="9982" />
+				<link refId="9983" />
+				<link refId="4707" />
+				<link refId="3013" />
+				<link refId="6290" />
+				<link refId="6282" />
+				<link refId="6280" />
+				<link refId="10617" />
+				<link refId="2583" />
+				<link refId="7935" />
+				<link refId="8952" />
+				<link refId="6066" />
+				<link refId="5892" />
+				<link refId="5634" />
+				<link refId="6067" />
+				<link refId="10020" />
+				<link refId="1356" />
+				<link refId="5867" />
+				<link refId="7871" />
+				<link refId="9803" />
+				<link refId="5884" />
+				<link refId="5858" />
+				<link refId="5859" />
+				<link refId="6713" />
+				<link refId="6711" />
+				<link refId="6709" />
+				<link refId="6674" />
+				<link refId="6675" />
+				<link refId="5157" />
+				<link refId="5155" />
+				<link refId="5153" />
+				<link refId="7918" />
+				<link refId="7920" />
+				<link refId="7922" />
+				<link refId="7924" />
+				<link refId="7926" />
+				<link refId="7928" />
+				<link refId="7930" />
+				<link refId="9379" />
+				<link refId="7656" />
+				<link refId="4764" />
+				<link refId="8820" />
+				<link refId="8831" />
+				<link refId="8833" />
+				<link refId="8758" />
+				<link refId="8760" />
+				<link refId="8762" />
+				<link refId="8764" />
+				<link refId="2355" />
+				<link refId="2353" />
+				<link refId="2351" />
+				<link refId="5646" />
+				<link refId="8125" />
+				<link refId="8127" />
+				<link refId="8128" />
+				<link refId="8126" />
+				<link refId="5647" />
+				<link refId="2350" />
+				<link refId="2352" />
+				<link refId="2354" />
+				<link refId="8765" />
+				<link refId="8763" />
+				<link refId="8761" />
+				<link refId="8759" />
+				<link refId="8834" />
+				<link refId="8832" />
+				<link refId="8819" />
+				<link refId="4765" />
+				<link refId="7655" />
+				<link refId="9380" />
+				<link refId="7931" />
+				<link refId="7929" />
+				<link refId="7927" />
+				<link refId="7925" />
+				<link refId="7923" />
+				<link refId="7921" />
+				<link refId="7919" />
+				<link refId="5152" />
+				<link refId="5154" />
+				<link refId="5156" />
+				<link refId="6724" />
+				<link refId="6708" />
+				<link refId="6710" />
+				<link refId="6712" />
+				<link refId="5771" />
+				<link refId="5772" />
+				<link refId="5887" />
+				<link refId="10542" />
+				<link refId="10534" />
+				<link refId="10535" />
+				<link refId="10543" />
+				<link refId="5888" />
+				<link refId="9803" />
+				<link refId="10290" />
+				<link refId="10288" />
+				<link refId="10286" />
+				<link refId="1794" />
+				<link refId="1796" />
+				<link refId="1798" />
+				<link refId="1800" />
+				<link refId="6117" />
+				<link refId="6119" />
+				<link refId="488" />
+				<link refId="490" />
+				<link refId="6667" />
+				<link refId="2501" />
+				<link refId="5634" />
+				<link refId="5892" />
+				<link refId="3030" />
+				<link refId="4336" />
+				<link refId="7760" />
+				<link refId="7758" />
+				<link refId="2108" />
+				<link refId="2106" />
+				<link refId="2162" />
+				<link refId="3732" />
+				<link refId="6673" />
+				<link refId="7032" />
+				<link refId="8251" />
+				<link refId="6216" />
+				<link refId="3490" />
+			</route>
+			<departures>
+				<departure id="15_21600.0" departureTime="06:00:00" vehicleRefId="15_0" />
+				<departure id="15_23400.0" departureTime="06:30:00" vehicleRefId="15_1" />
+				<departure id="15_25200.0" departureTime="07:00:00" vehicleRefId="15_2" />
+				<departure id="15_27000.0" departureTime="07:30:00" vehicleRefId="15_3" />
+				<departure id="15_28800.0" departureTime="08:00:00" vehicleRefId="15_4" />
+				<departure id="15_30600.0" departureTime="08:30:00" vehicleRefId="15_0" />
+				<departure id="15_32400.0" departureTime="09:00:00" vehicleRefId="15_1" />
+				<departure id="15_34200.0" departureTime="09:30:00" vehicleRefId="15_2" />
+				<departure id="15_36000.0" departureTime="10:00:00" vehicleRefId="15_3" />
+				<departure id="15_37800.0" departureTime="10:30:00" vehicleRefId="15_4" />
+				<departure id="15_39600.0" departureTime="11:00:00" vehicleRefId="15_0" />
+				<departure id="15_41400.0" departureTime="11:30:00" vehicleRefId="15_1" />
+				<departure id="15_43200.0" departureTime="12:00:00" vehicleRefId="15_2" />
+				<departure id="15_45000.0" departureTime="12:30:00" vehicleRefId="15_3" />
+				<departure id="15_46800.0" departureTime="13:00:00" vehicleRefId="15_4" />
+				<departure id="15_48600.0" departureTime="13:30:00" vehicleRefId="15_0" />
+				<departure id="15_50400.0" departureTime="14:00:00" vehicleRefId="15_1" />
+				<departure id="15_52200.0" departureTime="14:30:00" vehicleRefId="15_2" />
+				<departure id="15_54000.0" departureTime="15:00:00" vehicleRefId="15_3" />
+				<departure id="15_55800.0" departureTime="15:30:00" vehicleRefId="15_4" />
+				<departure id="15_57600.0" departureTime="16:00:00" vehicleRefId="15_0" />
+				<departure id="15_59400.0" departureTime="16:30:00" vehicleRefId="15_1" />
+				<departure id="15_61200.0" departureTime="17:00:00" vehicleRefId="15_2" />
+				<departure id="15_63000.0" departureTime="17:30:00" vehicleRefId="15_3" />
+				<departure id="15_64800.0" departureTime="18:00:00" vehicleRefId="15_4" />
+				<departure id="15_66600.0" departureTime="18:30:00" vehicleRefId="15_0" />
+				<departure id="15_68400.0" departureTime="19:00:00" vehicleRefId="15_1" />
+				<departure id="15_70200.0" departureTime="19:30:00" vehicleRefId="15_2" />
+				<departure id="15_72000.0" departureTime="20:00:00" vehicleRefId="15_3" />
+				<departure id="15_73800.0" departureTime="20:30:00" vehicleRefId="15_4" />
+				<departure id="15_75600.0" departureTime="21:00:00" vehicleRefId="15_0" />
+				<departure id="15_77400.0" departureTime="21:30:00" vehicleRefId="15_1" />
+				<departure id="15_79200.0" departureTime="22:00:00" vehicleRefId="15_2" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="16" name="16">
+		<transitRoute id="16">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470268_d" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470114_b" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470280_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470340_a" arrivalOffset="00:04:00" departureOffset="00:04:20" awaitDeparture="true" />
+				<stop refId="9470224_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470226_a" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470132_a" arrivalOffset="00:09:00" departureOffset="00:09:20" awaitDeparture="true" />
+				<stop refId="9470266_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9470000_a" arrivalOffset="00:13:00" departureOffset="00:13:20" awaitDeparture="true" />
+				<stop refId="9470153_a" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470292_a" arrivalOffset="00:16:00" departureOffset="00:16:20" awaitDeparture="true" />
+				<stop refId="9470251_a" arrivalOffset="00:18:00" departureOffset="00:18:20" awaitDeparture="true" />
+				<stop refId="9470227_a" arrivalOffset="00:21:00" departureOffset="00:21:20" awaitDeparture="true" />
+				<stop refId="9470291_a" arrivalOffset="00:23:00" departureOffset="00:23:20" awaitDeparture="true" />
+				<stop refId="9470196_a" arrivalOffset="00:24:00" departureOffset="00:24:20" awaitDeparture="true" />
+				<stop refId="9470158_b" arrivalOffset="00:25:00" departureOffset="00:25:20" awaitDeparture="true" />
+				<stop refId="9470326_d" arrivalOffset="00:26:00" departureOffset="00:26:20" awaitDeparture="true" />
+				<stop refId="9470189_a" arrivalOffset="00:27:00" departureOffset="00:27:20" awaitDeparture="true" />
+				<stop refId="9470287_a" arrivalOffset="00:28:00" departureOffset="00:28:20" awaitDeparture="true" />
+				<stop refId="9470199_a" arrivalOffset="00:30:00" departureOffset="00:30:20" awaitDeparture="true" />
+				<stop refId="9445454_a" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9445451_a" arrivalOffset="00:33:00" departureOffset="00:33:20" awaitDeparture="true" />
+				<stop refId="9445457_a" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9445452_a" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+				<stop refId="9445455_a" arrivalOffset="00:37:00" departureOffset="00:37:20" awaitDeparture="true" />
+				<stop refId="9445453_a" arrivalOffset="00:38:00" departureOffset="00:38:20" awaitDeparture="true" />
+				<stop refId="9445458_a" arrivalOffset="00:39:00" departureOffset="00:41:00" awaitDeparture="true" />
+				<stop refId="9445453_b" arrivalOffset="00:42:00" departureOffset="00:42:20" awaitDeparture="true" />
+				<stop refId="9445455_b" arrivalOffset="00:43:00" departureOffset="00:43:20" awaitDeparture="true" />
+				<stop refId="9445452_b" arrivalOffset="00:45:00" departureOffset="00:45:20" awaitDeparture="true" />
+				<stop refId="9445457_b" arrivalOffset="00:46:00" departureOffset="00:46:20" awaitDeparture="true" />
+				<stop refId="9445451_b" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+				<stop refId="9445454_b" arrivalOffset="00:49:00" departureOffset="00:49:20" awaitDeparture="true" />
+				<stop refId="9470199_b" arrivalOffset="00:51:00" departureOffset="00:51:20" awaitDeparture="true" />
+				<stop refId="9470287_b" arrivalOffset="00:53:00" departureOffset="00:53:20" awaitDeparture="true" />
+				<stop refId="9470189_b" arrivalOffset="00:54:00" departureOffset="00:54:20" awaitDeparture="true" />
+				<stop refId="9470330_a" arrivalOffset="00:55:00" departureOffset="00:55:20" awaitDeparture="true" />
+				<stop refId="9470158_a" arrivalOffset="00:56:00" departureOffset="00:56:20" awaitDeparture="true" />
+				<stop refId="9470196_b" arrivalOffset="00:57:00" departureOffset="00:57:20" awaitDeparture="true" />
+				<stop refId="9470291_b" arrivalOffset="00:59:00" departureOffset="00:59:20" awaitDeparture="true" />
+				<stop refId="9470227_b" arrivalOffset="01:02:00" departureOffset="01:02:20" awaitDeparture="true" />
+				<stop refId="9470251_b" arrivalOffset="01:05:00" departureOffset="01:05:20" awaitDeparture="true" />
+				<stop refId="9470292_b" arrivalOffset="01:07:00" departureOffset="01:07:20" awaitDeparture="true" />
+				<stop refId="9470153_b" arrivalOffset="01:08:00" departureOffset="01:08:20" awaitDeparture="true" />
+				<stop refId="9470000_b" arrivalOffset="01:10:00" departureOffset="01:10:20" awaitDeparture="true" />
+				<stop refId="9470266_b" arrivalOffset="01:13:00" departureOffset="01:13:20" awaitDeparture="true" />
+				<stop refId="9470132_b" arrivalOffset="01:14:00" departureOffset="01:14:20" awaitDeparture="true" />
+				<stop refId="9470226_b" arrivalOffset="01:16:00" departureOffset="01:16:20" awaitDeparture="true" />
+				<stop refId="9470224_b" arrivalOffset="01:18:00" departureOffset="01:18:20" awaitDeparture="true" />
+				<stop refId="9470340_b" arrivalOffset="01:19:00" departureOffset="01:19:20" awaitDeparture="true" />
+				<stop refId="9470280_b" arrivalOffset="01:20:00" departureOffset="01:20:20" awaitDeparture="true" />
+				<stop refId="9470174_a" arrivalOffset="01:22:00" departureOffset="01:22:20" awaitDeparture="true" />
+				<stop refId="9470268_c" arrivalOffset="01:24:00" departureOffset="01:24:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="5884" />
+				<link refId="5858" />
+				<link refId="5859" />
+				<link refId="6713" />
+				<link refId="6711" />
+				<link refId="2758" />
+				<link refId="2760" />
+				<link refId="3289" />
+				<link refId="3291" />
+				<link refId="3293" />
+				<link refId="3295" />
+				<link refId="3297" />
+				<link refId="7912" />
+				<link refId="1421" />
+				<link refId="1417" />
+				<link refId="1418" />
+				<link refId="1419" />
+				<link refId="144" />
+				<link refId="2948" />
+				<link refId="2934" />
+				<link refId="2935" />
+				<link refId="677" />
+				<link refId="675" />
+				<link refId="2984" />
+				<link refId="2982" />
+				<link refId="5538" />
+				<link refId="5536" />
+				<link refId="5534" />
+				<link refId="5532" />
+				<link refId="5530" />
+				<link refId="10103" />
+				<link refId="4980" />
+				<link refId="5131" />
+				<link refId="2582" />
+				<link refId="10616" />
+				<link refId="10516" />
+				<link refId="9994" />
+				<link refId="9991" />
+				<link refId="9969" />
+				<link refId="3490" />
+				<link refId="3499" />
+				<link refId="3501" />
+				<link refId="8631" />
+				<link refId="8629" />
+				<link refId="2319" />
+				<link refId="1712" />
+				<link refId="5169" />
+				<link refId="2928" />
+				<link refId="2930" />
+				<link refId="2932" />
+				<link refId="1495" />
+				<link refId="10742" />
+				<link refId="8651" />
+				<link refId="8655" />
+				<link refId="499" />
+				<link refId="497" />
+				<link refId="495" />
+				<link refId="3021" />
+				<link refId="3019" />
+				<link refId="3017" />
+				<link refId="7163" />
+				<link refId="7164" />
+				<link refId="7165" />
+				<link refId="7166" />
+				<link refId="7167" />
+				<link refId="7168" />
+				<link refId="7169" />
+				<link refId="7170" />
+				<link refId="5592" />
+				<link refId="5590" />
+				<link refId="5588" />
+				<link refId="5586" />
+				<link refId="330" />
+				<link refId="328" />
+				<link refId="326" />
+				<link refId="324" />
+				<link refId="322" />
+				<link refId="6032" />
+				<link refId="6034" />
+				<link refId="6036" />
+				<link refId="6038" />
+				<link refId="6040" />
+				<link refId="6042" />
+				<link refId="6044" />
+				<link refId="6046" />
+				<link refId="6048" />
+				<link refId="6050" />
+				<link refId="6052" />
+				<link refId="8432" />
+				<link refId="8430" />
+				<link refId="10106" />
+				<link refId="10108" />
+				<link refId="10110" />
+				<link refId="10112" />
+				<link refId="10114" />
+				<link refId="9965" />
+				<link refId="9967" />
+				<link refId="3757" />
+				<link refId="3759" />
+				<link refId="3761" />
+				<link refId="3762" />
+				<link refId="3760" />
+				<link refId="7489" />
+				<link refId="7490" />
+				<link refId="3759" />
+				<link refId="3761" />
+				<link refId="3762" />
+				<link refId="3760" />
+				<link refId="3758" />
+				<link refId="9968" />
+				<link refId="9966" />
+				<link refId="10115" />
+				<link refId="10113" />
+				<link refId="10111" />
+				<link refId="10109" />
+				<link refId="10107" />
+				<link refId="8429" />
+				<link refId="8431" />
+				<link refId="6053" />
+				<link refId="6051" />
+				<link refId="6049" />
+				<link refId="6047" />
+				<link refId="6045" />
+				<link refId="6043" />
+				<link refId="6041" />
+				<link refId="6039" />
+				<link refId="6037" />
+				<link refId="6035" />
+				<link refId="6033" />
+				<link refId="321" />
+				<link refId="323" />
+				<link refId="325" />
+				<link refId="327" />
+				<link refId="329" />
+				<link refId="5585" />
+				<link refId="5587" />
+				<link refId="5589" />
+				<link refId="5591" />
+				<link refId="5593" />
+				<link refId="7135" />
+				<link refId="7149" />
+				<link refId="7150" />
+				<link refId="7151" />
+				<link refId="7152" />
+				<link refId="7153" />
+				<link refId="7154" />
+				<link refId="3028" />
+				<link refId="3016" />
+				<link refId="3018" />
+				<link refId="3020" />
+				<link refId="494" />
+				<link refId="496" />
+				<link refId="498" />
+				<link refId="8654" />
+				<link refId="8650" />
+				<link refId="8652" />
+				<link refId="7555" />
+				<link refId="1496" />
+				<link refId="2933" />
+				<link refId="2931" />
+				<link refId="2929" />
+				<link refId="5168" />
+				<link refId="1711" />
+				<link refId="2318" />
+				<link refId="8628" />
+				<link refId="8630" />
+				<link refId="3502" />
+				<link refId="3500" />
+				<link refId="3503" />
+				<link refId="9962" />
+				<link refId="9982" />
+				<link refId="9983" />
+				<link refId="9984" />
+				<link refId="10517" />
+				<link refId="5524" />
+				<link refId="10102" />
+				<link refId="5529" />
+				<link refId="5531" />
+				<link refId="5533" />
+				<link refId="5535" />
+				<link refId="5537" />
+				<link refId="2981" />
+				<link refId="2983" />
+				<link refId="674" />
+				<link refId="676" />
+				<link refId="677" />
+				<link refId="675" />
+				<link refId="2984" />
+				<link refId="3334" />
+				<link refId="5807" />
+				<link refId="8462" />
+				<link refId="8464" />
+				<link refId="8466" />
+				<link refId="8468" />
+				<link refId="8470" />
+				<link refId="3297" />
+				<link refId="7912" />
+				<link refId="7913" />
+				<link refId="3298" />
+				<link refId="3296" />
+				<link refId="3294" />
+				<link refId="3292" />
+				<link refId="3290" />
+				<link refId="2761" />
+				<link refId="2759" />
+				<link refId="582" />
+				<link refId="584" />
+				<link refId="586" />
+				<link refId="587" />
+				<link refId="585" />
+				<link refId="1696" />
+				<link refId="6007" />
+				<link refId="6712" />
+				<link refId="5771" />
+				<link refId="5772" />
+				<link refId="9803" />
+			</route>
+			<departures>
+				<departure id="16_13800.0" departureTime="03:50:00" vehicleRefId="16_0" />
+				<departure id="16_15000.0" departureTime="04:10:00" vehicleRefId="16_1" />
+				<departure id="16_16200.0" departureTime="04:30:00" vehicleRefId="16_2" />
+				<departure id="16_17400.0" departureTime="04:50:00" vehicleRefId="16_3" />
+				<departure id="16_18600.0" departureTime="05:10:00" vehicleRefId="16_4" />
+				<departure id="16_19800.0" departureTime="05:30:00" vehicleRefId="16_0" />
+				<departure id="16_21000.0" departureTime="05:50:00" vehicleRefId="16_1" />
+				<departure id="16_22200.0" departureTime="06:10:00" vehicleRefId="16_2" />
+				<departure id="16_23400.0" departureTime="06:30:00" vehicleRefId="16_3" />
+				<departure id="16_24600.0" departureTime="06:50:00" vehicleRefId="16_4" />
+				<departure id="16_25800.0" departureTime="07:10:00" vehicleRefId="16_0" />
+				<departure id="16_27000.0" departureTime="07:30:00" vehicleRefId="16_1" />
+				<departure id="16_28200.0" departureTime="07:50:00" vehicleRefId="16_2" />
+				<departure id="16_29400.0" departureTime="08:10:00" vehicleRefId="16_3" />
+				<departure id="16_30600.0" departureTime="08:30:00" vehicleRefId="16_4" />
+				<departure id="16_31800.0" departureTime="08:50:00" vehicleRefId="16_0" />
+				<departure id="16_33000.0" departureTime="09:10:00" vehicleRefId="16_1" />
+				<departure id="16_34200.0" departureTime="09:30:00" vehicleRefId="16_2" />
+				<departure id="16_35400.0" departureTime="09:50:00" vehicleRefId="16_3" />
+				<departure id="16_36600.0" departureTime="10:10:00" vehicleRefId="16_4" />
+				<departure id="16_37800.0" departureTime="10:30:00" vehicleRefId="16_0" />
+				<departure id="16_39000.0" departureTime="10:50:00" vehicleRefId="16_1" />
+				<departure id="16_40200.0" departureTime="11:10:00" vehicleRefId="16_2" />
+				<departure id="16_41400.0" departureTime="11:30:00" vehicleRefId="16_3" />
+				<departure id="16_42600.0" departureTime="11:50:00" vehicleRefId="16_4" />
+				<departure id="16_43800.0" departureTime="12:10:00" vehicleRefId="16_0" />
+				<departure id="16_45000.0" departureTime="12:30:00" vehicleRefId="16_1" />
+				<departure id="16_46200.0" departureTime="12:50:00" vehicleRefId="16_2" />
+				<departure id="16_47400.0" departureTime="13:10:00" vehicleRefId="16_3" />
+				<departure id="16_48600.0" departureTime="13:30:00" vehicleRefId="16_4" />
+				<departure id="16_49800.0" departureTime="13:50:00" vehicleRefId="16_0" />
+				<departure id="16_51000.0" departureTime="14:10:00" vehicleRefId="16_1" />
+				<departure id="16_52200.0" departureTime="14:30:00" vehicleRefId="16_2" />
+				<departure id="16_53400.0" departureTime="14:50:00" vehicleRefId="16_3" />
+				<departure id="16_54600.0" departureTime="15:10:00" vehicleRefId="16_4" />
+				<departure id="16_55800.0" departureTime="15:30:00" vehicleRefId="16_0" />
+				<departure id="16_57000.0" departureTime="15:50:00" vehicleRefId="16_1" />
+				<departure id="16_58200.0" departureTime="16:10:00" vehicleRefId="16_2" />
+				<departure id="16_59400.0" departureTime="16:30:00" vehicleRefId="16_3" />
+				<departure id="16_60600.0" departureTime="16:50:00" vehicleRefId="16_4" />
+				<departure id="16_61800.0" departureTime="17:10:00" vehicleRefId="16_0" />
+				<departure id="16_63000.0" departureTime="17:30:00" vehicleRefId="16_1" />
+				<departure id="16_64200.0" departureTime="17:50:00" vehicleRefId="16_2" />
+				<departure id="16_65400.0" departureTime="18:10:00" vehicleRefId="16_3" />
+				<departure id="16_66600.0" departureTime="18:30:00" vehicleRefId="16_4" />
+				<departure id="16_67800.0" departureTime="18:50:00" vehicleRefId="16_0" />
+				<departure id="16_69000.0" departureTime="19:10:00" vehicleRefId="16_1" />
+				<departure id="16_70200.0" departureTime="19:30:00" vehicleRefId="16_2" />
+				<departure id="16_71400.0" departureTime="19:50:00" vehicleRefId="16_3" />
+				<departure id="16_72600.0" departureTime="20:10:00" vehicleRefId="16_4" />
+				<departure id="16_73800.0" departureTime="20:30:00" vehicleRefId="16_0" />
+				<departure id="16_75000.0" departureTime="20:50:00" vehicleRefId="16_1" />
+				<departure id="16_76200.0" departureTime="21:10:00" vehicleRefId="16_2" />
+				<departure id="16_77400.0" departureTime="21:30:00" vehicleRefId="16_3" />
+				<departure id="16_78600.0" departureTime="21:50:00" vehicleRefId="16_4" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="19" name="19">
+		<transitRoute id="19">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470215_c" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470104_a" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470305_a" arrivalOffset="00:02:00" departureOffset="00:02:20" awaitDeparture="true" />
+				<stop refId="9470247_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470220_a" arrivalOffset="00:04:00" departureOffset="00:04:20" awaitDeparture="true" />
+				<stop refId="9470164_b" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470095_a" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="9470101_a" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470146_a" arrivalOffset="00:09:00" departureOffset="00:09:20" awaitDeparture="true" />
+				<stop refId="9470272_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9470206_a" arrivalOffset="00:11:00" departureOffset="00:11:20" awaitDeparture="true" />
+				<stop refId="9470152_a" arrivalOffset="00:13:00" departureOffset="00:13:20" awaitDeparture="true" />
+				<stop refId="9470162_b" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470252_b" arrivalOffset="00:15:00" departureOffset="00:15:20" awaitDeparture="true" />
+				<stop refId="9470281_b" arrivalOffset="00:17:00" departureOffset="00:17:20" awaitDeparture="true" />
+				<stop refId="9470195_a" arrivalOffset="00:19:00" departureOffset="00:19:20" awaitDeparture="true" />
+				<stop refId="9470108_a" arrivalOffset="00:22:00" departureOffset="00:22:20" awaitDeparture="true" />
+				<stop refId="9470269_d" arrivalOffset="00:25:00" departureOffset="00:28:00" awaitDeparture="true" />
+				<stop refId="9470155_a" arrivalOffset="00:29:00" departureOffset="00:29:20" awaitDeparture="true" />
+				<stop refId="9470232_a" arrivalOffset="00:30:00" departureOffset="00:30:20" awaitDeparture="true" />
+				<stop refId="9470234_a" arrivalOffset="00:31:00" departureOffset="00:31:20" awaitDeparture="true" />
+				<stop refId="9470270_a" arrivalOffset="00:33:00" departureOffset="00:33:20" awaitDeparture="true" />
+				<stop refId="9470107_a" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470171_a" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+				<stop refId="9470169_a" arrivalOffset="00:36:00" departureOffset="00:36:20" awaitDeparture="true" />
+				<stop refId="9470133_a" arrivalOffset="00:37:00" departureOffset="00:37:20" awaitDeparture="true" />
+				<stop refId="9470138_a" arrivalOffset="00:39:00" departureOffset="00:39:20" awaitDeparture="true" />
+				<stop refId="9470136_a" arrivalOffset="00:40:00" departureOffset="00:40:20" awaitDeparture="true" />
+				<stop refId="9470135_a" arrivalOffset="00:41:00" departureOffset="00:41:20" awaitDeparture="true" />
+				<stop refId="9470136_a" arrivalOffset="00:42:00" departureOffset="00:42:20" awaitDeparture="true" />
+				<stop refId="9470312_a" arrivalOffset="00:43:00" departureOffset="00:43:20" awaitDeparture="true" />
+				<stop refId="9470243_a" arrivalOffset="00:51:00" departureOffset="00:51:20" awaitDeparture="true" />
+				<stop refId="9470244_a" arrivalOffset="00:52:00" departureOffset="01:06:00" awaitDeparture="true" />
+				<stop refId="9470243_b" arrivalOffset="01:07:00" departureOffset="01:07:20" awaitDeparture="true" />
+				<stop refId="9470312_b" arrivalOffset="01:15:00" departureOffset="01:15:20" awaitDeparture="true" />
+				<stop refId="9470136_b" arrivalOffset="01:16:00" departureOffset="01:16:20" awaitDeparture="true" />
+				<stop refId="9470135_b" arrivalOffset="01:17:00" departureOffset="01:17:20" awaitDeparture="true" />
+				<stop refId="9470136_b" arrivalOffset="01:18:00" departureOffset="01:18:20" awaitDeparture="true" />
+				<stop refId="9470138_b" arrivalOffset="01:19:00" departureOffset="01:19:20" awaitDeparture="true" />
+				<stop refId="9470133_b" arrivalOffset="01:21:00" departureOffset="01:21:20" awaitDeparture="true" />
+				<stop refId="9470169_b" arrivalOffset="01:22:00" departureOffset="01:22:20" awaitDeparture="true" />
+				<stop refId="9470171_b" arrivalOffset="01:23:00" departureOffset="01:23:20" awaitDeparture="true" />
+				<stop refId="9470270_b" arrivalOffset="01:25:00" departureOffset="01:25:20" awaitDeparture="true" />
+				<stop refId="9470234_b" arrivalOffset="01:27:00" departureOffset="01:27:20" awaitDeparture="true" />
+				<stop refId="9470232_b" arrivalOffset="01:28:00" departureOffset="01:28:20" awaitDeparture="true" />
+				<stop refId="9470155_b" arrivalOffset="01:29:00" departureOffset="01:29:20" awaitDeparture="true" />
+				<stop refId="9470269_c" arrivalOffset="01:30:00" departureOffset="01:33:00" awaitDeparture="true" />
+				<stop refId="9470108_b" arrivalOffset="01:34:00" departureOffset="01:34:20" awaitDeparture="true" />
+				<stop refId="9470114_a" arrivalOffset="01:36:00" departureOffset="01:36:20" awaitDeparture="true" />
+				<stop refId="9470281_a" arrivalOffset="01:38:00" departureOffset="01:38:20" awaitDeparture="true" />
+				<stop refId="9470252_a" arrivalOffset="01:39:00" departureOffset="01:39:20" awaitDeparture="true" />
+				<stop refId="9470162_a" arrivalOffset="01:40:00" departureOffset="01:40:20" awaitDeparture="true" />
+				<stop refId="9470152_b" arrivalOffset="01:41:00" departureOffset="01:41:20" awaitDeparture="true" />
+				<stop refId="9470206_b" arrivalOffset="01:43:00" departureOffset="01:43:20" awaitDeparture="true" />
+				<stop refId="9470272_b" arrivalOffset="01:44:00" departureOffset="01:44:20" awaitDeparture="true" />
+				<stop refId="9470146_b" arrivalOffset="01:45:00" departureOffset="01:45:20" awaitDeparture="true" />
+				<stop refId="9470101_b" arrivalOffset="01:47:00" departureOffset="01:47:20" awaitDeparture="true" />
+				<stop refId="9470095_b" arrivalOffset="01:48:00" departureOffset="01:48:20" awaitDeparture="true" />
+				<stop refId="9470164_a" arrivalOffset="01:49:00" departureOffset="01:49:20" awaitDeparture="true" />
+				<stop refId="9470220_b" arrivalOffset="01:50:00" departureOffset="01:50:20" awaitDeparture="true" />
+				<stop refId="9470247_b" arrivalOffset="01:51:00" departureOffset="01:51:20" awaitDeparture="true" />
+				<stop refId="9470305_b" arrivalOffset="01:52:00" departureOffset="01:52:20" awaitDeparture="true" />
+				<stop refId="9470104_b" arrivalOffset="01:53:00" departureOffset="01:53:20" awaitDeparture="true" />
+				<stop refId="9470215_d" arrivalOffset="01:54:00" departureOffset="01:54:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="3055" />
+				<link refId="5200" />
+				<link refId="3480" />
+				<link refId="7965" />
+				<link refId="4777" />
+				<link refId="4775" />
+				<link refId="4773" />
+				<link refId="4771" />
+				<link refId="4769" />
+				<link refId="4767" />
+				<link refId="4765" />
+				<link refId="7655" />
+				<link refId="9381" />
+				<link refId="9383" />
+				<link refId="9385" />
+				<link refId="9387" />
+				<link refId="6498" />
+				<link refId="6561" />
+				<link refId="6559" />
+				<link refId="8986" />
+				<link refId="8984" />
+				<link refId="39" />
+				<link refId="37" />
+				<link refId="35" />
+				<link refId="33" />
+				<link refId="649" />
+				<link refId="647" />
+				<link refId="9866" />
+				<link refId="7899" />
+				<link refId="7898" />
+				<link refId="7900" />
+				<link refId="7902" />
+				<link refId="7919" />
+				<link refId="5152" />
+				<link refId="5154" />
+				<link refId="5156" />
+				<link refId="6724" />
+				<link refId="6708" />
+				<link refId="6710" />
+				<link refId="6712" />
+				<link refId="5771" />
+				<link refId="5772" />
+				<link refId="7872" />
+				<link refId="5866" />
+				<link refId="1355" />
+				<link refId="10019" />
+				<link refId="6066" />
+				<link refId="5892" />
+				<link refId="5634" />
+				<link refId="5892" />
+				<link refId="2498" />
+				<link refId="6666" />
+				<link refId="2390" />
+				<link refId="6599" />
+				<link refId="6597" />
+				<link refId="6645" />
+				<link refId="6782" />
+				<link refId="6780" />
+				<link refId="6778" />
+				<link refId="6776" />
+				<link refId="2513" />
+				<link refId="2515" />
+				<link refId="1504" />
+				<link refId="1502" />
+				<link refId="3410" />
+				<link refId="3408" />
+				<link refId="3416" />
+				<link refId="3418" />
+				<link refId="7672" />
+				<link refId="7670" />
+				<link refId="7668" />
+				<link refId="7666" />
+				<link refId="7664" />
+				<link refId="7662" />
+				<link refId="8591" />
+				<link refId="8589" />
+				<link refId="8587" />
+				<link refId="8585" />
+				<link refId="8583" />
+				<link refId="7108" />
+				<link refId="7107" />
+				<link refId="5275" />
+				<link refId="5276" />
+				<link refId="7108" />
+				<link refId="4763" />
+				<link refId="8351" />
+				<link refId="6102" />
+				<link refId="6098" />
+				<link refId="6100" />
+				<link refId="7041" />
+				<link refId="7043" />
+				<link refId="7045" />
+				<link refId="10877" />
+				<link refId="10875" />
+				<link refId="10873" />
+				<link refId="7046" />
+				<link refId="7044" />
+				<link refId="7042" />
+				<link refId="6101" />
+				<link refId="6099" />
+				<link refId="6103" />
+				<link refId="8352" />
+				<link refId="4762" />
+				<link refId="7107" />
+				<link refId="5275" />
+				<link refId="5276" />
+				<link refId="7108" />
+				<link refId="7107" />
+				<link refId="8582" />
+				<link refId="8584" />
+				<link refId="8586" />
+				<link refId="8588" />
+				<link refId="8590" />
+				<link refId="7661" />
+				<link refId="7663" />
+				<link refId="7665" />
+				<link refId="7667" />
+				<link refId="7669" />
+				<link refId="7671" />
+				<link refId="3411" />
+				<link refId="3413" />
+				<link refId="3407" />
+				<link refId="3409" />
+				<link refId="1501" />
+				<link refId="1503" />
+				<link refId="2514" />
+				<link refId="2512" />
+				<link refId="6775" />
+				<link refId="6777" />
+				<link refId="6779" />
+				<link refId="6781" />
+				<link refId="6644" />
+				<link refId="6596" />
+				<link refId="6598" />
+				<link refId="2389" />
+				<link refId="6667" />
+				<link refId="2501" />
+				<link refId="5634" />
+				<link refId="5892" />
+				<link refId="5634" />
+				<link refId="6067" />
+				<link refId="10020" />
+				<link refId="1356" />
+				<link refId="5867" />
+				<link refId="7871" />
+				<link refId="5858" />
+				<link refId="5859" />
+				<link refId="6713" />
+				<link refId="6711" />
+				<link refId="6709" />
+				<link refId="6674" />
+				<link refId="6675" />
+				<link refId="5157" />
+				<link refId="5155" />
+				<link refId="5153" />
+				<link refId="7918" />
+				<link refId="7903" />
+				<link refId="7901" />
+				<link refId="7899" />
+				<link refId="7898" />
+				<link refId="9865" />
+				<link refId="646" />
+				<link refId="648" />
+				<link refId="32" />
+				<link refId="34" />
+				<link refId="36" />
+				<link refId="38" />
+				<link refId="8983" />
+				<link refId="8985" />
+				<link refId="6558" />
+				<link refId="6560" />
+				<link refId="6497" />
+				<link refId="9388" />
+				<link refId="9386" />
+				<link refId="9384" />
+				<link refId="9382" />
+				<link refId="7656" />
+				<link refId="4764" />
+				<link refId="4766" />
+				<link refId="4768" />
+				<link refId="4770" />
+				<link refId="4772" />
+				<link refId="4774" />
+				<link refId="4776" />
+				<link refId="7964" />
+				<link refId="3481" />
+				<link refId="5201" />
+				<link refId="3054" />
+			</route>
+			<departures>
+				<departure id="19_17040.0" departureTime="04:44:00" vehicleRefId="19_0" />
+				<departure id="19_18840.0" departureTime="05:14:00" vehicleRefId="19_1" />
+				<departure id="19_20640.0" departureTime="05:44:00" vehicleRefId="19_2" />
+				<departure id="19_22440.0" departureTime="06:14:00" vehicleRefId="19_3" />
+				<departure id="19_24240.0" departureTime="06:44:00" vehicleRefId="19_4" />
+				<departure id="19_26040.0" departureTime="07:14:00" vehicleRefId="19_0" />
+				<departure id="19_27840.0" departureTime="07:44:00" vehicleRefId="19_1" />
+				<departure id="19_29640.0" departureTime="08:14:00" vehicleRefId="19_2" />
+				<departure id="19_31440.0" departureTime="08:44:00" vehicleRefId="19_3" />
+				<departure id="19_33240.0" departureTime="09:14:00" vehicleRefId="19_4" />
+				<departure id="19_35040.0" departureTime="09:44:00" vehicleRefId="19_0" />
+				<departure id="19_36840.0" departureTime="10:14:00" vehicleRefId="19_1" />
+				<departure id="19_38640.0" departureTime="10:44:00" vehicleRefId="19_2" />
+				<departure id="19_40440.0" departureTime="11:14:00" vehicleRefId="19_3" />
+				<departure id="19_42240.0" departureTime="11:44:00" vehicleRefId="19_4" />
+				<departure id="19_44040.0" departureTime="12:14:00" vehicleRefId="19_0" />
+				<departure id="19_45840.0" departureTime="12:44:00" vehicleRefId="19_1" />
+				<departure id="19_47640.0" departureTime="13:14:00" vehicleRefId="19_2" />
+				<departure id="19_49440.0" departureTime="13:44:00" vehicleRefId="19_3" />
+				<departure id="19_51240.0" departureTime="14:14:00" vehicleRefId="19_4" />
+				<departure id="19_53040.0" departureTime="14:44:00" vehicleRefId="19_0" />
+				<departure id="19_54840.0" departureTime="15:14:00" vehicleRefId="19_1" />
+				<departure id="19_56640.0" departureTime="15:44:00" vehicleRefId="19_2" />
+				<departure id="19_58440.0" departureTime="16:14:00" vehicleRefId="19_3" />
+				<departure id="19_60240.0" departureTime="16:44:00" vehicleRefId="19_4" />
+				<departure id="19_62040.0" departureTime="17:14:00" vehicleRefId="19_0" />
+				<departure id="19_63840.0" departureTime="17:44:00" vehicleRefId="19_1" />
+				<departure id="19_65640.0" departureTime="18:14:00" vehicleRefId="19_2" />
+				<departure id="19_67440.0" departureTime="18:44:00" vehicleRefId="19_3" />
+				<departure id="19_69240.0" departureTime="19:14:00" vehicleRefId="19_4" />
+				<departure id="19_71040.0" departureTime="19:44:00" vehicleRefId="19_0" />
+				<departure id="19_72840.0" departureTime="20:14:00" vehicleRefId="19_1" />
+				<departure id="19_74640.0" departureTime="20:44:00" vehicleRefId="19_2" />
+				<departure id="19_76440.0" departureTime="21:14:00" vehicleRefId="19_3" />
+				<departure id="19_78240.0" departureTime="21:44:00" vehicleRefId="19_4" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="2" name="2">
+		<transitRoute id="2">
+			<transportMode>tram</transportMode>
+			<routeProfile>
+				<stop refId="9470236_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470172_a" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470103_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470237_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />				
+				<stop refId="9470102_a" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="stadthalle_a" arrivalOffset="00:06:50" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470269_a" arrivalOffset="00:08:00" departureOffset="00:09:00" awaitDeparture="true" />				
+				<stop refId="9470205_a" arrivalOffset="00:11:00" departureOffset="00:11:20" awaitDeparture="true" />
+				<stop refId="9470161_a" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470283_a" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470282_a" arrivalOffset="00:15:00" departureOffset="00:15:20" awaitDeparture="true" />
+				<stop refId="9470175_a" arrivalOffset="00:16:00" departureOffset="00:16:20" awaitDeparture="true" />
+				<stop refId="9470230_a" arrivalOffset="00:18:00" departureOffset="00:18:20" awaitDeparture="true" />
+				<stop refId="9470284_a" arrivalOffset="00:20:00" departureOffset="00:20:20" awaitDeparture="true" />
+				<stop refId="9470326_a" arrivalOffset="00:21:00" departureOffset="00:21:20" awaitDeparture="true" />
+				<stop refId="9470249_a" arrivalOffset="00:22:00" departureOffset="00:22:20" awaitDeparture="true" />
+				<stop refId="9470304_a" arrivalOffset="00:23:00" departureOffset="00:25:00" awaitDeparture="true" />
+				<stop refId="9470304_b" arrivalOffset="00:26:00" departureOffset="00:26:20" awaitDeparture="true" />
+				<stop refId="9470249_b" arrivalOffset="00:27:00" departureOffset="00:27:20" awaitDeparture="true" />
+				<stop refId="9470326_b" arrivalOffset="00:28:00" departureOffset="00:28:20" awaitDeparture="true" />
+				<stop refId="9470284_b" arrivalOffset="00:30:00" departureOffset="00:30:20" awaitDeparture="true" />
+				<stop refId="9470230_b" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9470175_b" arrivalOffset="00:33:00" departureOffset="00:33:20" awaitDeparture="true" />
+				<stop refId="9470282_b" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470283_b" arrivalOffset="00:36:00" departureOffset="00:36:20" awaitDeparture="true" />
+				<stop refId="9470161_b" arrivalOffset="00:37:00" departureOffset="00:37:20" awaitDeparture="true" />
+				<stop refId="9470205_b" arrivalOffset="00:39:00" departureOffset="00:39:20" awaitDeparture="true" />				
+				<stop refId="9470269_b" arrivalOffset="00:40:30" departureOffset="00:41:00" awaitDeparture="true" />
+				<stop refId="stadthalle_b" arrivalOffset="00:42:00" departureOffset="00:42:30" awaitDeparture="true" />
+				<stop refId="9470102_b" arrivalOffset="00:43:00" departureOffset="00:43:20" awaitDeparture="true" />				
+				<stop refId="9470237_b" arrivalOffset="00:45:00" departureOffset="00:45:20" awaitDeparture="true" />
+				<stop refId="9470103_b" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+				<stop refId="9470172_b" arrivalOffset="00:48:00" departureOffset="00:48:20" awaitDeparture="true" />
+				<stop refId="9470236_b" arrivalOffset="00:48:00" departureOffset="00:48:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="ptl19" />
+				<link refId="ptl18" />
+				<link refId="ptl17" />
+				<link refId="ptl16" />
+				<link refId="ptl15" />
+				<link refId="ptl14" />
+				<link refId="8747" />
+				<link refId="10284" />
+				<link refId="1778" />
+				<link refId="1776" />
+				<link refId="1774" />
+				<link refId="1772" />
+				<link refId="1770" />
+				<link refId="1768" />				
+				<link refId="10285" />
+				<link refId="10287" />
+				<link refId="10289" />
+				<link refId="ptrl" />
+				<link refId="ptb59" />
+				<link refId="ptb60" />
+				<link refId="ptb61" />				
+				<link refId="3030" />
+				<link refId="4336" />
+				<link refId="7760" />
+				<link refId="7758" />
+				<link refId="2108" />
+				<link refId="2106" />
+				<link refId="2162" />
+				<link refId="3732" />
+				<link refId="6673" />
+				<link refId="7032" />
+				<link refId="8251" />
+				<link refId="6216" />
+				<link refId="8632" />
+				<link refId="8633" />
+				<link refId="694" />
+				<link refId="8078" />
+				<link refId="4136" />
+				<link refId="1643" />
+				<link refId="1644" />
+				<link refId="4387" />
+				<link refId="7653" />
+				<link refId="ptb34" />
+				<link refId="ptb35" />
+				<link refId="ptb36" />
+				<link refId="ptb37" />
+				<link refId="ptb38" />
+				<link refId="ptb39" />
+				<link refId="ptb40" />
+				<link refId="ptb41" />
+				<link refId="ptb42" />
+				<link refId="ptb43" />
+				<link refId="ptb44" />
+				<link refId="ptl44" />
+				<link refId="ptl43" />
+				<link refId="ptl42" />
+				<link refId="ptl41" />
+				<link refId="ptl40" />
+				<link refId="ptl39" />
+				<link refId="ptl38" />
+				<link refId="ptl37" />
+				<link refId="ptl36" />
+				<link refId="ptl35" />
+				<link refId="ptl34" />
+				<link refId="7654" />
+				<link refId="4388" />
+				<link refId="1649" />
+				<link refId="1650" />
+				<link refId="4137" />
+				<link refId="8079" />
+				<link refId="695" />
+				<link refId="40" />
+				<link refId="6496" />
+				<link refId="8342" />
+				<link refId="2786" />
+				<link refId="2787" />
+				<link refId="6672" />
+				<link refId="3731" />
+				<link refId="2161" />
+				<link refId="2105" />
+				<link refId="2107" />
+				<link refId="7757" />
+				<link refId="7759" />
+				<link refId="4335" />
+				<link refId="3029" />
+				<link refId="ptl61" />
+				<link refId="ptl60" />
+				<link refId="ptl59" />
+				<link refId="ptrr" />
+				<link refId="10290" />
+				<link refId="10288" />
+				<link refId="10286" />				
+				<link refId="1767" />
+				<link refId="1769" />
+				<link refId="1771" />
+				<link refId="1773" />
+				<link refId="1775" />
+				<link refId="1777" />
+				<link refId="10283" />
+				<link refId="8746" />
+				<link refId="ptb14" />
+				<link refId="ptb15" />
+				<link refId="ptb16" />
+				<link refId="ptb17" />
+				<link refId="ptb18" />
+				<link refId="ptb19" />
+			</route>
+			<departures>
+				<departure id="2_17700.0" departureTime="04:55:00" vehicleRefId="2_0" />
+				<departure id="2_18600.0" departureTime="05:10:00" vehicleRefId="2_1" />
+				<departure id="2_19500.0" departureTime="05:25:00" vehicleRefId="2_2" />
+				<departure id="2_20400.0" departureTime="05:40:00" vehicleRefId="2_3" />
+				<departure id="2_21300.0" departureTime="05:55:00" vehicleRefId="2_4" />
+				<departure id="2_22200.0" departureTime="06:10:00" vehicleRefId="2_0" />
+				<departure id="2_23100.0" departureTime="06:25:00" vehicleRefId="2_1" />
+				<departure id="2_24000.0" departureTime="06:40:00" vehicleRefId="2_2" />
+				<departure id="2_24900.0" departureTime="06:55:00" vehicleRefId="2_3" />
+				<departure id="2_25800.0" departureTime="07:10:00" vehicleRefId="2_4" />
+				<departure id="2_26700.0" departureTime="07:25:00" vehicleRefId="2_0" />
+				<departure id="2_27600.0" departureTime="07:40:00" vehicleRefId="2_1" />
+				<departure id="2_28500.0" departureTime="07:55:00" vehicleRefId="2_2" />
+				<departure id="2_29400.0" departureTime="08:10:00" vehicleRefId="2_3" />
+				<departure id="2_30300.0" departureTime="08:25:00" vehicleRefId="2_4" />
+				<departure id="2_31200.0" departureTime="08:40:00" vehicleRefId="2_0" />
+				<departure id="2_32100.0" departureTime="08:55:00" vehicleRefId="2_1" />
+				<departure id="2_33000.0" departureTime="09:10:00" vehicleRefId="2_2" />
+				<departure id="2_33900.0" departureTime="09:25:00" vehicleRefId="2_3" />
+				<departure id="2_34800.0" departureTime="09:40:00" vehicleRefId="2_4" />
+				<departure id="2_35700.0" departureTime="09:55:00" vehicleRefId="2_0" />
+				<departure id="2_36600.0" departureTime="10:10:00" vehicleRefId="2_1" />
+				<departure id="2_37500.0" departureTime="10:25:00" vehicleRefId="2_2" />
+				<departure id="2_38400.0" departureTime="10:40:00" vehicleRefId="2_3" />
+				<departure id="2_39300.0" departureTime="10:55:00" vehicleRefId="2_4" />
+				<departure id="2_40200.0" departureTime="11:10:00" vehicleRefId="2_0" />
+				<departure id="2_41100.0" departureTime="11:25:00" vehicleRefId="2_1" />
+				<departure id="2_42000.0" departureTime="11:40:00" vehicleRefId="2_2" />
+				<departure id="2_42900.0" departureTime="11:55:00" vehicleRefId="2_3" />
+				<departure id="2_43800.0" departureTime="12:10:00" vehicleRefId="2_4" />
+				<departure id="2_44700.0" departureTime="12:25:00" vehicleRefId="2_0" />
+				<departure id="2_45600.0" departureTime="12:40:00" vehicleRefId="2_1" />
+				<departure id="2_46500.0" departureTime="12:55:00" vehicleRefId="2_2" />
+				<departure id="2_47400.0" departureTime="13:10:00" vehicleRefId="2_3" />
+				<departure id="2_48300.0" departureTime="13:25:00" vehicleRefId="2_4" />
+				<departure id="2_49200.0" departureTime="13:40:00" vehicleRefId="2_0" />
+				<departure id="2_50100.0" departureTime="13:55:00" vehicleRefId="2_1" />
+				<departure id="2_51000.0" departureTime="14:10:00" vehicleRefId="2_2" />
+				<departure id="2_51900.0" departureTime="14:25:00" vehicleRefId="2_3" />
+				<departure id="2_52800.0" departureTime="14:40:00" vehicleRefId="2_4" />
+				<departure id="2_53700.0" departureTime="14:55:00" vehicleRefId="2_0" />
+				<departure id="2_54600.0" departureTime="15:10:00" vehicleRefId="2_1" />
+				<departure id="2_55500.0" departureTime="15:25:00" vehicleRefId="2_2" />
+				<departure id="2_56400.0" departureTime="15:40:00" vehicleRefId="2_3" />
+				<departure id="2_57300.0" departureTime="15:55:00" vehicleRefId="2_4" />
+				<departure id="2_58200.0" departureTime="16:10:00" vehicleRefId="2_0" />
+				<departure id="2_59100.0" departureTime="16:25:00" vehicleRefId="2_1" />
+				<departure id="2_60000.0" departureTime="16:40:00" vehicleRefId="2_2" />
+				<departure id="2_60900.0" departureTime="16:55:00" vehicleRefId="2_3" />
+				<departure id="2_61800.0" departureTime="17:10:00" vehicleRefId="2_4" />
+				<departure id="2_62700.0" departureTime="17:25:00" vehicleRefId="2_0" />
+				<departure id="2_63600.0" departureTime="17:40:00" vehicleRefId="2_1" />
+				<departure id="2_64500.0" departureTime="17:55:00" vehicleRefId="2_2" />
+				<departure id="2_65400.0" departureTime="18:10:00" vehicleRefId="2_3" />
+				<departure id="2_66300.0" departureTime="18:25:00" vehicleRefId="2_4" />
+				<departure id="2_67200.0" departureTime="18:40:00" vehicleRefId="2_0" />
+				<departure id="2_68100.0" departureTime="18:55:00" vehicleRefId="2_1" />
+				<departure id="2_69000.0" departureTime="19:10:00" vehicleRefId="2_2" />
+				<departure id="2_69900.0" departureTime="19:25:00" vehicleRefId="2_3" />
+				<departure id="2_70800.0" departureTime="19:40:00" vehicleRefId="2_4" />
+				<departure id="2_71700.0" departureTime="19:55:00" vehicleRefId="2_0" />
+				<departure id="2_72600.0" departureTime="20:10:00" vehicleRefId="2_1" />
+				<departure id="2_73500.0" departureTime="20:25:00" vehicleRefId="2_2" />
+				<departure id="2_74400.0" departureTime="20:40:00" vehicleRefId="2_3" />
+				<departure id="2_75300.0" departureTime="20:55:00" vehicleRefId="2_4" />
+				<departure id="2_76200.0" departureTime="21:10:00" vehicleRefId="2_0" />
+				<departure id="2_77100.0" departureTime="21:25:00" vehicleRefId="2_1" />
+				<departure id="2_78000.0" departureTime="21:40:00" vehicleRefId="2_2" />
+				<departure id="2_78900.0" departureTime="21:55:00" vehicleRefId="2_3" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="20" name="20">
+		<transitRoute id="20">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470139_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470142_a" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470140_a" arrivalOffset="00:02:00" departureOffset="00:02:20" awaitDeparture="true" />
+				<stop refId="9470094_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470143_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470144_a" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="9470263_a" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9470240_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9470239_a" arrivalOffset="00:11:00" departureOffset="00:11:20" awaitDeparture="true" />
+				<stop refId="9470238_a" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470186_a" arrivalOffset="00:13:00" departureOffset="00:13:20" awaitDeparture="true" />
+				<stop refId="9470215_e" arrivalOffset="00:16:00" departureOffset="00:20:00" awaitDeparture="true" />
+				<stop refId="9470213_a" arrivalOffset="00:23:00" departureOffset="00:23:20" awaitDeparture="true" />
+				<stop refId="9470238_b" arrivalOffset="00:24:00" departureOffset="00:24:20" awaitDeparture="true" />
+				<stop refId="9470239_b" arrivalOffset="00:25:00" departureOffset="00:25:20" awaitDeparture="true" />
+				<stop refId="9470240_b" arrivalOffset="00:26:00" departureOffset="00:26:20" awaitDeparture="true" />
+				<stop refId="9470263_b" arrivalOffset="00:28:00" departureOffset="00:28:20" awaitDeparture="true" />
+				<stop refId="9470144_b" arrivalOffset="00:30:00" departureOffset="00:30:20" awaitDeparture="true" />
+				<stop refId="9470143_b" arrivalOffset="00:31:00" departureOffset="00:31:20" awaitDeparture="true" />
+				<stop refId="9470094_b" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9470140_b" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470142_b" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+				<stop refId="9470139_b" arrivalOffset="00:36:00" departureOffset="00:36:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="7031" />
+				<link refId="7029" />
+				<link refId="7027" />
+				<link refId="7025" />
+				<link refId="7023" />
+				<link refId="7021" />
+				<link refId="8664" />
+				<link refId="10390" />
+				<link refId="2936" />
+				<link refId="2938" />
+				<link refId="299" />
+				<link refId="301" />
+				<link refId="303" />
+				<link refId="6425" />
+				<link refId="6423" />
+				<link refId="6421" />
+				<link refId="10750" />
+				<link refId="5952" />
+				<link refId="476" />
+				<link refId="478" />
+				<link refId="3286" />
+				<link refId="3284" />
+				<link refId="365" />
+				<link refId="367" />
+				<link refId="369" />
+				<link refId="371" />
+				<link refId="373" />
+				<link refId="375" />
+				<link refId="5198" />
+				<link refId="3054" />
+				<link refId="3063" />
+				<link refId="3062" />
+				<link refId="3055" />
+				<link refId="5199" />
+				<link refId="376" />
+				<link refId="374" />
+				<link refId="372" />
+				<link refId="370" />
+				<link refId="368" />
+				<link refId="366" />
+				<link refId="3283" />
+				<link refId="3285" />
+				<link refId="479" />
+				<link refId="477" />
+				<link refId="5953" />
+				<link refId="10749" />
+				<link refId="6420" />
+				<link refId="6422" />
+				<link refId="6424" />
+				<link refId="304" />
+				<link refId="302" />
+				<link refId="300" />
+				<link refId="2939" />
+				<link refId="2937" />
+				<link refId="10391" />
+				<link refId="8665" />
+				<link refId="7020" />
+				<link refId="7022" />
+				<link refId="7024" />
+				<link refId="7026" />
+				<link refId="7028" />
+				<link refId="7030" />
+			</route>
+			<departures>
+				<departure id="20_19380.0" departureTime="05:23:00" vehicleRefId="20_0" />
+				<departure id="20_21180.0" departureTime="05:53:00" vehicleRefId="20_1" />
+				<departure id="20_22980.0" departureTime="06:23:00" vehicleRefId="20_2" />
+				<departure id="20_24780.0" departureTime="06:53:00" vehicleRefId="20_3" />
+				<departure id="20_26580.0" departureTime="07:23:00" vehicleRefId="20_4" />
+				<departure id="20_28380.0" departureTime="07:53:00" vehicleRefId="20_0" />
+				<departure id="20_30180.0" departureTime="08:23:00" vehicleRefId="20_1" />
+				<departure id="20_31980.0" departureTime="08:53:00" vehicleRefId="20_2" />
+				<departure id="20_33780.0" departureTime="09:23:00" vehicleRefId="20_3" />
+				<departure id="20_35580.0" departureTime="09:53:00" vehicleRefId="20_4" />
+				<departure id="20_37380.0" departureTime="10:23:00" vehicleRefId="20_0" />
+				<departure id="20_39180.0" departureTime="10:53:00" vehicleRefId="20_1" />
+				<departure id="20_40980.0" departureTime="11:23:00" vehicleRefId="20_2" />
+				<departure id="20_42780.0" departureTime="11:53:00" vehicleRefId="20_3" />
+				<departure id="20_44580.0" departureTime="12:23:00" vehicleRefId="20_4" />
+				<departure id="20_46380.0" departureTime="12:53:00" vehicleRefId="20_0" />
+				<departure id="20_48180.0" departureTime="13:23:00" vehicleRefId="20_1" />
+				<departure id="20_49980.0" departureTime="13:53:00" vehicleRefId="20_2" />
+				<departure id="20_51780.0" departureTime="14:23:00" vehicleRefId="20_3" />
+				<departure id="20_53580.0" departureTime="14:53:00" vehicleRefId="20_4" />
+				<departure id="20_55380.0" departureTime="15:23:00" vehicleRefId="20_0" />
+				<departure id="20_57180.0" departureTime="15:53:00" vehicleRefId="20_1" />
+				<departure id="20_58980.0" departureTime="16:23:00" vehicleRefId="20_2" />
+				<departure id="20_60780.0" departureTime="16:53:00" vehicleRefId="20_3" />
+				<departure id="20_62580.0" departureTime="17:23:00" vehicleRefId="20_4" />
+				<departure id="20_64380.0" departureTime="17:53:00" vehicleRefId="20_0" />
+				<departure id="20_66180.0" departureTime="18:23:00" vehicleRefId="20_1" />
+				<departure id="20_67980.0" departureTime="18:53:00" vehicleRefId="20_2" />
+				<departure id="20_69780.0" departureTime="19:23:00" vehicleRefId="20_3" />
+				<departure id="20_71580.0" departureTime="19:53:00" vehicleRefId="20_4" />
+				<departure id="20_73380.0" departureTime="20:23:00" vehicleRefId="20_0" />
+				<departure id="20_75180.0" departureTime="20:53:00" vehicleRefId="20_1" />
+				<departure id="20_76980.0" departureTime="21:23:00" vehicleRefId="20_2" />
+				<departure id="20_78780.0" departureTime="21:53:00" vehicleRefId="20_3" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="21" name="21">
+		<transitRoute id="21">
+			<transportMode>pt</transportMode>
+			<routeProfile>
+				<stop refId="9470297_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470296_a" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470299_a" arrivalOffset="00:02:00" departureOffset="00:02:20" awaitDeparture="true" />
+				<stop refId="9470298_a" arrivalOffset="00:04:00" departureOffset="00:04:20" awaitDeparture="true" />
+				<stop refId="9470191_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470098_a" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="9470267_a" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9470235_a" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9470234_b" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470155_b" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470128_b" arrivalOffset="00:17:00" departureOffset="00:31:00" awaitDeparture="true" />
+				<stop refId="9470128_a" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470155_a" arrivalOffset="00:36:00" departureOffset="00:36:20" awaitDeparture="true" />
+				<stop refId="9470234_a" arrivalOffset="00:38:00" departureOffset="00:38:20" awaitDeparture="true" />
+				<stop refId="9470235_b" arrivalOffset="00:40:00" departureOffset="00:40:20" awaitDeparture="true" />
+				<stop refId="9470267_b" arrivalOffset="00:42:00" departureOffset="00:42:20" awaitDeparture="true" />
+				<stop refId="9470098_b" arrivalOffset="00:43:00" departureOffset="00:43:20" awaitDeparture="true" />
+				<stop refId="9470191_b" arrivalOffset="00:44:00" departureOffset="00:44:20" awaitDeparture="true" />
+				<stop refId="9470298_b" arrivalOffset="00:46:00" departureOffset="00:46:20" awaitDeparture="true" />
+				<stop refId="9470299_b" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+				<stop refId="9470296_b" arrivalOffset="00:48:00" departureOffset="00:48:20" awaitDeparture="true" />
+				<stop refId="9470297_b" arrivalOffset="00:48:00" departureOffset="00:48:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="7263" />
+				<link refId="7265" />
+				<link refId="610" />
+				<link refId="612" />
+				<link refId="614" />
+				<link refId="616" />
+				<link refId="618" />
+				<link refId="4251" />
+				<link refId="5333" />
+				<link refId="5334" />
+				<link refId="5341" />
+				<link refId="4515" />
+				<link refId="4507" />
+				<link refId="505" />
+				<link refId="506" />
+				<link refId="4934" />
+				<link refId="4510" />
+				<link refId="4933" />
+				<link refId="593500" />
+				<link refId="1754" />
+				<link refId="4482" />
+				<link refId="2910" />
+				<link refId="8607" />
+				<link refId="3409" />
+				<link refId="1501" />
+				<link refId="1503" />
+				<link refId="2514" />
+				<link refId="2512" />
+				<link refId="6775" />
+				<link refId="6777" />
+				<link refId="6779" />
+				<link refId="6781" />
+				<link refId="6644" />
+				<link refId="6596" />
+				<link refId="6598" />
+				<link refId="2389" />
+				<link refId="6667" />
+				<link refId="2501" />
+				<link refId="3030" />
+				<link refId="4336" />
+				<link refId="7957" />
+				<link refId="6283" />
+				<link refId="6285" />
+				<link refId="6287" />
+				<link refId="6289" />
+				<link refId="6290" />
+				<link refId="6288" />
+				<link refId="6286" />
+				<link refId="6284" />
+				<link refId="7956" />
+				<link refId="4335" />
+				<link refId="3029" />
+				<link refId="2498" />
+				<link refId="6666" />
+				<link refId="2390" />
+				<link refId="6599" />
+				<link refId="6597" />
+				<link refId="6645" />
+				<link refId="6782" />
+				<link refId="6780" />
+				<link refId="6778" />
+				<link refId="6776" />
+				<link refId="2513" />
+				<link refId="2515" />
+				<link refId="1504" />
+				<link refId="1502" />
+				<link refId="3410" />
+				<link refId="8606" />
+				<link refId="2909" />
+				<link refId="4481" />
+				<link refId="5934" />
+				<link refId="5935" />
+				<link refId="4932" />
+				<link refId="4509" />
+				<link refId="4511" />
+				<link refId="4513" />
+				<link refId="4508" />
+				<link refId="788" />
+				<link refId="789" />
+				<link refId="5337" />
+				<link refId="4254" />
+				<link refId="4252" />
+				<link refId="619" />
+				<link refId="617" />
+				<link refId="615" />
+				<link refId="613" />
+				<link refId="611" />
+				<link refId="7266" />
+				<link refId="7264" />
+			</route>
+			<departures>
+				<departure id="21_15900.0" departureTime="04:25:00" vehicleRefId="21_0" />
+				<departure id="21_17700.0" departureTime="04:55:00" vehicleRefId="21_1" />
+				<departure id="21_19500.0" departureTime="05:25:00" vehicleRefId="21_2" />
+				<departure id="21_21300.0" departureTime="05:55:00" vehicleRefId="21_3" />
+				<departure id="21_23100.0" departureTime="06:25:00" vehicleRefId="21_4" />
+				<departure id="21_24900.0" departureTime="06:55:00" vehicleRefId="21_0" />
+				<departure id="21_26700.0" departureTime="07:25:00" vehicleRefId="21_1" />
+				<departure id="21_28500.0" departureTime="07:55:00" vehicleRefId="21_2" />
+				<departure id="21_30300.0" departureTime="08:25:00" vehicleRefId="21_3" />
+				<departure id="21_32100.0" departureTime="08:55:00" vehicleRefId="21_4" />
+				<departure id="21_33900.0" departureTime="09:25:00" vehicleRefId="21_0" />
+				<departure id="21_35700.0" departureTime="09:55:00" vehicleRefId="21_1" />
+				<departure id="21_37500.0" departureTime="10:25:00" vehicleRefId="21_2" />
+				<departure id="21_39300.0" departureTime="10:55:00" vehicleRefId="21_3" />
+				<departure id="21_41100.0" departureTime="11:25:00" vehicleRefId="21_4" />
+				<departure id="21_42900.0" departureTime="11:55:00" vehicleRefId="21_0" />
+				<departure id="21_44700.0" departureTime="12:25:00" vehicleRefId="21_1" />
+				<departure id="21_46500.0" departureTime="12:55:00" vehicleRefId="21_2" />
+				<departure id="21_48300.0" departureTime="13:25:00" vehicleRefId="21_3" />
+				<departure id="21_50100.0" departureTime="13:55:00" vehicleRefId="21_4" />
+				<departure id="21_51900.0" departureTime="14:25:00" vehicleRefId="21_0" />
+				<departure id="21_53700.0" departureTime="14:55:00" vehicleRefId="21_1" />
+				<departure id="21_55500.0" departureTime="15:25:00" vehicleRefId="21_2" />
+				<departure id="21_57300.0" departureTime="15:55:00" vehicleRefId="21_3" />
+				<departure id="21_59100.0" departureTime="16:25:00" vehicleRefId="21_4" />
+				<departure id="21_60900.0" departureTime="16:55:00" vehicleRefId="21_0" />
+				<departure id="21_62700.0" departureTime="17:25:00" vehicleRefId="21_1" />
+				<departure id="21_64500.0" departureTime="17:55:00" vehicleRefId="21_2" />
+				<departure id="21_66300.0" departureTime="18:25:00" vehicleRefId="21_3" />
+				<departure id="21_68100.0" departureTime="18:55:00" vehicleRefId="21_4" />
+				<departure id="21_69900.0" departureTime="19:25:00" vehicleRefId="21_0" />
+				<departure id="21_71700.0" departureTime="19:55:00" vehicleRefId="21_1" />
+				<departure id="21_73500.0" departureTime="20:25:00" vehicleRefId="21_2" />
+				<departure id="21_75300.0" departureTime="20:55:00" vehicleRefId="21_3" />
+				<departure id="21_77100.0" departureTime="21:25:00" vehicleRefId="21_4" />
+				<departure id="21_78900.0" departureTime="21:55:00" vehicleRefId="21_0" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="3" name="3">
+		<transitRoute id="3">
+			<transportMode>tram</transportMode>
+			<routeProfile>
+				<stop refId="9470274_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470149_a" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470115_a" arrivalOffset="00:02:00" departureOffset="00:02:20" awaitDeparture="true" />
+				<stop refId="9470250_a" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470293_a" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470268_e" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470269_a" arrivalOffset="00:08:00" departureOffset="00:09:00" awaitDeparture="true" />
+				<stop refId="9470205_a" arrivalOffset="00:11:00" departureOffset="00:11:20" awaitDeparture="true" />
+				<stop refId="9470161_a" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470223_a" arrivalOffset="00:13:00" departureOffset="00:13:20" awaitDeparture="true" />
+				<stop refId="9470265_a" arrivalOffset="00:15:00" departureOffset="00:15:20" awaitDeparture="true" />
+				<stop refId="9470279_a" arrivalOffset="00:16:00" departureOffset="00:16:20" awaitDeparture="true" />
+				<stop refId="9470408_a" arrivalOffset="00:18:00" departureOffset="00:18:20" awaitDeparture="true" />
+				<stop refId="9470321_a" arrivalOffset="00:19:00" departureOffset="00:19:20" awaitDeparture="true" />
+				<stop refId="9470228_a" arrivalOffset="00:20:00" departureOffset="00:20:20" awaitDeparture="true" />
+				<stop refId="9470201_a" arrivalOffset="00:22:00" departureOffset="00:25:00" awaitDeparture="true" />
+				<stop refId="9470201_b" arrivalOffset="00:27:00" departureOffset="00:27:20" awaitDeparture="true" />
+				<stop refId="9470228_b" arrivalOffset="00:28:00" departureOffset="00:28:20" awaitDeparture="true" />
+				<stop refId="9470321_b" arrivalOffset="00:29:00" departureOffset="00:29:20" awaitDeparture="true" />
+				<stop refId="9470408_b" arrivalOffset="00:31:00" departureOffset="00:31:20" awaitDeparture="true" />
+				<stop refId="9470279_b" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9470265_b" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470223_b" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+				<stop refId="9470161_b" arrivalOffset="00:36:00" departureOffset="00:36:20" awaitDeparture="true" />
+				<stop refId="9470205_b" arrivalOffset="00:38:00" departureOffset="00:38:20" awaitDeparture="true" />
+				<stop refId="9470269_b" arrivalOffset="00:39:00" departureOffset="00:40:00" awaitDeparture="true" />
+				<stop refId="9470268_f" arrivalOffset="00:42:00" departureOffset="00:42:20" awaitDeparture="true" />
+				<stop refId="9470293_b" arrivalOffset="00:44:00" departureOffset="00:44:20" awaitDeparture="true" />
+				<stop refId="9470250_b" arrivalOffset="00:45:00" departureOffset="00:45:20" awaitDeparture="true" />
+				<stop refId="9470115_b" arrivalOffset="00:46:00" departureOffset="00:46:20" awaitDeparture="true" />
+				<stop refId="9470149_b" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+				<stop refId="9470274_b" arrivalOffset="00:47:00" departureOffset="00:47:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="ptl13" />
+				<link refId="ptl12" />
+				<link refId="ptl11" />
+				<link refId="ptl10" />
+				<link refId="ptl9" />
+				<link refId="ptl8" />
+				<link refId="ptl7" />
+				<link refId="10535" />
+				<link refId="10543" />
+				<link refId="5888" />
+				
+				<link refId="ptlr" />
+				<link refId="ptb59" />
+				<link refId="ptb60" />
+				<link refId="ptb61" />
+				
+				<link refId="3030" />
+				<link refId="4336" />
+				<link refId="7760" />
+				<link refId="7758" />
+				<link refId="2108" />
+				<link refId="2106" />
+				<link refId="2162" />
+				<link refId="3732" />
+				<link refId="6673" />
+				<link refId="7032" />
+				<link refId="8251" />
+				<link refId="ptb20" />
+				<link refId="ptb21" />
+				<link refId="ptb22" />
+				<link refId="ptb23" />
+				<link refId="ptb24" />
+				<link refId="ptb25" />
+				<link refId="ptb26" />
+				<link refId="ptb27" />
+				<link refId="ptb28" />
+				<link refId="ptb29" />
+				<link refId="ptb30" />
+				<link refId="ptb31" />
+				<link refId="ptb32" />
+				<link refId="ptb33" />
+				<link refId="ptl33" />
+				<link refId="ptl32" />
+				<link refId="ptl31" />
+				<link refId="ptl30" />
+				<link refId="ptl29" />
+				<link refId="ptl28" />
+				<link refId="ptl27" />
+				<link refId="ptl26" />
+				<link refId="ptl25" />
+				<link refId="ptl24" />
+				<link refId="ptl23" />
+				<link refId="ptl22" />
+				<link refId="ptl21" />
+				<link refId="ptl20" />
+				<link refId="2786" />
+				<link refId="2787" />
+				<link refId="6672" />
+				<link refId="3731" />
+				<link refId="2161" />
+				<link refId="2105" />
+				<link refId="2107" />
+				<link refId="7757" />
+				<link refId="7759" />
+				<link refId="4335" />
+				<link refId="3029" />
+
+				<link refId="ptl61" />
+				<link refId="ptl60" />
+				<link refId="ptl59" />
+				<link refId="ptll" />
+				
+				<link refId="5887" />
+				<link refId="10542" />
+				<link refId="10534" />
+				<link refId="ptb7" />
+				<link refId="ptb8" />
+				<link refId="ptb9" />
+				<link refId="ptb10" />
+				<link refId="ptb11" />
+				<link refId="ptb12" />
+				<link refId="ptb13" />
+			</route>
+			<departures>
+				<departure id="3_16800.0" departureTime="04:40:00" vehicleRefId="3_0" />
+				<departure id="3_17700.0" departureTime="04:55:00" vehicleRefId="3_1" />
+				<departure id="3_18600.0" departureTime="05:10:00" vehicleRefId="3_2" />
+				<departure id="3_19500.0" departureTime="05:25:00" vehicleRefId="3_3" />
+				<departure id="3_20400.0" departureTime="05:40:00" vehicleRefId="3_4" />
+				<departure id="3_21300.0" departureTime="05:55:00" vehicleRefId="3_0" />
+				<departure id="3_22200.0" departureTime="06:10:00" vehicleRefId="3_1" />
+				<departure id="3_23100.0" departureTime="06:25:00" vehicleRefId="3_2" />
+				<departure id="3_24000.0" departureTime="06:40:00" vehicleRefId="3_3" />
+				<departure id="3_24900.0" departureTime="06:55:00" vehicleRefId="3_4" />
+				<departure id="3_25800.0" departureTime="07:10:00" vehicleRefId="3_0" />
+				<departure id="3_26700.0" departureTime="07:25:00" vehicleRefId="3_1" />
+				<departure id="3_27600.0" departureTime="07:40:00" vehicleRefId="3_2" />
+				<departure id="3_28500.0" departureTime="07:55:00" vehicleRefId="3_3" />
+				<departure id="3_29400.0" departureTime="08:10:00" vehicleRefId="3_4" />
+				<departure id="3_30300.0" departureTime="08:25:00" vehicleRefId="3_0" />
+				<departure id="3_31200.0" departureTime="08:40:00" vehicleRefId="3_1" />
+				<departure id="3_32100.0" departureTime="08:55:00" vehicleRefId="3_2" />
+				<departure id="3_33000.0" departureTime="09:10:00" vehicleRefId="3_3" />
+				<departure id="3_33900.0" departureTime="09:25:00" vehicleRefId="3_4" />
+				<departure id="3_34800.0" departureTime="09:40:00" vehicleRefId="3_0" />
+				<departure id="3_35700.0" departureTime="09:55:00" vehicleRefId="3_1" />
+				<departure id="3_36600.0" departureTime="10:10:00" vehicleRefId="3_2" />
+				<departure id="3_37500.0" departureTime="10:25:00" vehicleRefId="3_3" />
+				<departure id="3_38400.0" departureTime="10:40:00" vehicleRefId="3_4" />
+				<departure id="3_39300.0" departureTime="10:55:00" vehicleRefId="3_0" />
+				<departure id="3_40200.0" departureTime="11:10:00" vehicleRefId="3_1" />
+				<departure id="3_41100.0" departureTime="11:25:00" vehicleRefId="3_2" />
+				<departure id="3_42000.0" departureTime="11:40:00" vehicleRefId="3_3" />
+				<departure id="3_42900.0" departureTime="11:55:00" vehicleRefId="3_4" />
+				<departure id="3_43800.0" departureTime="12:10:00" vehicleRefId="3_0" />
+				<departure id="3_44700.0" departureTime="12:25:00" vehicleRefId="3_1" />
+				<departure id="3_45600.0" departureTime="12:40:00" vehicleRefId="3_2" />
+				<departure id="3_46500.0" departureTime="12:55:00" vehicleRefId="3_3" />
+				<departure id="3_47400.0" departureTime="13:10:00" vehicleRefId="3_4" />
+				<departure id="3_48300.0" departureTime="13:25:00" vehicleRefId="3_0" />
+				<departure id="3_49200.0" departureTime="13:40:00" vehicleRefId="3_1" />
+				<departure id="3_50100.0" departureTime="13:55:00" vehicleRefId="3_2" />
+				<departure id="3_51000.0" departureTime="14:10:00" vehicleRefId="3_3" />
+				<departure id="3_51900.0" departureTime="14:25:00" vehicleRefId="3_4" />
+				<departure id="3_52800.0" departureTime="14:40:00" vehicleRefId="3_0" />
+				<departure id="3_53700.0" departureTime="14:55:00" vehicleRefId="3_1" />
+				<departure id="3_54600.0" departureTime="15:10:00" vehicleRefId="3_2" />
+				<departure id="3_55500.0" departureTime="15:25:00" vehicleRefId="3_3" />
+				<departure id="3_56400.0" departureTime="15:40:00" vehicleRefId="3_4" />
+				<departure id="3_57300.0" departureTime="15:55:00" vehicleRefId="3_0" />
+				<departure id="3_58200.0" departureTime="16:10:00" vehicleRefId="3_1" />
+				<departure id="3_59100.0" departureTime="16:25:00" vehicleRefId="3_2" />
+				<departure id="3_60000.0" departureTime="16:40:00" vehicleRefId="3_3" />
+				<departure id="3_60900.0" departureTime="16:55:00" vehicleRefId="3_4" />
+				<departure id="3_61800.0" departureTime="17:10:00" vehicleRefId="3_0" />
+				<departure id="3_62700.0" departureTime="17:25:00" vehicleRefId="3_1" />
+				<departure id="3_63600.0" departureTime="17:40:00" vehicleRefId="3_2" />
+				<departure id="3_64500.0" departureTime="17:55:00" vehicleRefId="3_3" />
+				<departure id="3_65400.0" departureTime="18:10:00" vehicleRefId="3_4" />
+				<departure id="3_66300.0" departureTime="18:25:00" vehicleRefId="3_0" />
+				<departure id="3_67200.0" departureTime="18:40:00" vehicleRefId="3_1" />
+				<departure id="3_68100.0" departureTime="18:55:00" vehicleRefId="3_2" />
+				<departure id="3_69000.0" departureTime="19:10:00" vehicleRefId="3_3" />
+				<departure id="3_69900.0" departureTime="19:25:00" vehicleRefId="3_4" />
+				<departure id="3_70800.0" departureTime="19:40:00" vehicleRefId="3_0" />
+				<departure id="3_71700.0" departureTime="19:55:00" vehicleRefId="3_1" />
+				<departure id="3_72600.0" departureTime="20:10:00" vehicleRefId="3_2" />
+				<departure id="3_73500.0" departureTime="20:25:00" vehicleRefId="3_3" />
+				<departure id="3_74400.0" departureTime="20:40:00" vehicleRefId="3_4" />
+				<departure id="3_75300.0" departureTime="20:55:00" vehicleRefId="3_0" />
+				<departure id="3_76200.0" departureTime="21:10:00" vehicleRefId="3_1" />
+				<departure id="3_77100.0" departureTime="21:25:00" vehicleRefId="3_2" />
+				<departure id="3_78000.0" departureTime="21:40:00" vehicleRefId="3_3" />
+				<departure id="3_78900.0" departureTime="21:55:00" vehicleRefId="3_4" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="4" name="4">
+		<transitRoute id="4">
+			<transportMode>tram</transportMode>
+			<routeProfile>
+				<stop refId="9470304_b" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470249_b" arrivalOffset="00:01:00" departureOffset="00:01:20" awaitDeparture="true" />
+				<stop refId="9470326_b" arrivalOffset="00:02:00" departureOffset="00:02:20" awaitDeparture="true" />
+				<stop refId="9470284_b" arrivalOffset="00:03:00" departureOffset="00:03:20" awaitDeparture="true" />
+				<stop refId="9470230_b" arrivalOffset="00:05:00" departureOffset="00:05:20" awaitDeparture="true" />
+				<stop refId="9470175_b" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="9470282_b" arrivalOffset="00:07:00" departureOffset="00:07:20" awaitDeparture="true" />
+				<stop refId="9470283_b" arrivalOffset="00:08:00" departureOffset="00:08:20" awaitDeparture="true" />
+				<stop refId="9470161_b" arrivalOffset="00:10:00" departureOffset="00:10:20" awaitDeparture="true" />
+				<stop refId="9470205_b" arrivalOffset="00:12:00" departureOffset="00:12:20" awaitDeparture="true" />
+				<stop refId="9470269_b" arrivalOffset="00:14:00" departureOffset="00:14:20" awaitDeparture="true" />
+				<stop refId="9470268_b" arrivalOffset="00:15:00" departureOffset="00:15:20" awaitDeparture="true" />
+				<stop refId="9470303_b" arrivalOffset="00:16:00" departureOffset="00:16:20" awaitDeparture="true" />
+				<stop refId="9470119_b" arrivalOffset="00:17:00" departureOffset="00:17:20" awaitDeparture="true" />
+				<stop refId="9470222_a" arrivalOffset="00:19:00" departureOffset="00:19:20" awaitDeparture="true" />
+				<stop refId="9470402_a" arrivalOffset="00:21:00" departureOffset="00:21:20" awaitDeparture="true" />
+				<stop refId="9470216_a" arrivalOffset="00:22:00" departureOffset="00:22:20" awaitDeparture="true" />
+				<stop refId="9470215_a" arrivalOffset="00:23:00" departureOffset="00:23:20" awaitDeparture="true" />
+				<stop refId="9470214_a" arrivalOffset="00:25:00" departureOffset="00:32:00" awaitDeparture="true" />
+				<stop refId="9470214_b" arrivalOffset="00:32:00" departureOffset="00:32:20" awaitDeparture="true" />
+				<stop refId="9470215_b" arrivalOffset="00:33:00" departureOffset="00:33:20" awaitDeparture="true" />
+				<stop refId="9470216_b" arrivalOffset="00:34:00" departureOffset="00:34:20" awaitDeparture="true" />
+				<stop refId="9470402_b" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+				<stop refId="9470222_b" arrivalOffset="00:37:00" departureOffset="00:37:20" awaitDeparture="true" />
+				<stop refId="9470119_a" arrivalOffset="00:39:00" departureOffset="00:39:20" awaitDeparture="true" />
+				<stop refId="9470303_a" arrivalOffset="00:40:00" departureOffset="00:40:20" awaitDeparture="true" />
+				<stop refId="9470268_a" arrivalOffset="00:42:00" departureOffset="00:42:20" awaitDeparture="true" />
+				<stop refId="9470269_a" arrivalOffset="00:43:00" departureOffset="00:43:20" awaitDeparture="true" />
+				<stop refId="9470205_a" arrivalOffset="00:45:00" departureOffset="00:45:20" awaitDeparture="true" />
+				<stop refId="9470161_a" arrivalOffset="00:46:00" departureOffset="00:47:00" awaitDeparture="true" />
+				<stop refId="9470283_a" arrivalOffset="00:49:00" departureOffset="00:49:20" awaitDeparture="true" />
+				<stop refId="9470282_a" arrivalOffset="00:50:00" departureOffset="00:50:20" awaitDeparture="true" />
+				<stop refId="9470175_a" arrivalOffset="00:51:00" departureOffset="00:51:20" awaitDeparture="true" />
+				<stop refId="9470230_a" arrivalOffset="00:53:00" departureOffset="00:53:20" awaitDeparture="true" />
+				<stop refId="9470284_a" arrivalOffset="00:55:00" departureOffset="00:55:20" awaitDeparture="true" />
+				<stop refId="9470326_a" arrivalOffset="00:56:00" departureOffset="00:56:20" awaitDeparture="true" />
+				<stop refId="9470249_a" arrivalOffset="00:57:00" departureOffset="00:57:20" awaitDeparture="true" />
+				<stop refId="9470304_a" arrivalOffset="00:58:00" departureOffset="00:58:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="ptl44" />
+				<link refId="ptl43" />
+				<link refId="ptl42" />
+				<link refId="ptl41" />
+				<link refId="ptl40" />
+				<link refId="ptl39" />
+				<link refId="ptl38" />
+				<link refId="ptl37" />
+				<link refId="ptl36" />
+				<link refId="ptl35" />
+				<link refId="ptl34" />
+				<link refId="7654" />
+				<link refId="4388" />
+				<link refId="1649" />
+				<link refId="1650" />
+				<link refId="4137" />
+				<link refId="8079" />
+				<link refId="695" />
+				<link refId="40" />
+				<link refId="6496" />
+				<link refId="8342" />
+				<link refId="2786" />
+				<link refId="2787" />
+				<link refId="6672" />
+				<link refId="3731" />
+				<link refId="2161" />
+				<link refId="2105" />
+				<link refId="2107" />
+				<link refId="7757" />
+				<link refId="7759" />
+				<link refId="4335" />
+				<link refId="3029" />
+
+				<link refId="ptl61" />
+				<link refId="ptl60" />
+				<link refId="ptl59" />
+				<link refId="ptl58" />
+				
+				<link refId="ptl57" />
+				<link refId="1682" />
+				<link refId="1680" />
+				<link refId="560" />
+				<link refId="562" />
+				<link refId="564" />
+				<link refId="566" />
+				<link refId="3022" />
+				<link refId="ptl999" />
+				<link refId="ptb0" />
+				<link refId="ptb1" />
+				<link refId="ptb2" />
+				<link refId="ptb3" />
+				<link refId="ptb4" />
+				<link refId="ptb5" />
+				<link refId="ptb6" />
+				<link refId="ptl6" />
+				<link refId="ptl5" />
+				<link refId="ptl4" />
+				<link refId="ptl3" />
+				<link refId="ptl2" />
+				<link refId="ptl1" />
+				<link refId="ptl0" />
+				<link refId="ptb999" />
+				<link refId="3023" />
+				<link refId="567" />
+				<link refId="565" />
+				<link refId="563" />
+				<link refId="561" />
+				<link refId="1679" />
+				<link refId="1681" />
+				<link refId="ptb57" />
+				<link refId="ptb58" />
+				<link refId="ptb59" />
+				<link refId="ptb60" />
+				<link refId="ptb61" />
+				
+				<link refId="3030" />
+				<link refId="4336" />
+				<link refId="7760" />
+				<link refId="7758" />
+				<link refId="2108" />
+				<link refId="2106" />
+				<link refId="2162" />
+				<link refId="3732" />
+				<link refId="6673" />
+				<link refId="7032" />
+				<link refId="8251" />
+				<link refId="6216" />
+				<link refId="8632" />
+				<link refId="8633" />
+				<link refId="694" />
+				<link refId="8078" />
+				<link refId="4136" />
+				<link refId="1643" />
+				<link refId="1644" />
+				<link refId="4387" />
+				<link refId="7653" />
+				<link refId="ptb34" />
+				<link refId="ptb35" />
+				<link refId="ptb36" />
+				<link refId="ptb37" />
+				<link refId="ptb38" />
+				<link refId="ptb39" />
+				<link refId="ptb40" />
+				<link refId="ptb41" />
+				<link refId="ptb42" />
+				<link refId="ptb43" />
+				<link refId="ptb44" />
+			</route>
+			<departures>
+				<departure id="4_16980.0" departureTime="04:43:00" vehicleRefId="4_0" />
+				<departure id="4_17880.0" departureTime="04:58:00" vehicleRefId="4_1" />
+				<departure id="4_18780.0" departureTime="05:13:00" vehicleRefId="4_2" />
+				<departure id="4_19680.0" departureTime="05:28:00" vehicleRefId="4_3" />
+				<departure id="4_20580.0" departureTime="05:43:00" vehicleRefId="4_4" />
+				<departure id="4_21480.0" departureTime="05:58:00" vehicleRefId="4_0" />
+				<departure id="4_22380.0" departureTime="06:13:00" vehicleRefId="4_1" />
+				<departure id="4_23280.0" departureTime="06:28:00" vehicleRefId="4_2" />
+				<departure id="4_24180.0" departureTime="06:43:00" vehicleRefId="4_3" />
+				<departure id="4_25080.0" departureTime="06:58:00" vehicleRefId="4_4" />
+				<departure id="4_25980.0" departureTime="07:13:00" vehicleRefId="4_0" />
+				<departure id="4_26880.0" departureTime="07:28:00" vehicleRefId="4_1" />
+				<departure id="4_27780.0" departureTime="07:43:00" vehicleRefId="4_2" />
+				<departure id="4_28680.0" departureTime="07:58:00" vehicleRefId="4_3" />
+				<departure id="4_29580.0" departureTime="08:13:00" vehicleRefId="4_4" />
+				<departure id="4_30480.0" departureTime="08:28:00" vehicleRefId="4_0" />
+				<departure id="4_31380.0" departureTime="08:43:00" vehicleRefId="4_1" />
+				<departure id="4_32280.0" departureTime="08:58:00" vehicleRefId="4_2" />
+				<departure id="4_33180.0" departureTime="09:13:00" vehicleRefId="4_3" />
+				<departure id="4_34080.0" departureTime="09:28:00" vehicleRefId="4_4" />
+				<departure id="4_34980.0" departureTime="09:43:00" vehicleRefId="4_0" />
+				<departure id="4_35880.0" departureTime="09:58:00" vehicleRefId="4_1" />
+				<departure id="4_36780.0" departureTime="10:13:00" vehicleRefId="4_2" />
+				<departure id="4_37680.0" departureTime="10:28:00" vehicleRefId="4_3" />
+				<departure id="4_38580.0" departureTime="10:43:00" vehicleRefId="4_4" />
+				<departure id="4_39480.0" departureTime="10:58:00" vehicleRefId="4_0" />
+				<departure id="4_40380.0" departureTime="11:13:00" vehicleRefId="4_1" />
+				<departure id="4_41280.0" departureTime="11:28:00" vehicleRefId="4_2" />
+				<departure id="4_42180.0" departureTime="11:43:00" vehicleRefId="4_3" />
+				<departure id="4_43080.0" departureTime="11:58:00" vehicleRefId="4_4" />
+				<departure id="4_43980.0" departureTime="12:13:00" vehicleRefId="4_0" />
+				<departure id="4_44880.0" departureTime="12:28:00" vehicleRefId="4_1" />
+				<departure id="4_45780.0" departureTime="12:43:00" vehicleRefId="4_2" />
+				<departure id="4_46680.0" departureTime="12:58:00" vehicleRefId="4_3" />
+				<departure id="4_47580.0" departureTime="13:13:00" vehicleRefId="4_4" />
+				<departure id="4_48480.0" departureTime="13:28:00" vehicleRefId="4_0" />
+				<departure id="4_49380.0" departureTime="13:43:00" vehicleRefId="4_1" />
+				<departure id="4_50280.0" departureTime="13:58:00" vehicleRefId="4_2" />
+				<departure id="4_51180.0" departureTime="14:13:00" vehicleRefId="4_3" />
+				<departure id="4_52080.0" departureTime="14:28:00" vehicleRefId="4_4" />
+				<departure id="4_52980.0" departureTime="14:43:00" vehicleRefId="4_0" />
+				<departure id="4_53880.0" departureTime="14:58:00" vehicleRefId="4_1" />
+				<departure id="4_54780.0" departureTime="15:13:00" vehicleRefId="4_2" />
+				<departure id="4_55680.0" departureTime="15:28:00" vehicleRefId="4_3" />
+				<departure id="4_56580.0" departureTime="15:43:00" vehicleRefId="4_4" />
+				<departure id="4_57480.0" departureTime="15:58:00" vehicleRefId="4_0" />
+				<departure id="4_58380.0" departureTime="16:13:00" vehicleRefId="4_1" />
+				<departure id="4_59280.0" departureTime="16:28:00" vehicleRefId="4_2" />
+				<departure id="4_60180.0" departureTime="16:43:00" vehicleRefId="4_3" />
+				<departure id="4_61080.0" departureTime="16:58:00" vehicleRefId="4_4" />
+				<departure id="4_61980.0" departureTime="17:13:00" vehicleRefId="4_0" />
+				<departure id="4_62880.0" departureTime="17:28:00" vehicleRefId="4_1" />
+				<departure id="4_63780.0" departureTime="17:43:00" vehicleRefId="4_2" />
+				<departure id="4_64680.0" departureTime="17:58:00" vehicleRefId="4_3" />
+				<departure id="4_65580.0" departureTime="18:13:00" vehicleRefId="4_4" />
+				<departure id="4_66480.0" departureTime="18:28:00" vehicleRefId="4_0" />
+				<departure id="4_67380.0" departureTime="18:43:00" vehicleRefId="4_1" />
+				<departure id="4_68280.0" departureTime="18:58:00" vehicleRefId="4_2" />
+				<departure id="4_69180.0" departureTime="19:13:00" vehicleRefId="4_3" />
+				<departure id="4_70080.0" departureTime="19:28:00" vehicleRefId="4_4" />
+				<departure id="4_70980.0" departureTime="19:43:00" vehicleRefId="4_0" />
+				<departure id="4_71880.0" departureTime="19:58:00" vehicleRefId="4_1" />
+				<departure id="4_72780.0" departureTime="20:13:00" vehicleRefId="4_2" />
+				<departure id="4_73680.0" departureTime="20:28:00" vehicleRefId="4_3" />
+				<departure id="4_74580.0" departureTime="20:43:00" vehicleRefId="4_4" />
+				<departure id="4_75480.0" departureTime="20:58:00" vehicleRefId="4_0" />
+				<departure id="4_76380.0" departureTime="21:13:00" vehicleRefId="4_1" />
+				<departure id="4_77280.0" departureTime="21:28:00" vehicleRefId="4_2" />
+				<departure id="4_78180.0" departureTime="21:43:00" vehicleRefId="4_3" />
+				<departure id="4_79080.0" departureTime="21:58:00" vehicleRefId="4_4" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="rb43" name="rb43">
+		<transitRoute id="rb43">
+			<transportMode>train</transportMode>
+			<routeProfile>
+				<stop refId="9445885_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470000_c" arrivalOffset="00:06:00" departureOffset="00:07:00" awaitDeparture="true" />
+				<stop refId="9470000_d" arrivalOffset="00:13:00" departureOffset="00:19:00" awaitDeparture="true" />
+				<stop refId="9445885_b" arrivalOffset="00:25:00" departureOffset="00:25:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="ptb46" />
+				<link refId="ptb47" />
+				<link refId="ptb48" />
+				<link refId="ptl48" />
+				<link refId="ptl47" />
+				<link refId="ptl46" />
+			</route>
+			<departures>
+				<departure id="rb43_17340.0" departureTime="04:49:00" vehicleRefId="rb43_0" />
+				<departure id="rb43_20940.0" departureTime="05:49:00" vehicleRefId="rb43_1" />
+				<departure id="rb43_24540.0" departureTime="06:49:00" vehicleRefId="rb43_2" />
+				<departure id="rb43_28140.0" departureTime="07:49:00" vehicleRefId="rb43_3" />
+				<departure id="rb43_31740.0" departureTime="08:49:00" vehicleRefId="rb43_4" />
+				<departure id="rb43_35340.0" departureTime="09:49:00" vehicleRefId="rb43_0" />
+				<departure id="rb43_38940.0" departureTime="10:49:00" vehicleRefId="rb43_1" />
+				<departure id="rb43_42540.0" departureTime="11:49:00" vehicleRefId="rb43_2" />
+				<departure id="rb43_46140.0" departureTime="12:49:00" vehicleRefId="rb43_3" />
+				<departure id="rb43_49740.0" departureTime="13:49:00" vehicleRefId="rb43_4" />
+				<departure id="rb43_53340.0" departureTime="14:49:00" vehicleRefId="rb43_0" />
+				<departure id="rb43_56940.0" departureTime="15:49:00" vehicleRefId="rb43_1" />
+				<departure id="rb43_60540.0" departureTime="16:49:00" vehicleRefId="rb43_2" />
+				<departure id="rb43_64140.0" departureTime="17:49:00" vehicleRefId="rb43_3" />
+				<departure id="rb43_67740.0" departureTime="18:49:00" vehicleRefId="rb43_4" />
+				<departure id="rb43_71340.0" departureTime="19:49:00" vehicleRefId="rb43_0" />
+				<departure id="rb43_74940.0" departureTime="20:49:00" vehicleRefId="rb43_1" />
+				<departure id="rb43_78540.0" departureTime="21:49:00" vehicleRefId="rb43_2" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="re11" name="re11">
+		<transitRoute id="re11">
+			<transportMode>train</transportMode>
+			<routeProfile>
+				<stop refId="9470307_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470163_a" arrivalOffset="00:04:00" departureOffset="00:04:20" awaitDeparture="true" />
+				<stop refId="9470001_a" arrivalOffset="00:06:00" departureOffset="00:06:20" awaitDeparture="true" />
+				<stop refId="9470000_d" arrivalOffset="00:09:00" departureOffset="00:11:00" awaitDeparture="true" />
+				<stop refId="9470000_c" arrivalOffset="00:13:00" departureOffset="00:26:00" awaitDeparture="true" />
+				<stop refId="9470001_b" arrivalOffset="00:29:00" departureOffset="00:29:20" awaitDeparture="true" />
+				<stop refId="9470163_b" arrivalOffset="00:31:00" departureOffset="00:31:20" awaitDeparture="true" />
+				<stop refId="9470307_b" arrivalOffset="00:35:00" departureOffset="00:35:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="ptl54" />
+				<link refId="ptl53" />
+				<link refId="ptl52" />
+				<link refId="ptl51" />
+				<link refId="ptl50" />
+				<link refId="ptl49" />
+				<link refId="ptl48" />
+				<link refId="ptb48" />
+				<link refId="ptb49" />
+				<link refId="ptb50" />
+				<link refId="ptb51" />
+				<link refId="ptb52" />
+				<link refId="ptb53" />
+				<link refId="ptb54" />
+			</route>
+			<departures>
+				<departure id="re11_20520.0" departureTime="05:42:00" vehicleRefId="re11_0" />
+				<departure id="re11_24120.0" departureTime="06:42:00" vehicleRefId="re11_1" />
+				<departure id="re11_27720.0" departureTime="07:42:00" vehicleRefId="re11_2" />
+				<departure id="re11_31320.0" departureTime="08:42:00" vehicleRefId="re11_3" />
+				<departure id="re11_34920.0" departureTime="09:42:00" vehicleRefId="re11_4" />
+				<departure id="re11_38520.0" departureTime="10:42:00" vehicleRefId="re11_0" />
+				<departure id="re11_42120.0" departureTime="11:42:00" vehicleRefId="re11_1" />
+				<departure id="re11_45720.0" departureTime="12:42:00" vehicleRefId="re11_2" />
+				<departure id="re11_49320.0" departureTime="13:42:00" vehicleRefId="re11_3" />
+				<departure id="re11_52920.0" departureTime="14:42:00" vehicleRefId="re11_4" />
+				<departure id="re11_56520.0" departureTime="15:42:00" vehicleRefId="re11_0" />
+				<departure id="re11_60120.0" departureTime="16:42:00" vehicleRefId="re11_1" />
+				<departure id="re11_63720.0" departureTime="17:42:00" vehicleRefId="re11_2" />
+				<departure id="re11_67320.0" departureTime="18:42:00" vehicleRefId="re11_3" />
+				<departure id="re11_70920.0" departureTime="19:42:00" vehicleRefId="re11_4" />
+				<departure id="re11_74520.0" departureTime="20:42:00" vehicleRefId="re11_0" />
+				<departure id="re11_78120.0" departureTime="21:42:00" vehicleRefId="re11_1" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+	<transitLine id="re2" name="re2">
+		<transitRoute id="re2">
+			<transportMode>train</transportMode>
+			<routeProfile>
+				<stop refId="9445884_a" arrivalOffset="00:00:00" departureOffset="00:00:00" awaitDeparture="true" />
+				<stop refId="9470000_c" arrivalOffset="00:05:00" departureOffset="00:07:00" awaitDeparture="true" />
+				<stop refId="9470000_d" arrivalOffset="00:08:00" departureOffset="00:23:00" awaitDeparture="true" />
+				<stop refId="9445884_b" arrivalOffset="00:28:00" departureOffset="00:28:20" awaitDeparture="true" />
+			</routeProfile>
+			<route>
+				<link refId="ptl56" />
+				<link refId="ptl55" />
+				<link refId="ptb48" />
+				<link refId="ptl48" />
+				<link refId="ptb55" />
+				<link refId="ptb56" />
+			</route>
+			<departures>
+				<departure id="re2_16800.0" departureTime="04:40:00" vehicleRefId="re2_0" />
+				<departure id="re2_20400.0" departureTime="05:40:00" vehicleRefId="re2_1" />
+				<departure id="re2_24000.0" departureTime="06:40:00" vehicleRefId="re2_2" />
+				<departure id="re2_27600.0" departureTime="07:40:00" vehicleRefId="re2_3" />
+				<departure id="re2_31200.0" departureTime="08:40:00" vehicleRefId="re2_4" />
+				<departure id="re2_34800.0" departureTime="09:40:00" vehicleRefId="re2_0" />
+				<departure id="re2_38400.0" departureTime="10:40:00" vehicleRefId="re2_1" />
+				<departure id="re2_42000.0" departureTime="11:40:00" vehicleRefId="re2_2" />
+				<departure id="re2_45600.0" departureTime="12:40:00" vehicleRefId="re2_3" />
+				<departure id="re2_49200.0" departureTime="13:40:00" vehicleRefId="re2_4" />
+				<departure id="re2_52800.0" departureTime="14:40:00" vehicleRefId="re2_0" />
+				<departure id="re2_56400.0" departureTime="15:40:00" vehicleRefId="re2_1" />
+				<departure id="re2_60000.0" departureTime="16:40:00" vehicleRefId="re2_2" />
+				<departure id="re2_63600.0" departureTime="17:40:00" vehicleRefId="re2_3" />
+				<departure id="re2_67200.0" departureTime="18:40:00" vehicleRefId="re2_4" />
+				<departure id="re2_70800.0" departureTime="19:40:00" vehicleRefId="re2_0" />
+				<departure id="re2_74400.0" departureTime="20:40:00" vehicleRefId="re2_1" />
+				<departure id="re2_78000.0" departureTime="21:40:00" vehicleRefId="re2_2" />
+			</departures>
+		</transitRoute>
+	</transitLine>
+</transitSchedule>

@@ -1,5 +1,5 @@
 
-from client_bus_route_optimization.utils.file_handler import YamlRepository, PklRepository
+from client_bus_route_optimization.utils.file_handler import YamlRepository, PklRepository, JsonRepository
 from pathlib import Path
 import logging
 import xml.etree.ElementTree as ET
@@ -12,6 +12,7 @@ try:
 except ImportError:
     logging.error("Genet module not found. Please ensure it is installed.")
     genet = None
+
 
 def build_config_file(worker_id, template_path, output):
 
@@ -53,7 +54,7 @@ def add_line_to_services(n,line):
         route_obj = genet.Route(
             route_short_name=route_data["short_name"],
             mode='bus',
-            headway_spec=route_data["headway_spec"],
+            headway_spec={(route_data["headway_spec"]["start_time"], route_data["headway_spec"]["end_time"]): route_data["headway_spec"]["headway_minutes"]},
             arrival_offsets=route_data["arrival_offsets"],
             departure_offsets=route_data["departure_offsets"],
             await_departure=route_data["await_departure"],
@@ -77,7 +78,7 @@ def build_vehicle_schedule(data, worker_id):
     config = YamlRepository.load("config/config.yaml")
 
     # load route set
-    route_set = PklRepository.load(config["route_set_path"])
+    terminal_pairs_set = JsonRepository.load(config["terminal_pairs_path"])
     print(data)
     print(type(data))
     # load A_pop, P_pop
@@ -101,7 +102,7 @@ def build_vehicle_schedule(data, worker_id):
     for i, line_idx in enumerate(P_pop):
         if line_idx == 0:
             continue
-        line = route_set[i]["lines"][line_idx - 1]
+        line = terminal_pairs_set[i]["lines"][line_idx - 1]
         # add bus config to service (schedule)
         add_line_to_services(n,line)
 
@@ -115,7 +116,14 @@ def build_vehicle_schedule(data, worker_id):
     # build config file
     template_config_path = Path(config["config_path"])
     new_config_path = input_path / "config.xml"
+
+    # Build config matsim
     build_config_file(worker_id, template_config_path, new_config_path)
+
+    # build config evaluation
+    template_config_eval = Path(config["config_eval_path"])
+    new_config_eval_path = input_path / "config_eval.yaml"
+    build_config_file(worker_id, template_config_eval, new_config_eval_path)
 
 
 
