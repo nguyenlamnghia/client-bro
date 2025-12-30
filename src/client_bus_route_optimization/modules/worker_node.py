@@ -31,7 +31,7 @@ def build_log_path(base_log_path: str):
 
 # tạo ra thư mục log_pth/DDMMYY/HHMMSS/log_file_name
 class DistributeSystemWorkerLogger:
-    def __init__(self, process_id: int, log_file_name: str, log_path: str ):
+    def __init__(self, process_id: int,  log_path: str , id: int):
 
         log_path = build_log_path(log_path)
 
@@ -45,7 +45,7 @@ class DistributeSystemWorkerLogger:
         self.DSLogger = logging.getLogger(f"{self.node_id}")
         self.DSLogger.setLevel(logging.DEBUG)
 
-        file_log_handler = RotatingFileHandler(os.path.join(log_path,log_file_name), 
+        file_log_handler = RotatingFileHandler(os.path.join(log_path,f"worker_process_{id}_logs.log"), 
                                                maxBytes=10 * 1024 * 1024, 
                                                backupCount=5,
                                                encoding='utf-8')
@@ -61,7 +61,7 @@ class DistributeSystemWorkerLogger:
 
          # Tạo log tổng hơp
         all_logs = RotatingFileHandler(
-            os.path.join(log_path, "worker_full_logs.log"),
+            os.path.join(log_path, f"worker_process_{id}_full_logs.log"),
             maxBytes=10 * 1024 * 1024,
             backupCount=5,
             encoding="utf-8"
@@ -104,8 +104,8 @@ class WorkerNode:
     
     def __init__(self, host, id,  log_path : str = "logs"):
         os.makedirs(log_path, exist_ok=True) # Neu folder ton tai thi bo qua, chua ton tai thi tao
-        log_file_name : str = f"worker_log_process{id}.log"
-        self.logger = DistributeSystemWorkerLogger(process_id = id,log_file_name=log_file_name, log_path=log_path)
+        
+        self.logger = DistributeSystemWorkerLogger(process_id = id, log_path=log_path, id = id)
         self.logger.DSLogger.info("DANG KHOI TAO WORKER.......")
 
         self.id = id
