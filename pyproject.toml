@@ -1,6 +1,6 @@
 [project]
 name = "client-bus-route-optimization"
-version = "0.1.0"
+version = "1.0.0"
 description = ""
 authors = [
     {name = "nguyenlamnghia",email = "nghia.nl214022@sis.hust.edu.vn"}

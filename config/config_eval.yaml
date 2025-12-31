@@ -8,11 +8,11 @@ matsim:
 
 files:
   data: # These files are internal only. No need to change it
-    link_records: "data/output/{{WORKER}}/link_records.arrow"
-    stop_records: "data/output/{{WORKER}}/stop_records.arrow"
-    avg_trip_len: "data/output/{{WORKER}}/trip_len.bin"
-    los_records: "data/output/{{WORKER}}/los_records.arrow"
-    los_scores: "data/output/{{WORKER}}/los_scores.arrow"
+    link_records: "data/output/{{WORKER}}/eval/link_records.arrow"
+    stop_records: "data/output/{{WORKER}}/eval/stop_records.arrow"
+    avg_trip_len: "data/output/{{WORKER}}/eval/trip_len.bin"
+    los_records: "data/output/{{WORKER}}/eval/los_records.arrow"
+    los_scores: "data/output/{{WORKER}}/eval/los_scores.arrow"
 
 arrow:
   batch_size: 50000
