@@ -57,7 +57,9 @@ def run_matsim(config, id):
         "-jar", config["matsim_path"],
         "--cfg", f"{config['workers_input_path']}/worker{id}/config_eval.yaml",
         "--matsim-cfg", f"{config['workers_input_path']}/worker{id}/config.xml",
-        "--out", f"{config['workers_output_path']}/worker{id}/eval/score.bin"
+        "--out", f"{config['workers_output_path']}/worker{id}/eval/score.bin",
+        "--log-file", f"logs/matsim/worker{id}.log",
+        "--signature", f"worker{id}"
     ]
 
     # Gọi hàm thay vì subprocess.run(cmd)
