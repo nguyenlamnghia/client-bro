@@ -128,7 +128,9 @@ def build_vehicle_schedule(data, worker_id):
 def run_custom_matsim(data, config, id):
     build_vehicle_schedule(data, id)
     config = YamlRepository.load("config/config.yaml")
-    score = run_worker_task(config, id)
+    # score = run_worker_task(config, id)
+    # add minus sign to score because we want to minimize the score
+    score = -run_worker_task(config, id)
     return score
 
 if __name__ == "__main__":
