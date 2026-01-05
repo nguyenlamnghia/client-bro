@@ -125,6 +125,25 @@ def build_vehicle_schedule(data, worker_id):
     new_config_eval_path = input_path / "config_eval.yaml"
     build_config_file(worker_id, template_config_eval, new_config_eval_path)
 
+def run_custom_matsim(data, config, id):
+    build_vehicle_schedule(data, id)
+    config = YamlRepository.load("config/config.yaml")
+    score = run_worker_task(config, id)
+    return score
 
+if __name__ == "__main__":
+    
+    from src.client_bus_route_optimization.modules.run_matsim import run_worker_task
+    # test build_vehicle_schedule
+    test_data = {
+        "config": {
+            "A_pop": [0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "P_pop": [0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        }
+    }
+    build_vehicle_schedule(test_data, 9)
 
-
+    # test run_worker_task
+    config = YamlRepository.load("config/config.yaml")
+    score = run_worker_task(config, 9)
+    print("Score:", score)
