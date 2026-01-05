@@ -107,7 +107,7 @@ def run_matsim(config, worker_id, score_path: Path, log_dir: Path):
         f"worker{worker_id}",
     ]
 
-    completed = subprocess.run(cmd, capture_output=True, text=True)
+    completed = subprocess.run(cmd)
 
     if completed.returncode != 0:
         logger.error(
