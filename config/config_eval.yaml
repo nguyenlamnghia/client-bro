@@ -33,10 +33,10 @@ scoring:
     headway_tolerance: 1 # minutes
 
     # Thresholds for EWT aggregation, weighted by boarding data at each stop
-    boarding_threshold: 10 
+    boarding_threshold: 10
 
     # Threshold for load factor aggregation, weighted by 
-    total_load_threshold: 50
+    total_load_threshold: 10
 
   amenity:
     shelter: 1.3 # minutes

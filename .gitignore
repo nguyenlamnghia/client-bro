@@ -1,6 +1,6 @@
 .idea/
-data/input/worker*/
-data/output/worker*/
+data/input/*/
+data/output/*/
 
 # Logs
 logs/
