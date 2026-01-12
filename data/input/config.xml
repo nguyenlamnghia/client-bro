@@ -30,8 +30,8 @@
 	</module>
 
 	<module name="qsim">
-		<param name="startTime" value="00:00:00"/>
-		<param name="endTime" value="24:00:00"/>
+		<param name="startTime" value="06:00:00"/>
+		<param name="endTime" value="11:00:00"/>
 		<param name="flowCapacityFactor" value="0.25"/>
 		<param name="storageCapacityFactor" value="0.25"/>
 	</module>
