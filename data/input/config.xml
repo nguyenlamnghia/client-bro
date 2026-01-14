@@ -138,6 +138,7 @@
 		</parameterset>
 		
 		<!-- ChangeTripMode 45%: Đảm bảo 99.66% agents thử PT, 4 lần trung bình -->
+		<!-- Cấu hình modes trong SubtourModeChoice nếu cần kiểm soát chi tiết -->
 		<parameterset type="strategysettings" >
 			<param name="strategyName" value="ChangeTripMode" />
 			<param name="weight" value="0.45" />
@@ -154,11 +155,15 @@
 		<!-- Chỉ tạo nhiễu và false negatives cho PBIL fitness evaluation -->
 	</module>
 	
-	<!-- Cấu hình ChangeTripMode để kiểm soát mode switching behavior -->
-	<module name="changeTripMode">
+	<!-- Cấu hình các modes available cho ChangeTripMode -->
+	<module name="subtourModeChoice">
 		<param name="modes" value="car,pt,bike,walk" />
-		<param name="ignoreCarAvailability" value="false" />
+		<param name="chainBasedModes" value="car,bike" />
+		<param name="considerCarAvailability" value="true" />
 	</module>
+	
+	<!-- ChangeTripMode config được điều khiển qua strategy module -->
+	<!-- Không cần module changeTripMode riêng -->
 
 	<module name="transit">
 		<param name="transitScheduleFile" value="schedule.xml" />
