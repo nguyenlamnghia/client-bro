@@ -8,52 +8,27 @@ matsim:
 
 files:
   data: # These files are internal only. No need to change it
-    link_records: "data/output/{{WORKER}}/eval/link_records.arrow"
-    stop_records: "data/output/{{WORKER}}/eval/stop_records.arrow"
-    avg_trip_len: "data/output/{{WORKER}}/eval/trip_len.bin"
-    los_records: "data/output/{{WORKER}}/eval/los_records.arrow"
-    los_scores: "data/output/{{WORKER}}/eval/los_scores.arrow"
+    bus_pax_records: "data/output/{{WORKER}}/eval/bus_pax_records.arrow"
+    bus_delay_records: "data/output/{{WORKER}}/eval/bus_delay_records.arrow"
+    trip_records: "data/output/{{WORKER}}/eval/trip_records.arrow"
 
 arrow:
   batch_size: 50000
 
-bus:
-  seating: 30
-  standing: 20
-  cap_headroom: 0.5 # 50% headroom for standing passengers
-
-processing:
-  exclude_lines:  # Lines to exclude from analysis (empty list = include all)
-    - "Wenden"
-
 scoring:
-  wait_ride:
-    elas: -0.4
-    base_travel_time: 1.5 # min/km
-    headway_tolerance: 1 # minutes
+  params:
+    coverage_radius: 400.0 # m
+    early_headway_tolerance: 3.0 # minutes
+    late_headway_tolerance: 3.0 # minutes
+    travel_time_baseline: 20.0 # minutes
 
-    # Thresholds for EWT aggregation, weighted by boarding data at each stop
-    boarding_threshold: 10
+  weights:
+    service_coverage: 0.1
+    ridership: 0.2
+    travel_time: 0.1
+    transit_auto_time_ratio: 0.3
+    on_time_performance: 0.3
 
-    # Threshold for load factor aggregation, weighted by 
-    total_load_threshold: 10
 
-  amenity:
-    shelter: 1.3 # minutes
-    shelter_rate: 0.25
 
-    bench: 0.2 # minutes
-    bench_rate: 0.15
 
-  # Due to constant being unit-dependent within the formula, all measurements must be specified here in Imperial units
-  ped_env:
-    outside_lane_width: 9  # ft
-    bike_lane_width: 0      # ft
-    parking_lane_width: 5  # ft
-    volume_threshold: 160 # veh/hr (for outside lane)
-
-    street_parking: 0.25  # 25%
-
-    sidewalk_buffer: 0.33 # ft
-    buffer_coeff: 1.0
-    sidewalk_width: 6     # ft
