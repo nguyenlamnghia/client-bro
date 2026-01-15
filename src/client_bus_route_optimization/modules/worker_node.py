@@ -76,7 +76,7 @@ class DistributeSystemWorkerLogger:
 
 class WorkerNode:
     def connect_rabbitmq(self, host):
-        RETRY_DELAYS = [5, 10, 20, 40, 80]
+        RETRY_DELAYS = [10, 10, 10, 10, 100]
         last_exception = None
         for attempt, delay in enumerate(RETRY_DELAYS, start=1):
             try:
@@ -150,13 +150,30 @@ class WorkerNode:
         self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker publish result cua task len Server")
 
     def start(self):
-        try:
-            self.channel.basic_qos(prefetch_count=1)
-            self.channel.basic_consume(queue="task_queue", on_message_callback=self.cb_on_task)
-            self.channel.start_consuming()
-        except KeyboardInterrupt:
-            self.logger.DSLogger.info("DUNG WORKER CUONG CHE TU NGUOI DUNG")
+        RETRY_DELAYS = [5,5,5]
+        last_exception = None
 
+        for attempt, delay in enumerate(RETRY_DELAYS):
+            try: 
+                self.channel.basic_qos(prefetch_count=1)
+                self.channel.basic_consume(queue="task_queue", on_message_callback=self.cb_on_task)
+                self.channel.start_consuming()
+            except KeyboardInterrupt:
+                self.logger.DSLogger.info("DUNG WORKER CUONG CHE TU NGUOI DUNG")
+
+            except Exception as e:
+                last_exception = e
+                self.logger.DSLogger.warning(
+                    f"[Retry {attempt}/3] Worker bi loi ({e}). "
+                    f"Thử lại sau {delay}s..."
+                )
+                time.sleep(delay)
+                self.connect_rabbitmq(self.host)
+
+        self.logger.DSLogger.error(
+            f"Worker bi loi sau 3 lan retry"
+        )
+        raise last_exception
 
 if __name__ == "__main__":
     host = "localhost"
