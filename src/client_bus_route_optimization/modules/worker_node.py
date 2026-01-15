@@ -130,7 +130,8 @@ class WorkerNode:
         config = YamlRepository.load("config/config.yaml")
 
         # run matsim
-        score = run_worker_task(config, self.id)
+        # add minus to minimize score
+        score = run_worker_task(config, self.id)        # remove minus to new eval
 
         output_dict = {"id": input["id"], "result": score}
         output = json.dumps(output_dict)
