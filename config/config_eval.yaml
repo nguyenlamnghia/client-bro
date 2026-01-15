@@ -23,11 +23,12 @@ scoring:
     travel_time_baseline: 20.0 # minutes
 
   weights:
-    service_coverage: 0.1
-    ridership: 0.2
-    travel_time: 0.1
-    transit_auto_time_ratio: 0.3
-    on_time_performance: 0.3
+    service_coverage: 0.225
+    ridership: 0.275
+    travel_time: 0.05
+    transit_auto_time_ratio: 0.1625
+    on_time_performance: 0.1625
+    productivity: 0.125
 
 
 
