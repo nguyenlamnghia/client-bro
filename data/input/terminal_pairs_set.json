@@ -76507,7 +76507,7 @@
   {
     "terminal_pair_id": "TP_9470168_a_9470127_a_1",
     "number_of_lines": 1,
-    "probability": 0.5,
+    "probability": 1.0,
     "lines": [
       {
         "line_id": "10",
