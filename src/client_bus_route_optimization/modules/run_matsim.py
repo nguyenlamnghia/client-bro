@@ -95,6 +95,7 @@ def run_matsim(config, worker_id, score_path: Path, log_dir: Path):
         "--add-opens=java.base/java.nio=ALL-UNNAMED",
         "-jar",
         config["matsim_path"],
+        "sim",
         "--cfg",
         f"{config['workers_input_path']}/worker{worker_id}/config_eval.yaml",
         "--matsim-cfg",

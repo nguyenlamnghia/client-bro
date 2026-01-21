@@ -1,34 +1,36 @@
-mode: debug
-
 matsim:
-  bus_type_prefix: "bus"  # Prefix for vehicle TYPE names in transitVehicles.xml
+  bus_type:  # Marker for vehicle TYPE names in MATSim transit vehicle config
+    - "bus"
   bus_transport_modes:    # Transport modes to filter for buses (matches any)
     - "bus"
     - "pt"
 
 files:
   data: # These files are internal only. No need to change it
-    bus_pax_records: "data/output/{{WORKER}}/eval/bus_pax_records.arrow"
-    bus_delay_records: "data/output/{{WORKER}}/eval/bus_delay_records.arrow"
-    trip_records: "data/output/{{WORKER}}/eval/trip_records.arrow"
+    bus_pax_records: "data/output/{{WORKER}}/eval/bus_pax_records"
+    bus_delay_records: "data/output/{{WORKER}}/eval/bus_delay_records"
+    trip_records: "data/output/{{WORKER}}/eval/trip_records"
+    bus_trip_records: "data/output/{{WORKER}}/eval/bus_trip_records"
 
-arrow:
-  batch_size: 50000
+batch_size: 50000
 
 scoring:
   params:
     coverage_radius: 400.0 # m
     early_headway_tolerance: 3.0 # minutes
     late_headway_tolerance: 3.0 # minutes
-    travel_time_baseline: 20.0 # minutes
+    travel_time_baseline: 54.121 # minutes
 
   weights:
+    # Set the weights for each scoring metric (0.0 to disable the metric). The weights must sum to 1.0.
     service_coverage: 0.0
-    ridership: 1.0
-    travel_time: 0.0
-    transit_auto_time_ratio: 0.0
+    ridership: 0.0
+    travel_time: 0.5
+    transit_auto_time_ratio: 0.5
     on_time_performance: 0.0
     productivity: 0.0
+    bus_efficiency: 0.0
+    bus_effective_travel_dist: 0.0
 
 
 
