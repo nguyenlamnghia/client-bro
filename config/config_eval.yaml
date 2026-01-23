@@ -25,11 +25,11 @@ scoring:
     # Set the weights for each scoring metric (0.0 to disable the metric). The weights must sum to 1.0.
     service_coverage: 0.0
     ridership: 0.0
-    travel_time: 0.5
-    transit_auto_time_ratio: 0.5
+    travel_time: 0.0
+    transit_auto_time_ratio: 0.0
     on_time_performance: 0.0
     productivity: 0.0
-    bus_efficiency: 0.0
+    bus_efficiency: 1.0
     bus_effective_travel_dist: 0.0
 
 
