@@ -158,7 +158,7 @@ def run_matsim_custom(config, input_path, output_path, name):
     cmd = [
         "java",
         "--add-opens=java.base/java.nio=ALL-UNNAMED",
-        "-jar", config["matsim_path"],
+        "-jar", config["matsim_path"], "sim",
         "--cfg", str(Path(input_path) / "config_eval.yaml"),
         "--matsim-cfg", str(Path(input_path) / "config.xml"),
         "--out", str(Path(output_path) / "eval" / "score.bin"),
@@ -262,33 +262,33 @@ def run_custom_scenario(config_data, name, config_path="config/config.yaml",
 if __name__ == "__main__":
     """Test custom scenario functionality"""
     
-    print("=" * 70)
-    print("BASE LINE")
-    print("=" * 70)
+    # print("=" * 70)
+    # print("BASE LINE")
+    # print("=" * 70)
     
-    # Example custom configuration
-    baseline_config = {
-        "A_pop": [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        "P_pop": [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    }
+    # # Example custom configuration
+    # baseline_config = {
+    #     "A_pop": [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    #     "P_pop": [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    # }
     
-    # Test 1: Run custom scenario and get score
-    print("\nTest 1: Run custom scenario with name 'test_scenario_v1'")
-    print("-" * 70)
-    try:
-        score = run_custom_scenario(
-            config_data=baseline_config,
-            name="base_line",
-            config_path="config/config.yaml"
-        )
+    # # Test 1: Run custom scenario and get score
+    # print("\nTest 1: Run custom scenario with name 'test_scenario_v1'")
+    # print("-" * 70)
+    # try:
+    #     score = run_custom_scenario(
+    #         config_data=baseline_config,
+    #         name="base_line",
+    #         config_path="config/config.yaml"
+    #     )
         
-        print(f"✓ Simulation completed successfully!")
-        print(f"✓ Final Score: {score}")
+    #     print(f"✓ Simulation completed successfully!")
+    #     print(f"✓ Final Score: {score}")
             
-    except Exception as e:
-        print(f"✗ Error: {e}")
-        import traceback
-        traceback.print_exc()
+    # except Exception as e:
+    #     print(f"✗ Error: {e}")
+    #     import traceback
+    #     traceback.print_exc()
     
     # Test 2: Another scenario with different name
     pbil_config = {
