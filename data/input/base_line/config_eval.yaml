@@ -1,0 +1,37 @@
+matsim:
+  bus_type:  # Marker for vehicle TYPE names in MATSim transit vehicle config
+    - "bus"
+  bus_transport_modes:    # Transport modes to filter for buses (matches any)
+    - "bus"
+    - "pt"
+
+files:
+  data: # These files are internal only. No need to change it
+    bus_pax_records: "data/output/base_line/eval/bus_pax_records"
+    bus_delay_records: "data/output/base_line/eval/bus_delay_records"
+    trip_records: "data/output/base_line/eval/trip_records"
+    bus_trip_records: "data/output/base_line/eval/bus_trip_records"
+
+batch_size: 50000
+
+scoring:
+  params:
+    coverage_radius: 400.0 # m
+    early_headway_tolerance: 3.0 # minutes
+    late_headway_tolerance: 3.0 # minutes
+    travel_time_baseline: 54.121 # minutes
+
+  weights:
+    # Set the weights for each scoring metric (0.0 to disable the metric). The weights must sum to 1.0.
+    service_coverage: 0.1
+    ridership: 0.1
+    travel_time: 0.1
+    transit_auto_time_ratio: 0.1
+    on_time_performance: 0.1
+    productivity: 0.1
+    bus_efficiency: 0.1
+    bus_effective_travel_dist: 0.3
+
+
+
+

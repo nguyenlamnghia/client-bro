@@ -1,5 +1,5 @@
 .idea/
-data/input/*/
+data/input/worker/*
 data/output/*/
 
 # Logs

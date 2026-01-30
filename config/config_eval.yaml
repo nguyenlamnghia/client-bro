@@ -20,17 +20,28 @@ scoring:
     early_headway_tolerance: 3.0 # minutes
     late_headway_tolerance: 3.0 # minutes
     travel_time_baseline: 54.121 # minutes
+    productivity_baseline: 36.0 # passengers per service hour
 
   weights:
     # Set the weights for each scoring metric (0.0 to disable the metric). The weights must sum to 1.0.
+
+    # Group 1: Service Availability (Spatial)
+    transit_route_ratio: 0.0
     service_coverage: 0.0
-    ridership: 0.0
+
+    # Group 2: Economics & Ridership
+    ridership: 1.0
+    productivity: 0.0 # Note: There are recurring issues with productivity normalization. Recommend setting to 0.0 (disabled) until fixed.
+    bus_efficiency: 0.0
+    bus_effective_travel_dist: 0.0
+
+    # Group 3: Travel Time
     travel_time: 0.0
     transit_auto_time_ratio: 0.0
+    bus_transfer: 0.0
+
+    # Group 4: Service Reliability
     on_time_performance: 0.0
-    productivity: 0.0
-    bus_efficiency: 1.0
-    bus_effective_travel_dist: 0.0
 
 
 
