@@ -4,7 +4,7 @@ network_path: data/input/scenarios/cottbus_creative_2/network.xml
 schedule_path: data/input/scenarios/cottbus_creative_2/schedule.xml
 vehicle_path: data/input/scenarios/cottbus_creative_2/transitVehicles.xml
 
-matsim_path: matsim/dist-2.9.0.jar
+matsim_path: matsim/dist-2.10.5.jar
 #matsim_path: matsim/my-fat-app-simple-run.jar
 
 config_eval_path: config/config_eval.yaml
