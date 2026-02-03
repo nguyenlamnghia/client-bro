@@ -1,8 +1,8 @@
-config_path: data/input/scenarios/cottbus_creative_1/config.xml
-config_eval_xml_path: data/input/scenarios/cottbus_creative_1/config_eval.xml
-network_path: data/input/scenarios/cottbus_creative_1/network.xml
-schedule_path: data/input/scenarios/cottbus_creative_1/schedule.xml
-vehicle_path: data/input/scenarios/cottbus_creative_1/transitVehicles.xml
+config_path: data/input/scenarios/cottbus_creative_2/config.xml
+config_eval_xml_path: data/input/scenarios/cottbus_creative_2/config_eval.xml
+network_path: data/input/scenarios/cottbus_creative_2/network.xml
+schedule_path: data/input/scenarios/cottbus_creative_2/schedule.xml
+vehicle_path: data/input/scenarios/cottbus_creative_2/transitVehicles.xml
 
 matsim_path: matsim/dist-2.9.0.jar
 #matsim_path: matsim/my-fat-app-simple-run.jar
@@ -10,7 +10,7 @@ matsim_path: matsim/dist-2.9.0.jar
 config_eval_path: config/config_eval.yaml
 
 # route_set_path: data/input/R_KSP_routes.pkl
-terminal_pairs_path: data/input/scenarios/cottbus_creative_1/terminal_pairs_set.json
+terminal_pairs_path: data/input/scenarios/cottbus_creative_2/terminal_pairs_set.json
 type_of_bus: 'bus_90pax'
 coordinate_system: "epsg:32633"
 workers_input_path: data/input/worker
