@@ -1,17 +1,17 @@
-config_path: data/input/scenarios/cottbus_creative_2/config.xml
-config_eval_xml_path: data/input/scenarios/cottbus_creative_2/config_eval.xml
-network_path: data/input/scenarios/cottbus_creative_2/network.xml
-schedule_path: data/input/scenarios/cottbus_creative_2/schedule.xml
-vehicle_path: data/input/scenarios/cottbus_creative_2/transitVehicles.xml
+config_path: data/input/scenarios/siouxfalls_creative_1/config.xml
+config_eval_xml_path: data/input/scenarios/siouxfalls_creative_1/config_eval.xml
+network_path: data/input/scenarios/siouxfalls_creative_1/Siouxfalls_network_PT.xml
+schedule_path: data/input/scenarios/siouxfalls_creative_1/Siouxfalls_transitSchedule.xml
+vehicle_path: data/input/scenarios/siouxfalls_creative_1/Siouxfalls_vehicles.xml
 
-matsim_path: matsim/dist-2.10.5.jar
+matsim_path: matsim/dist-2.10.6.jar
 #matsim_path: matsim/my-fat-app-simple-run.jar
 
 config_eval_path: config/config_eval.yaml
 
 # route_set_path: data/input/R_KSP_routes.pkl
-terminal_pairs_path: data/input/scenarios/cottbus_creative_2/terminal_pairs_set.json
-type_of_bus: 'bus_90pax'
+terminal_pairs_path: data/input/scenarios/siouxfalls_creative_1/terminal_pairs_set.json
+type_of_bus: 'Bus MAN NL323F'
 coordinate_system: "epsg:32633"
 workers_input_path: data/input/worker
 workers_output_path: data/output
