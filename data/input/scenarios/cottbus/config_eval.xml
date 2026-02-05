@@ -3,14 +3,14 @@
 <config>
 
 	<module name="controler">
-		<param name="outputDirectory" value="../../../output/{{WORKER}}/matsim" />
+		<param name="outputDirectory" value="../../output/{{WORKER}}/matsim" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="10" />
 		<param name="eventsFileFormat" value="xml" />
 		<param name="mobsim" value="qsim" />
 		
 		<!-- NOT WRITE TO OUTPUT -->
-		<param name="writeEventsInterval" value="0" />
+		<!-- <param name="writeEventsInterval" value="0" />
 		<param name="writePlansInterval" value="0" />
 		<param name="writeTripsInterval" value="0" />
 		<param name="writeSnapshotsInterval" value="0" />
@@ -18,11 +18,11 @@
 		<param name="legDurationsInterval" value="0" />
 		<param name="legHistogramInterval" value="0" />
 		<param name="dumpDataAtEnd" value="false" />
-		<param name="cleanItersAtEnd" value="delete" />
+		<param name="cleanItersAtEnd" value="delete" /> -->
 	</module>
 
 	<module name="plans" >
-		<param name="inputPlansFile" value="../../scenarios/cottbus_creative_1/plans_scale0.375true.xml" />
+		<param name="inputPlansFile" value="../plans_scale0.375true.xml" />
 	</module>
 	<module name="network" >
 		<param name="inputNetworkFile" value="network.xml" />
