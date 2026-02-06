@@ -30,10 +30,10 @@ scoring:
     service_coverage: 0.0
 
     # Group 2: Economics & Ridership
-    ridership: 0.25
-    productivity: 0.25 # Note: There are recurring issues with productivity normalization. Recommend setting to 0.0 (disabled) until fixed.
-    bus_efficiency: 0.25
-    bus_effective_travel_dist: 0.25
+    ridership: 1.0
+    productivity: 0.0 # Note: There are recurring issues with productivity normalization. Recommend setting to 0.0 (disabled) until fixed.
+    bus_efficiency: 0.0
+    bus_effective_travel_dist: 0.0
 
     # Group 3: Travel Time
     travel_time: 0.0

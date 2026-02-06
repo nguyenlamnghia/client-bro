@@ -10,7 +10,7 @@
 		<param name="mobsim" value="qsim" />
 		
 		<!-- NOT WRITE TO OUTPUT -->
-		<!-- <param name="writeEventsInterval" value="0" />
+		<param name="writeEventsInterval" value="0" />
 		<param name="writePlansInterval" value="0" />
 		<param name="writeTripsInterval" value="0" />
 		<param name="writeSnapshotsInterval" value="0" />
@@ -18,11 +18,11 @@
 		<param name="legDurationsInterval" value="0" />
 		<param name="legHistogramInterval" value="0" />
 		<param name="dumpDataAtEnd" value="false" />
-		<param name="cleanItersAtEnd" value="delete" /> -->
+		<param name="cleanItersAtEnd" value="delete" />
 	</module>
 
 	<module name="plans" >
-		<param name="inputPlansFile" value="../../scenarios/cottbus/plans_scale0.375true.xml" />
+		<param name="inputPlansFile" value="../../scenarios/cottbus_creative_3/plan_50k_cottbus.xml" />
 	</module>
 	<module name="network" >
 		<param name="inputNetworkFile" value="network.xml" />
