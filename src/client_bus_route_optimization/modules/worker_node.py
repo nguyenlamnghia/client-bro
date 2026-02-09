@@ -4,10 +4,12 @@ import socket
 import uuid
 from datetime import datetime
 import subprocess
+import traceback
 
 from client_bus_route_optimization.modules.matsim import build_vehicle_schedule
 from client_bus_route_optimization.utils.file_handler import YamlRepository
 from client_bus_route_optimization.modules.run_matsim import run_worker_task
+from client_bus_route_optimization.modules.scenario_manager import ensure_scenario
 
 def build_log_path(base_log_path: str):
     """
@@ -75,7 +77,19 @@ class DistributeSystemWorkerLogger:
 
 
 class WorkerNode:
+    def _close_connection(self):
+        """Đóng connection cũ một cách an toàn để RabbitMQ giải phóng unacked messages."""
+        try:
+            if hasattr(self, 'connection') and self.connection and self.connection.is_open:
+                self.connection.close()
+                self.logger.DSLogger.info("Đã đóng connection RabbitMQ cũ")
+        except Exception as e:
+            self.logger.DSLogger.debug(f"Lỗi khi đóng connection cũ (bỏ qua): {e}")
+
     def connect_rabbitmq(self, host):
+        # Đóng connection cũ trước khi tạo mới để RabbitMQ trả unacked messages về queue
+        self._close_connection()
+
         RETRY_DELAYS = [10, 10, 10, 10, 100]
         last_exception = None
         for attempt, delay in enumerate(RETRY_DELAYS, start=1):
@@ -107,6 +121,7 @@ class WorkerNode:
         self.logger.DSLogger.info("DANG KHOI TAO WORKER.......")
 
         self.id = id
+        self.host = host
         self.connect_rabbitmq(host)
 
         self.channel.queue_declare(queue="task_queue", durable=True)
@@ -125,9 +140,21 @@ class WorkerNode:
         """
 
         input = json.loads(msg)
-        build_vehicle_schedule(input, self.id)
 
-        config = YamlRepository.load("config/config.yaml")
+        # Xác định config path dựa trên scenario
+        scenario = input.get("scenario")
+        if scenario:
+            self.logger.DSLogger.info(f"Scenario được chỉ định: {scenario}")
+            # Đảm bảo scenario đã được tải về
+            ensure_scenario(self.host, scenario)
+            config_path = f"data/input/scenarios/{scenario}/config/config.yaml"
+            self.logger.DSLogger.info(f"Sử dụng config từ scenario: {config_path}")
+        else:
+            config_path = "config/config.yaml"
+
+        build_vehicle_schedule(input, self.id, config_path=config_path)
+
+        config = YamlRepository.load(config_path)
 
         # run matsim
         # add minus to minimize score
@@ -142,24 +169,49 @@ class WorkerNode:
         task_id = json.loads(data)["id"]
         self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker consume task tu Server")
 
-        result: str = self.run_task(data)
-        self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker da tao ra result cho task")
+        try:
+            result: str = self.run_task(data)
+            self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker da tao ra result cho task")
 
-        self.channel.basic_publish(exchange="", routing_key="result_queue", body=result)
-        self.channel.basic_ack(delivery_tag=method.delivery_tag)
-        self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker publish result cua task len Server")
+            # Dùng tham số channel thay vì self.channel để đảm bảo đúng channel gắn với delivery_tag
+            channel.basic_publish(exchange="", routing_key="result_queue", body=result)
+            channel.basic_ack(delivery_tag=method.delivery_tag)
+            self.logger.DSLogger.debug(f"TASK_ID {task_id} Worker publish result cua task len Server")
+
+        except Exception as e:
+            self.logger.DSLogger.error(
+                f"TASK_ID {task_id} Worker xử lý task thất bại: {e}\n"
+                f"{traceback.format_exc()}"
+            )
+            try:
+                # Nack message và requeue để task quay lại queue cho worker khác xử lý
+                channel.basic_nack(delivery_tag=method.delivery_tag, requeue=True)
+                self.logger.DSLogger.info(f"TASK_ID {task_id} Đã nack và requeue task")
+            except Exception as nack_err:
+                # Nếu nack cũng fail (connection đã mất), RabbitMQ sẽ tự requeue
+                # khi connection timeout (heartbeat)
+                self.logger.DSLogger.warning(
+                    f"TASK_ID {task_id} Không thể nack task (connection có thể đã mất): {nack_err}"
+                )
+
+    def _setup_consumer(self):
+        """Thiết lập lại queue declaration, QOS, và consumer trên channel hiện tại."""
+        self.channel.queue_declare(queue="task_queue", durable=True)
+        self.channel.queue_declare(queue="result_queue", durable=True)
+        self.channel.basic_qos(prefetch_count=1)
+        self.channel.basic_consume(queue="task_queue", on_message_callback=self.cb_on_task)
 
     def start(self):
-        RETRY_DELAYS = [5,5,5]
+        RETRY_DELAYS = [5, 5, 5]
         last_exception = None
 
         for attempt, delay in enumerate(RETRY_DELAYS):
-            try: 
-                self.channel.basic_qos(prefetch_count=1)
-                self.channel.basic_consume(queue="task_queue", on_message_callback=self.cb_on_task)
+            try:
+                self._setup_consumer()
                 self.channel.start_consuming()
             except KeyboardInterrupt:
                 self.logger.DSLogger.info("DUNG WORKER CUONG CHE TU NGUOI DUNG")
+                return  # Thoát hẳn, không retry
 
             except Exception as e:
                 last_exception = e
@@ -168,7 +220,13 @@ class WorkerNode:
                     f"Thử lại sau {delay}s..."
                 )
                 time.sleep(delay)
-                self.connect_rabbitmq(self.host)
+                try:
+                    # Đóng connection cũ rồi reconnect
+                    self.connect_rabbitmq(self.host)
+                except Exception as reconnect_err:
+                    self.logger.DSLogger.error(
+                        f"Không thể reconnect RabbitMQ: {reconnect_err}"
+                    )
 
         self.logger.DSLogger.error(
             f"Worker bi loi sau 3 lan retry"

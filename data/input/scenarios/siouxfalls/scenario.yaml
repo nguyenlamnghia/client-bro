@@ -1,0 +1,101 @@
+project:
+  name: bus-route-optimization
+  version: 1.0.0
+  description: Optimize school bus routing using clustering + heuristics.
+
+scenario:
+  name: siouxfalls
+  description: A mid-sized city map used for testing bus routing algorithms.
+  coordinate_system: "epsg:32633"  # NORTH: 326** - SOUTH: 327**. EX: Siouxfalls is in UTM zone 14N -> 32614/26914
+
+paths:
+  data:
+#    network: data/input/siouxfalls/Siouxfalls_network_PT.xml
+#    schedule: data/input/siouxfalls/Siouxfalls_transitSchedule_Fixed.xml
+#    vehicle: data/input/siouxfalls/Siouxfalls_vehicles.xml
+    # input
+    input:
+#      network: data/input/cottbus/network.xml
+#      schedule: data/input/cottbus/schedule_fixed.xml
+#      vehicle: data/input/cottbus/transitVehicles.xml
+#      config: data/output/matsim/config.xml
+
+      network: data/input/new_cottbus/network.xml
+      schedule: data/input/new_cottbus/schedule_test_fixed.xml
+      vehicle: data/input/new_cottbus/transitVehicles.xml
+      config: data/output/new_cottbus/config.xml
+
+
+    # output
+    output:
+      rc_set: data/output/cottbus/rc_set.json
+      re_set: data/output/cottbus/re_set.json
+      rksp_set: data/output/cottbus/rksp_set.json
+      terminal_pairs_set: data/output/cottbus/terminal_pairs_set.json
+      matsim_output: data/output/cottbus/matsim
+      
+  matsim_output: data/output/matsim/
+  simulation_output: data/processed/
+  matsim_dir: matsim-2024.0
+  matsim_jar: matsim-2024.0.jar
+  logs: logs/
+
+bus_route_optimization:
+  initialization:
+    R_C:
+      probability: 0.5                              # Probability of choosing the current route method
+      weight: 5.0                                   # Weight for line probability calculation
+    R_E:
+      probability: 0.4                              # Probability of choosing the expected route method
+      weight: 3.0                                   # Weight for line probability calculation
+    R_KSP:
+      probability: 0.03                              # Probability of choosing the k-shortest paths method
+      weight: 1.0                                   # Weight for line probability calculation
+      k_paths: 5                                    # Number of shortest paths to consider (increased for more diversity)
+      min_actual_distance: 3000                     # Minimum actual distance between stops to consider
+      max_actual_distance: 20000                    # Maximum actual distance - allows longer routes for better coverage
+      min_straight_distance: 1000                   # Minimum straight-line distance between stops to consider
+      max_straight_distance: 15000                  # Maximum straight-line distance - expanded coverage
+      similarity_ratio: 0.75                        # Max overlap allowed - INCREASED to accept more similar paths
+      max_candidates: 300                           # Maximum number of candidate routes - INCREASED for better coverage
+#      terminal_stops: ['9470168_a','9470127_a','9470268_d','9445453_b','9445897_a','9470208_a','9470297_a','9470128_b','9470259_a','9470184_a','9445542_a','9470326_d']
+#      terminal_stops: ["9470104_a", "9470312_a", "9470104_b","9470312_b", "9445453_b", "9470208_a"]
+#      terminal_stops: ["9470210_a", "9445897_b", "9445458_a", "9470268_c"]
+      terminal_stops: ['9470326_c', '9445542_a', '9470297_a', '9470128_b', '9445897_a', '9470210_a', '9470168_a', '9470127_a', '9470139_a', '9470215_e','9470184_a', '9445890_a', '9470259_a', '9470268_d', '9445458_a', '9470244_a']
+    start_time: "07:00:00"                          # Bus service start time
+    end_time: "22:00:00"                            # Bus service end time
+    headway_minutes: 15                             # Headway between bus departures in minutes
+    await_departure: false                          # Whether to await departure time
+    offset_await_departure_seconds: 0               # Offset time in seconds for awaiting departure
+    discount_factor_freespeed: 0.5                  # Discount factor for free speed calculation
+    min_match_route_pairs: 0.60                     # Minimum match ratio for route pairs (based on parallel links, not same link IDs)
+    name_of_transit_schedule: 'pt' # 'pt' or 'bus'  # config name of transit schedule on schedule file
+    type_of_bus: 'bus_90pax'                        # config type of bus on vehicle file
+    distance_limit: 30
+
+  pbil:
+    pop_size: 3                                    # Size of the population per generation
+    generations: 2                                # Number of generations to run
+    elite_size: 5                                   # Number of elite individuals for model update
+    min_routes: 6                                   # Number of minimum routes to be selected
+    max_routes: 12                                  # Number of maximum routes to be selected
+    lr_act: 0.1                                     # Learning rate for activation probability
+    lr_path: 0.15                                   # Learning rate for path probability
+    mutation_act: 0.02                              # Mutation rate for activation
+    mutation_path: 0.05                             # Mutation rate for path
+#    prob_act_init: 0.1                              # Default initial probability for activation (if not in data)
+    # checkpoint_path: "pbil_state.pkl"               # Path to save/load checkpoint
+    autosave_interval: 1                           # Save checkpoint every N generations
+    save_jobs: false                                # Whether to save job files for debugging
+    save_jobs_pattern: "jobs_gen_{gen}.json"        # Pattern for job file names
+
+distributed_system:
+  enabled: true                                     # Enable/disable distributed evaluation
+  host: localhost
+  limit_tasks: 50                                   # Maximum concurrent tasks
+
+file_server:
+  enabled: true                                     # Enable/disable HTTP file server for scenario data
+  host: "0.0.0.0"                                   # Host to bind the file server
+  port: 8080                                        # Port for the file server
+  directory: "data/scenarios"                       # Directory to serve files from

@@ -73,9 +73,9 @@ def add_line_to_services(n,line):
 def save_matsim(n, output_path):
     n.write_to_matsim(output_path)
 
-def build_vehicle_schedule(data, worker_id):
+def build_vehicle_schedule(data, worker_id, config_path: str = "config/config.yaml"):
     # load config
-    config = YamlRepository.load("config/config.yaml")
+    config = YamlRepository.load(config_path)
 
     # load route set
     terminal_pairs_set = JsonRepository.load(config["terminal_pairs_path"])
@@ -125,9 +125,9 @@ def build_vehicle_schedule(data, worker_id):
     new_config_eval_path = input_path / "config_eval.yaml"
     build_config_file(worker_id, template_config_eval, new_config_eval_path)
 
-def run_custom_matsim(data, config, id):
-    build_vehicle_schedule(data, id)
-    config = YamlRepository.load("config/config.yaml")
+def run_custom_matsim(data, config, id, config_path: str = "config/config.yaml"):
+    build_vehicle_schedule(data, id, config_path=config_path)
+    config = YamlRepository.load(config_path)
     # score = run_worker_task(config, id)
     # add minus sign to score because we want to minimize the score
     score = -run_worker_task(config, id)
