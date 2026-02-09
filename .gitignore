@@ -1,6 +1,7 @@
 .idea/
 data/input/worker/*
 data/input/eval/*
+data/input/scenarios/*
 data/output/*/
 
 # Logs

@@ -143,14 +143,14 @@ class WorkerNode:
 
         # Xác định config path dựa trên scenario
         scenario = input.get("scenario")
-        if scenario:
-            self.logger.DSLogger.info(f"Scenario được chỉ định: {scenario}")
-            # Đảm bảo scenario đã được tải về
-            ensure_scenario(self.host, scenario)
-            config_path = f"data/input/scenarios/{scenario}/config/config.yaml"
-            self.logger.DSLogger.info(f"Sử dụng config từ scenario: {config_path}")
-        else:
-            config_path = "config/config.yaml"
+        if not scenario:
+            raise ValueError("Task phải chứa trường 'scenario'. Không tìm thấy scenario trong message.")
+
+        self.logger.DSLogger.info(f"Scenario được chỉ định: {scenario}")
+        # Đảm bảo scenario đã được tải về
+        ensure_scenario(self.host, scenario)
+        config_path = f"data/input/scenarios/{scenario}/config/config.yaml"
+        self.logger.DSLogger.info(f"Sử dụng config từ scenario: {config_path}")
 
         build_vehicle_schedule(input, self.id, config_path=config_path)
 

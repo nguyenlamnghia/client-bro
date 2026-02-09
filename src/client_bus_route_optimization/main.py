@@ -6,23 +6,22 @@ import typer
 from multiprocessing import Process
 from client_bus_route_optimization.modules.worker_node import WorkerNode
 from client_bus_route_optimization.utils.logger import setup_logging
-from client_bus_route_optimization.utils.file_handler import YamlRepository
 
 setup_logging()
+
+# Default paths - tương ứng với giá trị mặc định trong scenario config
+DEFAULT_WORKERS_INPUT_PATH = "data/input/worker"
+DEFAULT_WORKERS_OUTPUT_PATH = "data/output"
 
 app = typer.Typer(help="Run Worker Node for Bus Route Optimization")
 
 def run_worker(host,i):
     setup_logging()
 
-    # load config
-    config_path = Path("config/config.yaml")
-    config = YamlRepository.load(config_path.as_posix())
+    input_path = Path(DEFAULT_WORKERS_INPUT_PATH) / f"worker{i}"
+    output_path = Path(DEFAULT_WORKERS_OUTPUT_PATH) / f"worker{i}"
 
-    input_path = Path(config["workers_input_path"]) / f"worker{i}"
-    output_path = Path(config["workers_output_path"]) / f"worker{i}"
-
-    # Mkdir foler for worker if not exists
+    # Mkdir folder for worker if not exists
     os.makedirs(input_path, exist_ok=True)
     os.makedirs(output_path, exist_ok=True)
 

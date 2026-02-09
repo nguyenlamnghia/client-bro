@@ -189,7 +189,7 @@ def read_score_custom(output_path):
     return score
 
 
-def run_custom_scenario(config_data, name, config_path="config/config.yaml", 
+def run_custom_scenario(config_data, name, config_path, 
                        input_base_path="data/input", 
                        output_base_path="data/output"):
     """Run custom MATSim scenario with custom configuration.
@@ -204,7 +204,7 @@ def run_custom_scenario(config_data, name, config_path="config/config.yaml",
     Args:
         config_data: Dict containing A_pop and P_pop arrays
         name: Custom name for this scenario (replaces worker_id)
-        config_path: Path to main config YAML file (default: "config/config.yaml")
+        config_path: Path to main config YAML file
         input_base_path: Base path for input files (default: "data/input")
         output_base_path: Base path for output files (default: "data/output")
     
