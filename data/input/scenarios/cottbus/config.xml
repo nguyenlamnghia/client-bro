@@ -22,7 +22,7 @@
 	</module>
 
 	<module name="plans" >
-		<param name="inputPlansFile" value="../../scenarios/cottbus_creative_1/plans_scale0.375true.xml" />
+		<param name="inputPlansFile" value="../../scenarios/cottbus/plans_scale0.375true.xml" />
 	</module>
 	<module name="network" >
 		<param name="inputNetworkFile" value="network.xml" />
