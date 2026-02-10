@@ -1,3 +1,4 @@
+import json
 import logging
 import os
 import shutil
@@ -89,7 +90,23 @@ def read_score(score_path: Path) -> float:
     return struct.unpack(">d", data)[0]
 
 
-def run_matsim(config, worker_id, score_path: Path, log_dir: Path):
+def read_score_records(score_records_path: Path) -> dict | None:
+    """
+    Đọc file score_records.json chứa điểm chi tiết từng loại.
+    Trả về None nếu file không tồn tại.
+    """
+    if not score_records_path.exists():
+        logger.warning(f"score_records.json không tồn tại: {score_records_path}")
+        return None
+    try:
+        with score_records_path.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        logger.error(f"Không thể đọc score_records.json: {e}")
+        return None
+
+
+def run_matsim(config, worker_id, score_path: Path, score_records_path: Path, log_dir: Path):
     cmd = [
         "java",
         "--add-opens=java.base/java.nio=ALL-UNNAMED",
@@ -100,8 +117,10 @@ def run_matsim(config, worker_id, score_path: Path, log_dir: Path):
         f"{config['workers_input_path']}/worker{worker_id}/config_eval.yaml",
         "--matsim-cfg",
         f"{config['workers_input_path']}/worker{worker_id}/config.xml",
-        "--out",
+        "--score",
         score_path.as_posix(),
+        "--score-records",
+        score_records_path.as_posix(),
         "--log-file",
         (log_dir / f"worker{worker_id}.log").as_posix(),
         "--signature",
@@ -125,7 +144,12 @@ def run_worker_task(config, worker_id):
     eval_dir = ensure_eval_dir(config, worker_id)
     log_dir = ensure_log_dir()
     score_path = eval_dir / "score.bin"
+    score_records_path = eval_dir / "score_records.json"
 
-    run_matsim(config, worker_id, score_path, log_dir)
+    run_matsim(config, worker_id, score_path, score_records_path, log_dir)
     wait_for_score(score_path)
-    return read_score(score_path)
+
+    score = read_score(score_path)
+    score_details = read_score_records(score_records_path)
+
+    return score, score_details
