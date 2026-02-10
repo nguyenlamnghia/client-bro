@@ -194,6 +194,12 @@ class WorkerNode:
                     f"TASK_ID {task_id} Không thể nack task (connection có thể đã mất): {nack_err}"
                 )
 
+            # Delay trước khi consume task tiếp theo để tránh vòng lặp nack-requeue vô hạn
+            # khi task liên tục lỗi và quay lại chính worker này
+            delay = 200
+            self.logger.DSLogger.info(f"TASK_ID {task_id} Chờ {delay}s trước khi nhận task tiếp theo...")
+            time.sleep(delay)
+
     def _setup_consumer(self):
         """Thiết lập lại queue declaration, QOS, và consumer trên channel hiện tại."""
         self.channel.queue_declare(queue="task_queue", durable=True)
