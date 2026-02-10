@@ -1,4 +1,4 @@
-import pika, json, random, time, logging, os
+import pika, json, random, time, logging, os, sys
 from logging.handlers import RotatingFileHandler
 import socket
 import uuid
@@ -184,6 +184,12 @@ class WorkerNode:
                 f"{traceback.format_exc()}"
             )
             try:
+                # Hủy consumer TRƯỚC khi nack để RabbitMQ không gửi lại message
+                # cho chính worker này ngay lập tức
+                if hasattr(self, '_consumer_tag') and self._consumer_tag:
+                    channel.basic_cancel(self._consumer_tag)
+                    self.logger.DSLogger.info(f"TASK_ID {task_id} Đã cancel consumer trước khi nack")
+
                 # Nack message và requeue để task quay lại queue cho worker khác xử lý
                 channel.basic_nack(delivery_tag=method.delivery_tag, requeue=True)
                 self.logger.DSLogger.info(f"TASK_ID {task_id} Đã nack và requeue task")
@@ -194,18 +200,23 @@ class WorkerNode:
                     f"TASK_ID {task_id} Không thể nack task (connection có thể đã mất): {nack_err}"
                 )
 
-            # Delay trước khi consume task tiếp theo để tránh vòng lặp nack-requeue vô hạn
-            # khi task liên tục lỗi và quay lại chính worker này
-            delay = 200
-            self.logger.DSLogger.info(f"TASK_ID {task_id} Chờ {delay}s trước khi nhận task tiếp theo...")
-            time.sleep(delay)
+            # Đóng connection sạch sẽ rồi thoát process
+            # Process cha (main.py) sẽ tự restart worker sau khoảng thời gian chờ
+            self.logger.DSLogger.info(
+                f"TASK_ID {task_id} Worker thoát process do task thất bại. "
+                f"Process cha sẽ restart sau thời gian chờ."
+            )
+            self._close_connection()
+            sys.exit(1)
 
     def _setup_consumer(self):
         """Thiết lập lại queue declaration, QOS, và consumer trên channel hiện tại."""
         self.channel.queue_declare(queue="task_queue", durable=True)
         self.channel.queue_declare(queue="result_queue", durable=True)
         self.channel.basic_qos(prefetch_count=1)
-        self.channel.basic_consume(queue="task_queue", on_message_callback=self.cb_on_task)
+        self._consumer_tag = self.channel.basic_consume(
+            queue="task_queue", on_message_callback=self.cb_on_task
+        )
 
     def start(self):
         RETRY_DELAYS = [5, 5, 5]
